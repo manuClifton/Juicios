@@ -1,0 +1,917 @@
+2023-09-07 16:57:37.0756|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting
+2023-09-07 16:57:38.4023|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\Manuel\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-09-07 16:57:38.6305|DEBUG|Quartz.Simpl.TaskSchedulingThreadPool|TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler.
+2023-09-07 16:57:38.9375|INFO|Quartz.Core.SchedulerSignalerImpl|Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2023-09-07 16:57:38.9977|INFO|Quartz.Core.QuartzScheduler|Quartz Scheduler created
+2023-09-07 16:57:39.0591|INFO|Quartz.Core.QuartzScheduler|JobFactory set to: Quartz.Simpl.MicrosoftDependencyInjectionJobFactory
+2023-09-07 16:57:39.1209|INFO|Quartz.Simpl.RAMJobStore|RAMJobStore initialized.
+2023-09-07 16:57:39.1891|INFO|Quartz.Core.QuartzScheduler|Scheduler meta-data: Quartz Scheduler (v3.4.0.0) 'Notificaciones' with instanceId 'Scheduler-Notificacion'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.DefaultThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2023-09-07 16:57:39.2509|INFO|Quartz.Impl.StdSchedulerFactory|Quartz scheduler 'Notificaciones' initialized
+2023-09-07 16:57:39.3116|INFO|Quartz.Impl.StdSchedulerFactory|Quartz scheduler version: 3.4.0.0
+2023-09-07 16:57:39.4610|INFO|Quartz.ContainerConfigurationProcessor|Adding 0 jobs, 0 triggers.
+2023-09-07 16:57:39.5390|INFO|VEJuicios.Workers.WorkerRecepcionAfip|Worker running at: 09/07/2023 16:57:39 -03:00
+2023-09-07 16:57:42.2583|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-09-07 16:57:43.3828|WARN|Microsoft.EntityFrameworkCore.Model.Validation|Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2023-09-07 16:57:43.6054|WARN|Microsoft.EntityFrameworkCore.Model.Validation|No store type was specified for the decimal property 'CasoId' on entity type 'Notificacion'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-09-07 16:57:43.6697|WARN|Microsoft.EntityFrameworkCore.Model.Validation|No store type was specified for the decimal property 'MetodoEnvioId' on entity type 'Notificacion'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-09-07 16:57:43.7304|WARN|Microsoft.EntityFrameworkCore.Model.Validation|No store type was specified for the decimal property 'NumeroAsociado' on entity type 'Notificacion'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-09-07 16:57:43.7927|WARN|Microsoft.EntityFrameworkCore.Model.Validation|No store type was specified for the decimal property 'NumeroInterno' on entity type 'Notificacion'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-09-07 16:57:43.8536|WARN|Microsoft.EntityFrameworkCore.Model.Validation|No store type was specified for the decimal property 'TipoNotificacionId' on entity type 'Notificacion'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-09-07 16:57:43.9142|WARN|Microsoft.EntityFrameworkCore.Model.Validation|No store type was specified for the decimal property 'NotificacionId' on entity type 'NotificacionAdjuntoEnviado'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-09-07 16:57:44.2530|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 7.0.8 initialized 'SQLServerContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.8' with options: SensitiveDataLoggingEnabled 
+2023-09-07 16:57:44.4502|DEBUG|Microsoft.EntityFrameworkCore.Query|Compiling query expression: 
+'DbSet<VistaNotificacion>()
+    .Where(x => (int)x.EstadoId == 3 || (int)x.EstadoId == 4 || (int)x.EstadoId == 5 || (int)x.EstadoId == 6)'
+2023-09-07 16:57:45.1364|DEBUG|Microsoft.EntityFrameworkCore.Query|Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<VistaNotificacion>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: VistaNotificacion.NotificacionId (int) Required PK AfterSave:Throw, 0], [Property: VistaNotificacion.AfipId (Guid?), 1], [Property: VistaNotificacion.Cuit (string) Required, 2], [Property: VistaNotificacion.EstadoId (EnumEstadoNotificaciones) Required, 3], [Property: VistaNotificacion.FechaEnvio (DateTime?), 4], [Property: VistaNotificacion.FechaNotificacion (DateTime?), 5], [Property: VistaNotificacion.FechaRecepcionAfip (DateTime?), 6], [Property: VistaNotificacion.NotiEstadoId (EnumEstadoNotificaciones) Required, 7] }
+        SELECT v.NotificacionId, v.AfipId, v.Cuit, v.EstadoId, v.FechaEnvio, v.FechaNotificacion, v.FechaRecepcionAfip, v.NotiEstadoId
+        FROM vNotificacionReducida AS v
+        WHERE v.EstadoId IN (3, 4, 5, 6)), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, VistaNotificacion>, 
+    VEJuicios.Infrastructure.SQLServerContext, 
+    False, 
+    False, 
+    True
+)'
+2023-09-07 16:57:45.7941|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteReader'.
+2023-09-07 16:57:45.8602|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Creating DbConnection.
+2023-09-07 16:57:45.9754|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Created DbConnection. (112ms).
+2023-09-07 16:57:46.0503|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteReader' (254ms).
+2023-09-07 16:57:46.1135|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Initialized DbCommand for 'ExecuteReader' (323ms).
+2023-09-07 16:57:46.1908|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21'.
+2023-09-07 16:57:46.5672|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\Manuel\AppData\Local\ASP.NET\DataProtection-Keys\key-2f7463d5-09f6-42b0-b038-897a699a3a01.xml'.
+2023-09-07 16:57:46.7128|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\Manuel\AppData\Local\ASP.NET\DataProtection-Keys\key-8a172727-ab68-4caa-a957-f6dbc16963c2.xml'.
+2023-09-07 16:57:46.8025|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\Manuel\AppData\Local\ASP.NET\DataProtection-Keys\key-8c634a91-ae70-4347-8421-cdb79c947157.xml'.
+2023-09-07 16:57:46.9302|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {2f7463d5-09f6-42b0-b038-897a699a3a01}.
+2023-09-07 16:57:47.0197|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {8a172727-ab68-4caa-a957-f6dbc16963c2}.
+2023-09-07 16:57:47.0796|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {8c634a91-ae70-4347-8421-cdb79c947157}.
+2023-09-07 16:57:47.1602|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver|Considering key {8a172727-ab68-4caa-a957-f6dbc16963c2} with expiration date 2023-09-24 14:42:34Z as default key.
+2023-09-07 16:57:47.1858|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21'.
+2023-09-07 16:57:47.2251|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-09-07 16:57:47.3054|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [v].[NotificacionId], [v].[AfipId], [v].[Cuit], [v].[EstadoId], [v].[FechaEnvio], [v].[FechaNotificacion], [v].[FechaRecepcionAfip], [v].[NotiEstadoId]
+FROM [vNotificacionReducida] AS [v]
+WHERE [v].[EstadoId] IN (3, 4, 5, 6)
+2023-09-07 16:57:47.3460|DEBUG|Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor|Decrypting secret element using Windows DPAPI.
+2023-09-07 16:57:47.5076|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-09-07 16:57:47.5728|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC.
+2023-09-07 16:57:47.5914|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (290ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [v].[NotificacionId], [v].[AfipId], [v].[Cuit], [v].[EstadoId], [v].[FechaEnvio], [v].[FechaNotificacion], [v].[FechaRecepcionAfip], [v].[NotiEstadoId]
+FROM [vNotificacionReducida] AS [v]
+WHERE [v].[EstadoId] IN (3, 4, 5, 6)
+2023-09-07 16:57:47.6360|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC.
+2023-09-07 16:57:47.7513|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Closing data reader to 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21'.
+2023-09-07 16:57:47.7613|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider|Using key {8a172727-ab68-4caa-a957-f6dbc16963c2} as the default key.
+2023-09-07 16:57:47.8296|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|A data reader for 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21' is being disposed after spending 125ms reading results.
+2023-09-07 16:57:47.8798|DEBUG|Microsoft.AspNetCore.DataProtection.Internal.DataProtectionHostedService|Key ring with default key {8a172727-ab68-4caa-a957-f6dbc16963c2} was loaded during application startup.
+2023-09-07 16:57:47.9538|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21'.
+2023-09-07 16:57:48.0857|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closed connection to database 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21' (131ms).
+2023-09-07 16:57:48.1527|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|'SQLServerContext' disposed.
+2023-09-07 16:57:48.2255|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposing connection to database 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21'.
+2023-09-07 16:57:48.2955|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposed connection to database '' on server '' (70ms).
+2023-09-07 16:57:49.1866|DEBUG|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|Initializing Razor view compiler with no compiled views.
+2023-09-07 16:57:49.2756|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory|Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider
+2023-09-07 16:57:49.7707|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer|Using development certificate: CN=localhost (Thumbprint: 2A56E4850DEE069647BE910EF39C8C149FAF80EE)
+2023-09-07 16:57:49.9233|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001
+2023-09-07 16:57:49.9945|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000
+2023-09-07 16:57:50.0597|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly VEJuicios
+2023-09-07 16:57:50.1327|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMTFRIRG967M" accepted.
+2023-09-07 16:57:50.1327|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMTFRIRG967N" accepted.
+2023-09-07 16:57:50.1342|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-09-07 16:57:50.2185|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMTFRIRG967M" started.
+2023-09-07 16:57:50.2774|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMTFRIRG967N" started.
+2023-09-07 16:57:50.3374|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-09-07 16:57:50.5218|INFO|VEJuicios.Workers.WorkerEnvioAfip|WorkerEnvioAfip running at: 09/07/2023 16:57:50 -03:00
+2023-09-07 16:58:04.5576|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMTFRIRG967O" accepted.
+2023-09-07 16:58:04.5576|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 7.0.8 initialized 'SQLServerContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.8' with options: SensitiveDataLoggingEnabled 
+2023-09-07 16:58:04.5950|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Authentication of the HTTPS connection timed out.
+2023-09-07 16:58:04.5950|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Authentication of the HTTPS connection timed out.
+2023-09-07 16:58:04.6180|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMTFRIRG967O" started.
+2023-09-07 16:58:04.6235|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMTFRIRG967P" accepted.
+2023-09-07 16:58:04.6798|DEBUG|Microsoft.EntityFrameworkCore.Query|Compiling query expression: 
+'DbSet<VistaNotificacion>()
+    .Where(x => (int)x.NotiEstadoId == 2)'
+2023-09-07 16:58:04.7544|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMTFRIRG967M" stopped.
+2023-09-07 16:58:04.8018|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMTFRIRG967N" stopped.
+2023-09-07 16:58:05.0000|DEBUG|Microsoft.EntityFrameworkCore.Query|Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<VistaNotificacion>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: VistaNotificacion.NotificacionId (int) Required PK AfterSave:Throw, 0], [Property: VistaNotificacion.AfipId (Guid?), 1], [Property: VistaNotificacion.Cuit (string) Required, 2], [Property: VistaNotificacion.EstadoId (EnumEstadoNotificaciones) Required, 3], [Property: VistaNotificacion.FechaEnvio (DateTime?), 4], [Property: VistaNotificacion.FechaNotificacion (DateTime?), 5], [Property: VistaNotificacion.FechaRecepcionAfip (DateTime?), 6], [Property: VistaNotificacion.NotiEstadoId (EnumEstadoNotificaciones) Required, 7] }
+        SELECT v.NotificacionId, v.AfipId, v.Cuit, v.EstadoId, v.FechaEnvio, v.FechaNotificacion, v.FechaRecepcionAfip, v.NotiEstadoId
+        FROM vNotificacionReducida AS v
+        WHERE v.NotiEstadoId == 2), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, VistaNotificacion>, 
+    VEJuicios.Infrastructure.SQLServerContext, 
+    False, 
+    False, 
+    True
+)'
+2023-09-07 16:58:05.1070|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMTFRIRG967N" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-09-07 16:58:05.0496|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMTFRIRG967M" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-09-07 16:58:05.1873|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteReader'.
+2023-09-07 16:58:04.9348|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Connection 0HMTFRIRG967O established using the following protocol: Tls12
+2023-09-07 16:58:04.9216|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMTFRIRG967P" started.
+2023-09-07 16:58:05.3574|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Creating DbConnection.
+2023-09-07 16:58:05.4840|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Connection 0HMTFRIRG967P established using the following protocol: Tls12
+2023-09-07 16:58:05.5378|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Created DbConnection. (180ms).
+2023-09-07 16:58:05.5674|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2023-09-07 16:58:05.6605|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteReader' (473ms).
+2023-09-07 16:58:05.7796|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Initialized DbCommand for 'ExecuteReader' (592ms).
+2023-09-07 16:58:05.8421|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21'.
+2023-09-07 16:58:05.9038|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21'.
+2023-09-07 16:58:05.9650|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [v].[NotificacionId], [v].[AfipId], [v].[Cuit], [v].[EstadoId], [v].[FechaEnvio], [v].[FechaNotificacion], [v].[FechaRecepcionAfip], [v].[NotiEstadoId]
+FROM [vNotificacionReducida] AS [v]
+WHERE [v].[NotiEstadoId] = 2
+2023-09-07 16:58:05.9650|DEBUG|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|Wildcard detected, all requests with hosts will be allowed.
+2023-09-07 16:58:06.0369|INFO|VEJuicios.Workers.WorkerEnvioAfip|Worker running at: 09/07/2023 16:58:06 -03:00
+2023-09-07 16:58:06.0979|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /swagger/index.html does not match an existing file
+2023-09-07 16:58:06.0979|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (134ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [v].[NotificacionId], [v].[AfipId], [v].[Cuit], [v].[EstadoId], [v].[FechaEnvio], [v].[FechaNotificacion], [v].[FechaRecepcionAfip], [v].[NotiEstadoId]
+FROM [vNotificacionReducida] AS [v]
+WHERE [v].[NotiEstadoId] = 2
+2023-09-07 16:58:06.2404|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 7.0.8 initialized 'SQLServerContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.8' with options: SensitiveDataLoggingEnabled 
+2023-09-07 16:58:06.2663|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/index.html'
+2023-09-07 16:58:06.3676|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteNonQuery'.
+2023-09-07 16:58:06.3705|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'SQLServerContext' started tracking 'VistaNotificacion' entity with key '{NotificacionId: 95}'.
+2023-09-07 16:58:06.4498|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints
+2023-09-07 16:58:06.5230|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Creating DbConnection.
+2023-09-07 16:58:06.6534|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'SQLServerContext' started tracking 'VistaNotificacion' entity with key '{NotificacionId: 96}'.
+2023-09-07 16:58:06.7328|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Created DbConnection. (209ms).
+2023-09-07 16:58:06.7941|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Closing data reader to 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21'.
+2023-09-07 16:58:06.8303|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup is scheduled to include browser refresh script injection.
+2023-09-07 16:58:06.8573|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteNonQuery' (489ms).
+2023-09-07 16:58:06.9309|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|A data reader for 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21' is being disposed after spending 649ms reading results.
+2023-09-07 16:58:07.0955|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Initialized DbCommand for 'ExecuteNonQuery' (727ms).
+2023-09-07 16:58:07.1617|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21'.
+2023-09-07 16:58:07.2422|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21'.
+2023-09-07 16:58:07.3184|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closed connection to database 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21' (156ms).
+2023-09-07 16:58:07.3979|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21'.
+2023-09-07 16:58:07.4141|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup was updated to include browser refresh script injection.
+2023-09-07 16:58:07.4606|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 7.0.8 initialized 'SQLServerContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.8' with options: SensitiveDataLoggingEnabled 
+2023-09-07 16:58:07.5162|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+spNotificacionBorrarArchivosTemporales
+2023-09-07 16:58:07.5936|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 2074.3686ms
+2023-09-07 16:58:07.6632|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteNonQuery'.
+2023-09-07 16:58:07.8114|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (286ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+spNotificacionBorrarArchivosTemporales
+2023-09-07 16:58:07.8598|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Creating DbConnection.
+2023-09-07 16:58:07.8829|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - -
+2023-09-07 16:58:07.9051|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - -
+2023-09-07 16:58:07.9243|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21'.
+2023-09-07 16:58:07.9926|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Created DbConnection. (132ms).
+2023-09-07 16:58:08.1882|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closed connection to database 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21' (264ms).
+2023-09-07 16:58:08.3087|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|'SQLServerContext' disposed.
+2023-09-07 16:58:08.2475|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteNonQuery' (584ms).
+2023-09-07 16:58:08.2475|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 349.8234ms
+2023-09-07 16:58:08.3689|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposing connection to database 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21'.
+2023-09-07 16:58:08.5746|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposed connection to database '' on server '' (205ms).
+2023-09-07 16:58:08.1055|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 200 11988 application/javascript;+charset=utf-8 222.5388ms
+2023-09-07 16:58:08.4390|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Initialized DbCommand for 'ExecuteNonQuery' (775ms).
+2023-09-07 16:58:08.4892|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2023-09-07 16:58:08.6405|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2023-09-07 16:58:08.6709|INFO|Quartz.Core.QuartzScheduler|Scheduler Notificaciones_$_Scheduler-Notificacion started.
+2023-09-07 16:58:08.6709|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-09-07 16:58:08.7692|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21'.
+2023-09-07 16:58:08.8340|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /swagger/v1/swagger.json does not match an existing file
+2023-09-07 16:58:08.8930|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2023-09-07 16:58:09.0798|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21'.
+2023-09-07 16:58:09.1538|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/v1/swagger.json'
+2023-09-07 16:58:09.2090|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\Manuel\source\repos\ve-juicios\Main\Source\VEJuicios
+2023-09-07 16:58:09.3378|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[@LogText='a' (Nullable = false) (Size = 1)], CommandType='Text', CommandTimeout='30']
+xmlNotificacionLog @LogText
+2023-09-07 16:58:09.3378|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints
+2023-09-07 16:58:09.3994|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started
+2023-09-07 16:58:09.5302|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMTFRIRG967P" received FIN.
+2023-09-07 16:58:09.6264|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (355ms) [Parameters=[@LogText='a' (Nullable = false) (Size = 1)], CommandType='Text', CommandTimeout='30']
+xmlNotificacionLog @LogText
+2023-09-07 16:58:09.6505|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTFRIRG967P" is closed. The last processed stream ID was 0.
+2023-09-07 16:58:09.7165|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21'.
+2023-09-07 16:58:09.7514|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 1262.1678ms
+2023-09-07 16:58:09.7735|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMTFRIRG967P" sending FIN because: "The client closed the connection."
+2023-09-07 16:58:09.8355|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closed connection to database 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21' (118ms).
+2023-09-07 16:58:09.9747|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMTFRIRG967P" stopped.
+2023-09-07 16:58:10.0359|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|'SQLServerContext' disposed.
+2023-09-07 16:58:10.1745|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposing connection to database 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21'.
+2023-09-07 16:58:10.2552|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposed connection to database '' on server '' (80ms).
+2023-09-07 16:58:10.8001|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 7.0.8 initialized 'SQLServerContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.8' with options: SensitiveDataLoggingEnabled 
+2023-09-07 16:58:10.8760|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteNonQuery'.
+2023-09-07 16:58:10.9371|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Creating DbConnection.
+2023-09-07 16:58:11.0015|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Created DbConnection. (64ms).
+2023-09-07 16:58:11.0649|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteNonQuery' (189ms).
+2023-09-07 16:58:11.1391|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Initialized DbCommand for 'ExecuteNonQuery' (263ms).
+2023-09-07 16:58:11.2260|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21'.
+2023-09-07 16:58:11.3096|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21'.
+2023-09-07 16:58:11.3948|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[@LogText='[{"NotificacionId":95,"NotiEstadoId":2,"Cuit":"30-71156207-5","EstadoId":2,"AfipId":null,"FechaEnvio":null,"FechaRecepcionAfip":null,"FechaNotificacion":null},{"NotificacionId":96,"NotiEstadoId":2,"Cuit":"30-71156207-5","EstadoId":2,"AfipId":null,"FechaEnvio":null,"FechaRecepcionAfip":null,"FechaNotificacion":null}]' (Nullable = false) (Size = 317)], CommandType='Text', CommandTimeout='30']
+xmlNotificacionLog @LogText
+2023-09-07 16:58:11.5553|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (160ms) [Parameters=[@LogText='[{"NotificacionId":95,"NotiEstadoId":2,"Cuit":"30-71156207-5","EstadoId":2,"AfipId":null,"FechaEnvio":null,"FechaRecepcionAfip":null,"FechaNotificacion":null},{"NotificacionId":96,"NotiEstadoId":2,"Cuit":"30-71156207-5","EstadoId":2,"AfipId":null,"FechaEnvio":null,"FechaRecepcionAfip":null,"FechaNotificacion":null}]' (Nullable = false) (Size = 317)], CommandType='Text', CommandTimeout='30']
+xmlNotificacionLog @LogText
+2023-09-07 16:58:11.6174|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21'.
+2023-09-07 16:58:11.6788|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closed connection to database 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21' (61ms).
+2023-09-07 16:58:11.7672|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|'SQLServerContext' disposed.
+2023-09-07 16:58:11.8376|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposing connection to database 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21'.
+2023-09-07 16:58:11.8970|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposed connection to database '' on server '' (59ms).
+2023-09-07 16:58:11.9594|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 7.0.8 initialized 'SQLServerContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.8' with options: SensitiveDataLoggingEnabled 
+2023-09-07 16:58:12.0237|DEBUG|Microsoft.EntityFrameworkCore.Query|Compiling query expression: 
+'DbSet<VNotificacionArchivoEnvioWorker>()'
+2023-09-07 16:58:12.0943|DEBUG|Microsoft.EntityFrameworkCore.Query|Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<VNotificacionArchivoEnvioWorker>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: VNotificacionArchivoEnvioWorker.ArchivoId (int) Required PK AfterSave:Throw, 0], [Property: VNotificacionArchivoEnvioWorker.Cedula (bool) Required, 1], [Property: VNotificacionArchivoEnvioWorker.ContentType (string) Required, 2], [Property: VNotificacionArchivoEnvioWorker.Data (byte[]) Required, 3], [Property: VNotificacionArchivoEnvioWorker.FileName (string) Required, 4], [Property: VNotificacionArchivoEnvioWorker.MetaData (string) Required, 5], [Property: VNotificacionArchivoEnvioWorker.NotificacionId (int) Required, 6] }
+        SELECT v.ArchivoId, v.Cedula, v.ContentType, v.Data, v.FileName, v.MetaData, v.NotificacionId
+        FROM vNotificacionArchivoEnvioWorker AS v), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, VNotificacionArchivoEnvioWorker>, 
+    VEJuicios.Infrastructure.SQLServerContext, 
+    False, 
+    False, 
+    True
+)'
+2023-09-07 16:58:12.1572|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteReader'.
+2023-09-07 16:58:12.2172|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Creating DbConnection.
+2023-09-07 16:58:12.2774|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Created DbConnection. (60ms).
+2023-09-07 16:58:12.3415|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteReader' (184ms).
+2023-09-07 16:58:12.4015|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Initialized DbCommand for 'ExecuteReader' (244ms).
+2023-09-07 16:58:12.4619|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21'.
+2023-09-07 16:58:12.5227|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21'.
+2023-09-07 16:58:12.5832|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [v].[ArchivoId], [v].[Cedula], [v].[ContentType], [v].[Data], [v].[FileName], [v].[MetaData], [v].[NotificacionId]
+FROM [vNotificacionArchivoEnvioWorker] AS [v]
+2023-09-07 16:58:12.7059|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (123ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [v].[ArchivoId], [v].[Cedula], [v].[ContentType], [v].[Data], [v].[FileName], [v].[MetaData], [v].[NotificacionId]
+FROM [vNotificacionArchivoEnvioWorker] AS [v]
+2023-09-07 16:58:13.0560|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'SQLServerContext' started tracking 'VNotificacionArchivoEnvioWorker' entity with key '{ArchivoId: 241}'.
+2023-09-07 16:58:13.1329|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'SQLServerContext' started tracking 'VNotificacionArchivoEnvioWorker' entity with key '{ArchivoId: 242}'.
+2023-09-07 16:58:13.1987|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'SQLServerContext' started tracking 'VNotificacionArchivoEnvioWorker' entity with key '{ArchivoId: 243}'.
+2023-09-07 16:58:13.4920|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'SQLServerContext' started tracking 'VNotificacionArchivoEnvioWorker' entity with key '{ArchivoId: 244}'.
+2023-09-07 16:58:13.5531|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Closing data reader to 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21'.
+2023-09-07 16:58:13.6148|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|A data reader for 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21' is being disposed after spending 848ms reading results.
+2023-09-07 16:58:13.6782|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21'.
+2023-09-07 16:58:13.7379|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closed connection to database 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21' (59ms).
+2023-09-07 16:58:13.8002|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|'SQLServerContext' disposed.
+2023-09-07 16:58:13.8610|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposing connection to database 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21'.
+2023-09-07 16:58:13.9224|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposed connection to database '' on server '' (61ms).
+2023-09-07 16:58:22.5852|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMTFRIRG967O" received FIN.
+2023-09-07 16:58:22.6781|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTFRIRG967O" is closed. The last processed stream ID was 7.
+2023-09-07 16:58:28.5906|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMTFRIRG967O" sending FIN because: "The client closed the connection."
+2023-09-07 16:58:40.5817|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-09-07 16:58:40.5817|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMTFRIRG967O" stopped.
+2023-09-07 17:01:38.6366|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting
+2023-09-07 17:01:39.6425|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\Manuel\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-09-07 17:01:39.8938|DEBUG|Quartz.Simpl.TaskSchedulingThreadPool|TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler.
+2023-09-07 17:01:39.9949|INFO|Quartz.Core.SchedulerSignalerImpl|Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2023-09-07 17:01:40.0564|INFO|Quartz.Core.QuartzScheduler|Quartz Scheduler created
+2023-09-07 17:01:40.1167|INFO|Quartz.Core.QuartzScheduler|JobFactory set to: Quartz.Simpl.MicrosoftDependencyInjectionJobFactory
+2023-09-07 17:01:40.1784|INFO|Quartz.Simpl.RAMJobStore|RAMJobStore initialized.
+2023-09-07 17:01:40.2453|INFO|Quartz.Core.QuartzScheduler|Scheduler meta-data: Quartz Scheduler (v3.4.0.0) 'Notificaciones' with instanceId 'Scheduler-Notificacion'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.DefaultThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2023-09-07 17:01:40.3081|INFO|Quartz.Impl.StdSchedulerFactory|Quartz scheduler 'Notificaciones' initialized
+2023-09-07 17:01:40.3700|INFO|Quartz.Impl.StdSchedulerFactory|Quartz scheduler version: 3.4.0.0
+2023-09-07 17:01:40.4917|INFO|Quartz.ContainerConfigurationProcessor|Adding 0 jobs, 0 triggers.
+2023-09-07 17:01:40.5770|INFO|VEJuicios.Workers.WorkerRecepcionAfip|Worker running at: 09/07/2023 17:01:40 -03:00
+2023-09-07 17:01:40.9858|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-09-07 17:01:42.0798|WARN|Microsoft.EntityFrameworkCore.Model.Validation|Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2023-09-07 17:01:42.3030|WARN|Microsoft.EntityFrameworkCore.Model.Validation|No store type was specified for the decimal property 'CasoId' on entity type 'Notificacion'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-09-07 17:01:42.3706|WARN|Microsoft.EntityFrameworkCore.Model.Validation|No store type was specified for the decimal property 'MetodoEnvioId' on entity type 'Notificacion'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-09-07 17:01:42.4322|WARN|Microsoft.EntityFrameworkCore.Model.Validation|No store type was specified for the decimal property 'NumeroAsociado' on entity type 'Notificacion'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-09-07 17:01:42.4941|WARN|Microsoft.EntityFrameworkCore.Model.Validation|No store type was specified for the decimal property 'NumeroInterno' on entity type 'Notificacion'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-09-07 17:01:42.5560|WARN|Microsoft.EntityFrameworkCore.Model.Validation|No store type was specified for the decimal property 'TipoNotificacionId' on entity type 'Notificacion'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-09-07 17:01:42.6161|WARN|Microsoft.EntityFrameworkCore.Model.Validation|No store type was specified for the decimal property 'NotificacionId' on entity type 'NotificacionAdjuntoEnviado'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-09-07 17:01:42.9832|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 7.0.8 initialized 'SQLServerContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.8' with options: SensitiveDataLoggingEnabled 
+2023-09-07 17:01:43.1858|DEBUG|Microsoft.EntityFrameworkCore.Query|Compiling query expression: 
+'DbSet<VistaNotificacion>()
+    .Where(x => (int)x.EstadoId == 3 || (int)x.EstadoId == 4 || (int)x.EstadoId == 5 || (int)x.EstadoId == 6)'
+2023-09-07 17:01:43.9112|DEBUG|Microsoft.EntityFrameworkCore.Query|Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<VistaNotificacion>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: VistaNotificacion.NotificacionId (int) Required PK AfterSave:Throw, 0], [Property: VistaNotificacion.AfipId (Guid?), 1], [Property: VistaNotificacion.Cuit (string) Required, 2], [Property: VistaNotificacion.EstadoId (EnumEstadoNotificaciones) Required, 3], [Property: VistaNotificacion.FechaEnvio (DateTime?), 4], [Property: VistaNotificacion.FechaNotificacion (DateTime?), 5], [Property: VistaNotificacion.FechaRecepcionAfip (DateTime?), 6], [Property: VistaNotificacion.NotiEstadoId (EnumEstadoNotificaciones) Required, 7] }
+        SELECT v.NotificacionId, v.AfipId, v.Cuit, v.EstadoId, v.FechaEnvio, v.FechaNotificacion, v.FechaRecepcionAfip, v.NotiEstadoId
+        FROM vNotificacionReducida AS v
+        WHERE v.EstadoId IN (3, 4, 5, 6)), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, VistaNotificacion>, 
+    VEJuicios.Infrastructure.SQLServerContext, 
+    False, 
+    False, 
+    True
+)'
+2023-09-07 17:01:44.0517|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteReader'.
+2023-09-07 17:01:44.1168|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Creating DbConnection.
+2023-09-07 17:01:44.2488|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Created DbConnection. (124ms).
+2023-09-07 17:01:44.3266|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteReader' (273ms).
+2023-09-07 17:01:44.3935|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Initialized DbCommand for 'ExecuteReader' (346ms).
+2023-09-07 17:01:44.4720|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21'.
+2023-09-07 17:01:44.8008|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\Manuel\AppData\Local\ASP.NET\DataProtection-Keys\key-2f7463d5-09f6-42b0-b038-897a699a3a01.xml'.
+2023-09-07 17:01:44.8892|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\Manuel\AppData\Local\ASP.NET\DataProtection-Keys\key-8a172727-ab68-4caa-a957-f6dbc16963c2.xml'.
+2023-09-07 17:01:44.9513|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\Manuel\AppData\Local\ASP.NET\DataProtection-Keys\key-8c634a91-ae70-4347-8421-cdb79c947157.xml'.
+2023-09-07 17:01:45.0246|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {2f7463d5-09f6-42b0-b038-897a699a3a01}.
+2023-09-07 17:01:45.0936|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {8a172727-ab68-4caa-a957-f6dbc16963c2}.
+2023-09-07 17:01:45.1576|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {8c634a91-ae70-4347-8421-cdb79c947157}.
+2023-09-07 17:01:45.2270|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver|Considering key {8a172727-ab68-4caa-a957-f6dbc16963c2} with expiration date 2023-09-24 14:42:34Z as default key.
+2023-09-07 17:01:45.2942|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-09-07 17:01:45.3292|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21'.
+2023-09-07 17:01:45.3565|DEBUG|Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor|Decrypting secret element using Windows DPAPI.
+2023-09-07 17:01:45.4326|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [v].[NotificacionId], [v].[AfipId], [v].[Cuit], [v].[EstadoId], [v].[FechaEnvio], [v].[FechaNotificacion], [v].[FechaRecepcionAfip], [v].[NotiEstadoId]
+FROM [vNotificacionReducida] AS [v]
+WHERE [v].[EstadoId] IN (3, 4, 5, 6)
+2023-09-07 17:01:45.4794|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-09-07 17:01:45.6039|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC.
+2023-09-07 17:01:45.6670|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC.
+2023-09-07 17:01:45.7024|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (273ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [v].[NotificacionId], [v].[AfipId], [v].[Cuit], [v].[EstadoId], [v].[FechaEnvio], [v].[FechaNotificacion], [v].[FechaRecepcionAfip], [v].[NotiEstadoId]
+FROM [vNotificacionReducida] AS [v]
+WHERE [v].[EstadoId] IN (3, 4, 5, 6)
+2023-09-07 17:01:45.7324|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider|Using key {8a172727-ab68-4caa-a957-f6dbc16963c2} as the default key.
+2023-09-07 17:01:45.8307|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Closing data reader to 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21'.
+2023-09-07 17:01:45.8522|DEBUG|Microsoft.AspNetCore.DataProtection.Internal.DataProtectionHostedService|Key ring with default key {8a172727-ab68-4caa-a957-f6dbc16963c2} was loaded during application startup.
+2023-09-07 17:01:45.9253|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|A data reader for 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21' is being disposed after spending 126ms reading results.
+2023-09-07 17:01:46.0766|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21'.
+2023-09-07 17:01:46.1714|DEBUG|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|Initializing Razor view compiler with no compiled views.
+2023-09-07 17:01:46.1714|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closed connection to database 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21' (115ms).
+2023-09-07 17:01:46.2481|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory|Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider
+2023-09-07 17:01:46.2979|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|'SQLServerContext' disposed.
+2023-09-07 17:01:46.4235|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposing connection to database 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21'.
+2023-09-07 17:01:46.5012|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposed connection to database '' on server '' (65ms).
+2023-09-07 17:01:46.6556|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer|Using development certificate: CN=localhost (Thumbprint: 2A56E4850DEE069647BE910EF39C8C149FAF80EE)
+2023-09-07 17:01:46.8193|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001
+2023-09-07 17:01:46.8804|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000
+2023-09-07 17:01:46.9404|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly VEJuicios
+2023-09-07 17:01:47.0004|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-09-07 17:01:47.0539|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMTFRL23OJIK" accepted.
+2023-09-07 17:01:47.0615|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-09-07 17:01:47.0844|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMTFRL23OJIK" received FIN.
+2023-09-07 17:01:47.1263|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMTFRL23OJIK" started.
+2023-09-07 17:01:47.1849|INFO|VEJuicios.Workers.WorkerEnvioAfip|WorkerEnvioAfip running at: 09/07/2023 17:01:47 -03:00
+2023-09-07 17:01:58.5507|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMTFRL23OJIL" accepted.
+2023-09-07 17:01:58.5507|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 7.0.8 initialized 'SQLServerContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.8' with options: SensitiveDataLoggingEnabled 
+2023-09-07 17:01:58.5820|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Failed to authenticate HTTPS connection.|System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-09-07 17:01:58.6722|DEBUG|Microsoft.EntityFrameworkCore.Query|Compiling query expression: 
+'DbSet<VistaNotificacion>()
+    .Where(x => (int)x.NotiEstadoId == 2)'
+2023-09-07 17:01:58.6113|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMTFRL23OJIL" started.
+2023-09-07 17:01:58.8167|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMTFRL23OJIK" stopped.
+2023-09-07 17:01:58.8771|DEBUG|Microsoft.EntityFrameworkCore.Query|Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<VistaNotificacion>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: VistaNotificacion.NotificacionId (int) Required PK AfterSave:Throw, 0], [Property: VistaNotificacion.AfipId (Guid?), 1], [Property: VistaNotificacion.Cuit (string) Required, 2], [Property: VistaNotificacion.EstadoId (EnumEstadoNotificaciones) Required, 3], [Property: VistaNotificacion.FechaEnvio (DateTime?), 4], [Property: VistaNotificacion.FechaNotificacion (DateTime?), 5], [Property: VistaNotificacion.FechaRecepcionAfip (DateTime?), 6], [Property: VistaNotificacion.NotiEstadoId (EnumEstadoNotificaciones) Required, 7] }
+        SELECT v.NotificacionId, v.AfipId, v.Cuit, v.EstadoId, v.FechaEnvio, v.FechaNotificacion, v.FechaRecepcionAfip, v.NotiEstadoId
+        FROM vNotificacionReducida AS v
+        WHERE v.NotiEstadoId == 2), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, VistaNotificacion>, 
+    VEJuicios.Infrastructure.SQLServerContext, 
+    False, 
+    False, 
+    True
+)'
+2023-09-07 17:01:58.9979|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMTFRL23OJIK" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-09-07 17:01:59.0183|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Connection 0HMTFRL23OJIL established using the following protocol: Tls12
+2023-09-07 17:01:59.0625|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteReader'.
+2023-09-07 17:01:59.2394|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Creating DbConnection.
+2023-09-07 17:01:59.2754|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2023-09-07 17:01:59.3008|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Created DbConnection. (61ms).
+2023-09-07 17:01:59.4289|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteReader' (366ms).
+2023-09-07 17:01:59.4357|DEBUG|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|Wildcard detected, all requests with hosts will be allowed.
+2023-09-07 17:01:59.4975|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Initialized DbCommand for 'ExecuteReader' (434ms).
+2023-09-07 17:01:59.5708|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /swagger/index.html does not match an existing file
+2023-09-07 17:01:59.6234|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21'.
+2023-09-07 17:01:59.7368|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/index.html'
+2023-09-07 17:01:59.7483|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21'.
+2023-09-07 17:01:59.8082|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints
+2023-09-07 17:01:59.8693|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [v].[NotificacionId], [v].[AfipId], [v].[Cuit], [v].[EstadoId], [v].[FechaEnvio], [v].[FechaNotificacion], [v].[FechaRecepcionAfip], [v].[NotiEstadoId]
+FROM [vNotificacionReducida] AS [v]
+WHERE [v].[NotiEstadoId] = 2
+2023-09-07 17:02:00.0111|INFO|VEJuicios.Workers.WorkerEnvioAfip|Worker running at: 09/07/2023 17:02:00 -03:00
+2023-09-07 17:02:00.0742|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (205ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [v].[NotificacionId], [v].[AfipId], [v].[Cuit], [v].[EstadoId], [v].[FechaEnvio], [v].[FechaNotificacion], [v].[FechaRecepcionAfip], [v].[NotiEstadoId]
+FROM [vNotificacionReducida] AS [v]
+WHERE [v].[NotiEstadoId] = 2
+2023-09-07 17:02:00.1419|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup is scheduled to include browser refresh script injection.
+2023-09-07 17:02:00.1976|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 7.0.8 initialized 'SQLServerContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.8' with options: SensitiveDataLoggingEnabled 
+2023-09-07 17:02:00.3007|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'SQLServerContext' started tracking 'VistaNotificacion' entity with key '{NotificacionId: 95}'.
+2023-09-07 17:02:00.3173|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteNonQuery'.
+2023-09-07 17:02:00.4533|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Creating DbConnection.
+2023-09-07 17:02:00.4533|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'SQLServerContext' started tracking 'VistaNotificacion' entity with key '{NotificacionId: 96}'.
+2023-09-07 17:02:00.5250|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Created DbConnection. (71ms).
+2023-09-07 17:02:00.5902|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Closing data reader to 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21'.
+2023-09-07 17:02:00.5840|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup was updated to include browser refresh script injection.
+2023-09-07 17:02:00.5902|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - -
+2023-09-07 17:02:00.6598|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteNonQuery' (342ms).
+2023-09-07 17:02:00.7420|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|A data reader for 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21' is being disposed after spending 588ms reading results.
+2023-09-07 17:02:00.8276|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 1554.5887ms
+2023-09-07 17:02:00.9028|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 200 11988 application/javascript;+charset=utf-8 306.7854ms
+2023-09-07 17:02:00.9835|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Initialized DbCommand for 'ExecuteNonQuery' (666ms).
+2023-09-07 17:02:01.0669|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21'.
+2023-09-07 17:02:01.1822|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - -
+2023-09-07 17:02:01.3350|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21'.
+2023-09-07 17:02:01.4202|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closed connection to database 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21' (353ms).
+2023-09-07 17:02:01.5735|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21'.
+2023-09-07 17:02:01.5953|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 413.1026ms
+2023-09-07 17:02:01.6404|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 7.0.8 initialized 'SQLServerContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.8' with options: SensitiveDataLoggingEnabled 
+2023-09-07 17:02:01.6935|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+spNotificacionBorrarArchivosTemporales
+2023-09-07 17:02:01.8440|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteNonQuery'.
+2023-09-07 17:02:01.8701|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2023-09-07 17:02:01.9561|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Creating DbConnection.
+2023-09-07 17:02:01.9711|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (278ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+spNotificacionBorrarArchivosTemporales
+2023-09-07 17:02:02.0282|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /swagger/v1/swagger.json does not match an existing file
+2023-09-07 17:02:02.0894|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Created DbConnection. (133ms).
+2023-09-07 17:02:02.1543|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21'.
+2023-09-07 17:02:02.2231|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/v1/swagger.json'
+2023-09-07 17:02:02.2720|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteNonQuery' (428ms).
+2023-09-07 17:02:02.3372|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closed connection to database 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21' (182ms).
+2023-09-07 17:02:02.3955|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints
+2023-09-07 17:02:02.4640|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Initialized DbCommand for 'ExecuteNonQuery' (620ms).
+2023-09-07 17:02:02.6389|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21'.
+2023-09-07 17:02:02.5160|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|'SQLServerContext' disposed.
+2023-09-07 17:02:02.7665|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposing connection to database 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21'.
+2023-09-07 17:02:02.7011|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21'.
+2023-09-07 17:02:02.8328|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposed connection to database '' on server '' (66ms).
+2023-09-07 17:02:02.9712|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2023-09-07 17:02:02.9847|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[@LogText='a' (Nullable = false) (Size = 1)], CommandType='Text', CommandTimeout='30']
+xmlNotificacionLog @LogText
+2023-09-07 17:02:03.0307|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2023-09-07 17:02:03.0441|INFO|Quartz.Core.QuartzScheduler|Scheduler Notificaciones_$_Scheduler-Notificacion started.
+2023-09-07 17:02:03.0583|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-09-07 17:02:03.1516|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\Manuel\source\repos\ve-juicios\Main\Source\VEJuicios
+2023-09-07 17:02:03.3343|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started
+2023-09-07 17:02:03.2934|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (399ms) [Parameters=[@LogText='a' (Nullable = false) (Size = 1)], CommandType='Text', CommandTimeout='30']
+xmlNotificacionLog @LogText
+2023-09-07 17:02:03.0583|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 1201.0896ms
+2023-09-07 17:02:03.4604|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21'.
+2023-09-07 17:02:03.5769|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closed connection to database 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21' (116ms).
+2023-09-07 17:02:03.6395|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|'SQLServerContext' disposed.
+2023-09-07 17:02:03.7000|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposing connection to database 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21'.
+2023-09-07 17:02:03.7601|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposed connection to database '' on server '' (60ms).
+2023-09-07 17:02:04.5680|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMTFRL23OJIL" received FIN.
+2023-09-07 17:02:04.6299|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTFRL23OJIL" is closed. The last processed stream ID was 7.
+2023-09-07 17:02:04.7456|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMTFRL23OJIL" sending FIN because: "The client closed the connection."
+2023-09-07 17:02:04.8092|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMTFRL23OJIL" stopped.
+2023-09-07 17:02:04.8367|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 7.0.8 initialized 'SQLServerContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.8' with options: SensitiveDataLoggingEnabled 
+2023-09-07 17:02:04.9481|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteNonQuery'.
+2023-09-07 17:02:05.0098|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Creating DbConnection.
+2023-09-07 17:02:05.0718|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Created DbConnection. (61ms).
+2023-09-07 17:02:05.1325|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteNonQuery' (184ms).
+2023-09-07 17:02:05.1929|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Initialized DbCommand for 'ExecuteNonQuery' (244ms).
+2023-09-07 17:02:05.2531|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21'.
+2023-09-07 17:02:05.3136|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21'.
+2023-09-07 17:02:05.3738|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[@LogText='[{"NotificacionId":95,"NotiEstadoId":2,"Cuit":"30-71156207-5","EstadoId":2,"AfipId":null,"FechaEnvio":null,"FechaRecepcionAfip":null,"FechaNotificacion":null},{"NotificacionId":96,"NotiEstadoId":2,"Cuit":"30-71156207-5","EstadoId":2,"AfipId":null,"FechaEnvio":null,"FechaRecepcionAfip":null,"FechaNotificacion":null}]' (Nullable = false) (Size = 317)], CommandType='Text', CommandTimeout='30']
+xmlNotificacionLog @LogText
+2023-09-07 17:02:05.4957|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (122ms) [Parameters=[@LogText='[{"NotificacionId":95,"NotiEstadoId":2,"Cuit":"30-71156207-5","EstadoId":2,"AfipId":null,"FechaEnvio":null,"FechaRecepcionAfip":null,"FechaNotificacion":null},{"NotificacionId":96,"NotiEstadoId":2,"Cuit":"30-71156207-5","EstadoId":2,"AfipId":null,"FechaEnvio":null,"FechaRecepcionAfip":null,"FechaNotificacion":null}]' (Nullable = false) (Size = 317)], CommandType='Text', CommandTimeout='30']
+xmlNotificacionLog @LogText
+2023-09-07 17:02:05.5610|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21'.
+2023-09-07 17:02:05.6248|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closed connection to database 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21' (63ms).
+2023-09-07 17:02:05.6845|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|'SQLServerContext' disposed.
+2023-09-07 17:02:05.7452|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposing connection to database 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21'.
+2023-09-07 17:02:05.8141|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposed connection to database '' on server '' (68ms).
+2023-09-07 17:02:05.8760|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 7.0.8 initialized 'SQLServerContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.8' with options: SensitiveDataLoggingEnabled 
+2023-09-07 17:02:05.9388|DEBUG|Microsoft.EntityFrameworkCore.Query|Compiling query expression: 
+'DbSet<VNotificacionArchivoEnvioWorker>()'
+2023-09-07 17:02:06.0048|DEBUG|Microsoft.EntityFrameworkCore.Query|Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<VNotificacionArchivoEnvioWorker>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: VNotificacionArchivoEnvioWorker.ArchivoId (int) Required PK AfterSave:Throw, 0], [Property: VNotificacionArchivoEnvioWorker.Cedula (bool) Required, 1], [Property: VNotificacionArchivoEnvioWorker.ContentType (string) Required, 2], [Property: VNotificacionArchivoEnvioWorker.Data (byte[]) Required, 3], [Property: VNotificacionArchivoEnvioWorker.FileName (string) Required, 4], [Property: VNotificacionArchivoEnvioWorker.MetaData (string) Required, 5], [Property: VNotificacionArchivoEnvioWorker.NotificacionId (int) Required, 6] }
+        SELECT v.ArchivoId, v.Cedula, v.ContentType, v.Data, v.FileName, v.MetaData, v.NotificacionId
+        FROM vNotificacionArchivoEnvioWorker AS v), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, VNotificacionArchivoEnvioWorker>, 
+    VEJuicios.Infrastructure.SQLServerContext, 
+    False, 
+    False, 
+    True
+)'
+2023-09-07 17:02:06.0672|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteReader'.
+2023-09-07 17:02:06.1286|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Creating DbConnection.
+2023-09-07 17:02:06.1887|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Created DbConnection. (60ms).
+2023-09-07 17:02:06.2541|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteReader' (186ms).
+2023-09-07 17:02:06.3149|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Initialized DbCommand for 'ExecuteReader' (247ms).
+2023-09-07 17:02:06.7227|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21'.
+2023-09-07 17:02:06.7879|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21'.
+2023-09-07 17:02:06.8565|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [v].[ArchivoId], [v].[Cedula], [v].[ContentType], [v].[Data], [v].[FileName], [v].[MetaData], [v].[NotificacionId]
+FROM [vNotificacionArchivoEnvioWorker] AS [v]
+2023-09-07 17:02:06.9848|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (128ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [v].[ArchivoId], [v].[Cedula], [v].[ContentType], [v].[Data], [v].[FileName], [v].[MetaData], [v].[NotificacionId]
+FROM [vNotificacionArchivoEnvioWorker] AS [v]
+2023-09-07 17:02:07.1256|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'SQLServerContext' started tracking 'VNotificacionArchivoEnvioWorker' entity with key '{ArchivoId: 241}'.
+2023-09-07 17:02:07.2020|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'SQLServerContext' started tracking 'VNotificacionArchivoEnvioWorker' entity with key '{ArchivoId: 242}'.
+2023-09-07 17:02:07.2655|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'SQLServerContext' started tracking 'VNotificacionArchivoEnvioWorker' entity with key '{ArchivoId: 243}'.
+2023-09-07 17:02:07.5257|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'SQLServerContext' started tracking 'VNotificacionArchivoEnvioWorker' entity with key '{ArchivoId: 244}'.
+2023-09-07 17:02:07.5866|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Closing data reader to 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21'.
+2023-09-07 17:02:07.6477|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|A data reader for 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21' is being disposed after spending 601ms reading results.
+2023-09-07 17:02:07.7107|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21'.
+2023-09-07 17:02:07.7757|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closed connection to database 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21' (65ms).
+2023-09-07 17:02:07.8388|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|'SQLServerContext' disposed.
+2023-09-07 17:02:07.8999|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposing connection to database 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21'.
+2023-09-07 17:02:07.9684|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposed connection to database '' on server '' (68ms).
+2023-09-07 17:02:50.8157|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting
+2023-09-07 17:02:51.7924|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\Manuel\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-09-07 17:02:52.0207|DEBUG|Quartz.Simpl.TaskSchedulingThreadPool|TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler.
+2023-09-07 17:02:52.1256|INFO|Quartz.Core.SchedulerSignalerImpl|Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2023-09-07 17:02:52.1894|INFO|Quartz.Core.QuartzScheduler|Quartz Scheduler created
+2023-09-07 17:02:52.2496|INFO|Quartz.Core.QuartzScheduler|JobFactory set to: Quartz.Simpl.MicrosoftDependencyInjectionJobFactory
+2023-09-07 17:02:52.3138|INFO|Quartz.Simpl.RAMJobStore|RAMJobStore initialized.
+2023-09-07 17:02:52.3828|INFO|Quartz.Core.QuartzScheduler|Scheduler meta-data: Quartz Scheduler (v3.4.0.0) 'Notificaciones' with instanceId 'Scheduler-Notificacion'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.DefaultThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2023-09-07 17:02:52.4444|INFO|Quartz.Impl.StdSchedulerFactory|Quartz scheduler 'Notificaciones' initialized
+2023-09-07 17:02:52.5096|INFO|Quartz.Impl.StdSchedulerFactory|Quartz scheduler version: 3.4.0.0
+2023-09-07 17:02:52.6152|INFO|Quartz.ContainerConfigurationProcessor|Adding 0 jobs, 0 triggers.
+2023-09-07 17:02:52.6895|INFO|VEJuicios.Workers.WorkerRecepcionAfip|Worker running at: 09/07/2023 17:02:52 -03:00
+2023-09-07 17:02:53.0499|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-09-07 17:02:54.0836|WARN|Microsoft.EntityFrameworkCore.Model.Validation|Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2023-09-07 17:02:54.3035|WARN|Microsoft.EntityFrameworkCore.Model.Validation|No store type was specified for the decimal property 'CasoId' on entity type 'Notificacion'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-09-07 17:02:54.3662|WARN|Microsoft.EntityFrameworkCore.Model.Validation|No store type was specified for the decimal property 'MetodoEnvioId' on entity type 'Notificacion'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-09-07 17:02:54.4266|WARN|Microsoft.EntityFrameworkCore.Model.Validation|No store type was specified for the decimal property 'NumeroAsociado' on entity type 'Notificacion'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-09-07 17:02:54.4894|WARN|Microsoft.EntityFrameworkCore.Model.Validation|No store type was specified for the decimal property 'NumeroInterno' on entity type 'Notificacion'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-09-07 17:02:54.5502|WARN|Microsoft.EntityFrameworkCore.Model.Validation|No store type was specified for the decimal property 'TipoNotificacionId' on entity type 'Notificacion'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-09-07 17:02:54.6104|WARN|Microsoft.EntityFrameworkCore.Model.Validation|No store type was specified for the decimal property 'NotificacionId' on entity type 'NotificacionAdjuntoEnviado'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-09-07 17:02:54.9264|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 7.0.8 initialized 'SQLServerContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.8' with options: SensitiveDataLoggingEnabled 
+2023-09-07 17:02:55.1304|DEBUG|Microsoft.EntityFrameworkCore.Query|Compiling query expression: 
+'DbSet<VistaNotificacion>()
+    .Where(x => (int)x.EstadoId == 3 || (int)x.EstadoId == 4 || (int)x.EstadoId == 5 || (int)x.EstadoId == 6)'
+2023-09-07 17:02:55.7793|DEBUG|Microsoft.EntityFrameworkCore.Query|Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<VistaNotificacion>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: VistaNotificacion.NotificacionId (int) Required PK AfterSave:Throw, 0], [Property: VistaNotificacion.AfipId (Guid?), 1], [Property: VistaNotificacion.Cuit (string) Required, 2], [Property: VistaNotificacion.EstadoId (EnumEstadoNotificaciones) Required, 3], [Property: VistaNotificacion.FechaEnvio (DateTime?), 4], [Property: VistaNotificacion.FechaNotificacion (DateTime?), 5], [Property: VistaNotificacion.FechaRecepcionAfip (DateTime?), 6], [Property: VistaNotificacion.NotiEstadoId (EnumEstadoNotificaciones) Required, 7] }
+        SELECT v.NotificacionId, v.AfipId, v.Cuit, v.EstadoId, v.FechaEnvio, v.FechaNotificacion, v.FechaRecepcionAfip, v.NotiEstadoId
+        FROM vNotificacionReducida AS v
+        WHERE v.EstadoId IN (3, 4, 5, 6)), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, VistaNotificacion>, 
+    VEJuicios.Infrastructure.SQLServerContext, 
+    False, 
+    False, 
+    True
+)'
+2023-09-07 17:02:55.9411|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteReader'.
+2023-09-07 17:02:56.0089|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Creating DbConnection.
+2023-09-07 17:02:56.1268|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Created DbConnection. (114ms).
+2023-09-07 17:02:56.2037|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteReader' (262ms).
+2023-09-07 17:02:56.2766|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Initialized DbCommand for 'ExecuteReader' (340ms).
+2023-09-07 17:02:56.3518|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21'.
+2023-09-07 17:02:56.7066|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\Manuel\AppData\Local\ASP.NET\DataProtection-Keys\key-2f7463d5-09f6-42b0-b038-897a699a3a01.xml'.
+2023-09-07 17:02:56.7753|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\Manuel\AppData\Local\ASP.NET\DataProtection-Keys\key-8a172727-ab68-4caa-a957-f6dbc16963c2.xml'.
+2023-09-07 17:02:56.8366|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\Manuel\AppData\Local\ASP.NET\DataProtection-Keys\key-8c634a91-ae70-4347-8421-cdb79c947157.xml'.
+2023-09-07 17:02:56.9109|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {2f7463d5-09f6-42b0-b038-897a699a3a01}.
+2023-09-07 17:02:56.9815|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {8a172727-ab68-4caa-a957-f6dbc16963c2}.
+2023-09-07 17:02:57.0496|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {8c634a91-ae70-4347-8421-cdb79c947157}.
+2023-09-07 17:02:57.1235|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver|Considering key {8a172727-ab68-4caa-a957-f6dbc16963c2} with expiration date 2023-09-24 14:42:34Z as default key.
+2023-09-07 17:02:57.1869|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-09-07 17:02:57.2483|DEBUG|Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor|Decrypting secret element using Windows DPAPI.
+2023-09-07 17:02:57.2634|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21'.
+2023-09-07 17:02:57.3098|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-09-07 17:02:57.3909|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [v].[NotificacionId], [v].[AfipId], [v].[Cuit], [v].[EstadoId], [v].[FechaEnvio], [v].[FechaNotificacion], [v].[FechaRecepcionAfip], [v].[NotiEstadoId]
+FROM [vNotificacionReducida] AS [v]
+WHERE [v].[EstadoId] IN (3, 4, 5, 6)
+2023-09-07 17:02:57.4308|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC.
+2023-09-07 17:02:57.5521|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC.
+2023-09-07 17:02:57.6172|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider|Using key {8a172727-ab68-4caa-a957-f6dbc16963c2} as the default key.
+2023-09-07 17:02:57.6402|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (257ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [v].[NotificacionId], [v].[AfipId], [v].[Cuit], [v].[EstadoId], [v].[FechaEnvio], [v].[FechaNotificacion], [v].[FechaRecepcionAfip], [v].[NotiEstadoId]
+FROM [vNotificacionReducida] AS [v]
+WHERE [v].[EstadoId] IN (3, 4, 5, 6)
+2023-09-07 17:02:57.6789|DEBUG|Microsoft.AspNetCore.DataProtection.Internal.DataProtectionHostedService|Key ring with default key {8a172727-ab68-4caa-a957-f6dbc16963c2} was loaded during application startup.
+2023-09-07 17:02:57.7800|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Closing data reader to 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21'.
+2023-09-07 17:02:57.9147|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|A data reader for 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21' is being disposed after spending 141ms reading results.
+2023-09-07 17:02:57.9919|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21'.
+2023-09-07 17:02:58.0333|DEBUG|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|Initializing Razor view compiler with no compiled views.
+2023-09-07 17:02:58.0684|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closed connection to database 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21' (77ms).
+2023-09-07 17:02:58.1334|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory|Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider
+2023-09-07 17:02:58.1758|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|'SQLServerContext' disposed.
+2023-09-07 17:02:58.3058|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposing connection to database 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21'.
+2023-09-07 17:02:58.3711|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposed connection to database '' on server '' (66ms).
+2023-09-07 17:02:58.5101|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer|Using development certificate: CN=localhost (Thumbprint: 2A56E4850DEE069647BE910EF39C8C149FAF80EE)
+2023-09-07 17:02:58.6631|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001
+2023-09-07 17:02:58.7238|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000
+2023-09-07 17:02:58.7836|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly VEJuicios
+2023-09-07 17:02:58.8513|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-09-07 17:02:58.9212|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-09-07 17:02:58.9856|INFO|VEJuicios.Workers.WorkerEnvioAfip|WorkerEnvioAfip running at: 09/07/2023 17:02:58 -03:00
+2023-09-07 17:02:59.0385|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMTFRLNI9RNH" received FIN.
+2023-09-07 17:02:59.0385|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMTFRLNI9RNI" received FIN.
+2023-09-07 17:03:05.1234|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 7.0.8 initialized 'SQLServerContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.8' with options: SensitiveDataLoggingEnabled 
+2023-09-07 17:03:05.1415|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMTFRLNI9RNH" accepted.
+2023-09-07 17:03:05.1785|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMTFRLNI9RNI" accepted.
+2023-09-07 17:03:05.2392|DEBUG|Microsoft.EntityFrameworkCore.Query|Compiling query expression: 
+'DbSet<VistaNotificacion>()
+    .Where(x => (int)x.NotiEstadoId == 2)'
+2023-09-07 17:03:05.3597|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMTFRLNI9RNI" started.
+2023-09-07 17:03:05.3066|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMTFRLNI9RNH" started.
+2023-09-07 17:03:05.4256|DEBUG|Microsoft.EntityFrameworkCore.Query|Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<VistaNotificacion>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: VistaNotificacion.NotificacionId (int) Required PK AfterSave:Throw, 0], [Property: VistaNotificacion.AfipId (Guid?), 1], [Property: VistaNotificacion.Cuit (string) Required, 2], [Property: VistaNotificacion.EstadoId (EnumEstadoNotificaciones) Required, 3], [Property: VistaNotificacion.FechaEnvio (DateTime?), 4], [Property: VistaNotificacion.FechaNotificacion (DateTime?), 5], [Property: VistaNotificacion.FechaRecepcionAfip (DateTime?), 6], [Property: VistaNotificacion.NotiEstadoId (EnumEstadoNotificaciones) Required, 7] }
+        SELECT v.NotificacionId, v.AfipId, v.Cuit, v.EstadoId, v.FechaEnvio, v.FechaNotificacion, v.FechaRecepcionAfip, v.NotiEstadoId
+        FROM vNotificacionReducida AS v
+        WHERE v.NotiEstadoId == 2), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, VistaNotificacion>, 
+    VEJuicios.Infrastructure.SQLServerContext, 
+    False, 
+    False, 
+    True
+)'
+2023-09-07 17:03:05.5236|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Failed to authenticate HTTPS connection.|System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-09-07 17:03:05.6144|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteReader'.
+2023-09-07 17:03:05.5428|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Failed to authenticate HTTPS connection.|System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-09-07 17:03:05.3066|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMTFRLNI9RNJ" accepted.
+2023-09-07 17:03:05.7338|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMTFRLNI9RNI" stopped.
+2023-09-07 17:03:05.7842|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Creating DbConnection.
+2023-09-07 17:03:05.9059|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMTFRLNI9RNJ" started.
+2023-09-07 17:03:05.8465|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMTFRLNI9RNH" stopped.
+2023-09-07 17:03:06.0270|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Created DbConnection. (242ms).
+2023-09-07 17:03:05.9747|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMTFRLNI9RNI" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-09-07 17:03:06.1479|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMTFRLNI9RNH" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-09-07 17:03:06.1519|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Connection 0HMTFRLNI9RNJ established using the following protocol: Tls12
+2023-09-07 17:03:06.2091|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteReader' (594ms).
+2023-09-07 17:03:06.4523|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Initialized DbCommand for 'ExecuteReader' (837ms).
+2023-09-07 17:03:06.4880|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2023-09-07 17:03:06.5171|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21'.
+2023-09-07 17:03:06.6405|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21'.
+2023-09-07 17:03:06.6405|DEBUG|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|Wildcard detected, all requests with hosts will be allowed.
+2023-09-07 17:03:06.7030|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [v].[NotificacionId], [v].[AfipId], [v].[Cuit], [v].[EstadoId], [v].[FechaEnvio], [v].[FechaNotificacion], [v].[FechaRecepcionAfip], [v].[NotiEstadoId]
+FROM [vNotificacionReducida] AS [v]
+WHERE [v].[NotiEstadoId] = 2
+2023-09-07 17:03:06.7670|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /swagger/index.html does not match an existing file
+2023-09-07 17:03:06.8282|INFO|VEJuicios.Workers.WorkerEnvioAfip|Worker running at: 09/07/2023 17:03:06 -03:00
+2023-09-07 17:03:06.8944|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (192ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [v].[NotificacionId], [v].[AfipId], [v].[Cuit], [v].[EstadoId], [v].[FechaEnvio], [v].[FechaNotificacion], [v].[FechaRecepcionAfip], [v].[NotiEstadoId]
+FROM [vNotificacionReducida] AS [v]
+WHERE [v].[NotiEstadoId] = 2
+2023-09-07 17:03:06.9333|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/index.html'
+2023-09-07 17:03:07.0539|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 7.0.8 initialized 'SQLServerContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.8' with options: SensitiveDataLoggingEnabled 
+2023-09-07 17:03:07.0763|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints
+2023-09-07 17:03:07.1533|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'SQLServerContext' started tracking 'VistaNotificacion' entity with key '{NotificacionId: 95}'.
+2023-09-07 17:03:07.1533|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteNonQuery'.
+2023-09-07 17:03:07.3220|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Creating DbConnection.
+2023-09-07 17:03:07.3220|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'SQLServerContext' started tracking 'VistaNotificacion' entity with key '{NotificacionId: 96}'.
+2023-09-07 17:03:07.3495|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup is scheduled to include browser refresh script injection.
+2023-09-07 17:03:07.3822|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Created DbConnection. (60ms).
+2023-09-07 17:03:07.4422|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Closing data reader to 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21'.
+2023-09-07 17:03:07.5621|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteNonQuery' (407ms).
+2023-09-07 17:03:07.6221|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|A data reader for 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21' is being disposed after spending 607ms reading results.
+2023-09-07 17:03:07.6831|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Initialized DbCommand for 'ExecuteNonQuery' (528ms).
+2023-09-07 17:03:07.7435|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21'.
+2023-09-07 17:03:07.7601|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup was updated to include browser refresh script injection.
+2023-09-07 17:03:07.8071|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21'.
+2023-09-07 17:03:07.8635|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closed connection to database 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21' (120ms).
+2023-09-07 17:03:07.9442|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 1461.2007ms
+2023-09-07 17:03:07.9983|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21'.
+2023-09-07 17:03:08.1418|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - -
+2023-09-07 17:03:08.0588|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 7.0.8 initialized 'SQLServerContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.8' with options: SensitiveDataLoggingEnabled 
+2023-09-07 17:03:08.1733|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - -
+2023-09-07 17:03:08.1814|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+spNotificacionBorrarArchivosTemporales
+2023-09-07 17:03:08.2969|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 200 11988 application/javascript;+charset=utf-8 155.0455ms
+2023-09-07 17:03:08.3174|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteNonQuery'.
+2023-09-07 17:03:08.4149|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 241.5906ms
+2023-09-07 17:03:08.4968|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (316ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+spNotificacionBorrarArchivosTemporales
+2023-09-07 17:03:08.5440|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Creating DbConnection.
+2023-09-07 17:03:08.6477|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2023-09-07 17:03:08.6685|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21'.
+2023-09-07 17:03:08.7257|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Created DbConnection. (181ms).
+2023-09-07 17:03:08.7885|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /swagger/v1/swagger.json does not match an existing file
+2023-09-07 17:03:08.8508|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closed connection to database 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21' (181ms).
+2023-09-07 17:03:08.9097|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteNonQuery' (592ms).
+2023-09-07 17:03:08.9900|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/v1/swagger.json'
+2023-09-07 17:03:09.0352|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|'SQLServerContext' disposed.
+2023-09-07 17:03:09.1022|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Initialized DbCommand for 'ExecuteNonQuery' (784ms).
+2023-09-07 17:03:09.1557|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints
+2023-09-07 17:03:09.2159|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposing connection to database 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21'.
+2023-09-07 17:03:09.2768|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21'.
+2023-09-07 17:03:09.4086|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposed connection to database '' on server '' (192ms).
+2023-09-07 17:03:09.4687|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21'.
+2023-09-07 17:03:09.5306|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2023-09-07 17:03:09.5537|INFO|Quartz.Core.QuartzScheduler|Scheduler Notificaciones_$_Scheduler-Notificacion started.
+2023-09-07 17:03:09.5598|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-09-07 17:03:09.5840|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMTFRLNI9RNJ" received FIN.
+2023-09-07 17:03:09.5306|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 886.8095ms
+2023-09-07 17:03:09.6220|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[@LogText='a' (Nullable = false) (Size = 1)], CommandType='Text', CommandTimeout='30']
+xmlNotificacionLog @LogText
+2023-09-07 17:03:09.6506|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2023-09-07 17:03:09.8385|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMTFRLNI9RNJ" is closed. The last processed stream ID was 7.
+2023-09-07 17:03:10.0226|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\Manuel\source\repos\ve-juicios\Main\Source\VEJuicios
+2023-09-07 17:03:10.0837|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMTFRLNI9RNJ" sending FIN because: "The client closed the connection."
+2023-09-07 17:03:10.1126|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (520ms) [Parameters=[@LogText='a' (Nullable = false) (Size = 1)], CommandType='Text', CommandTimeout='30']
+xmlNotificacionLog @LogText
+2023-09-07 17:03:10.1451|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started
+2023-09-07 17:03:10.2360|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMTFRLNI9RNJ" stopped.
+2023-09-07 17:03:10.2849|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21'.
+2023-09-07 17:03:10.4618|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closed connection to database 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21' (176ms).
+2023-09-07 17:03:10.5265|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|'SQLServerContext' disposed.
+2023-09-07 17:03:10.5899|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposing connection to database 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21'.
+2023-09-07 17:03:10.6500|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposed connection to database '' on server '' (60ms).
+2023-09-07 17:03:10.9226|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 7.0.8 initialized 'SQLServerContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.8' with options: SensitiveDataLoggingEnabled 
+2023-09-07 17:03:10.9995|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteNonQuery'.
+2023-09-07 17:03:11.0603|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Creating DbConnection.
+2023-09-07 17:03:11.1235|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Created DbConnection. (63ms).
+2023-09-07 17:03:11.1843|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteNonQuery' (184ms).
+2023-09-07 17:03:11.2448|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Initialized DbCommand for 'ExecuteNonQuery' (245ms).
+2023-09-07 17:03:11.3051|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21'.
+2023-09-07 17:03:11.3667|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21'.
+2023-09-07 17:03:11.4306|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[@LogText='[{"NotificacionId":95,"NotiEstadoId":2,"Cuit":"30-71156207-5","EstadoId":2,"AfipId":null,"FechaEnvio":null,"FechaRecepcionAfip":null,"FechaNotificacion":null},{"NotificacionId":96,"NotiEstadoId":2,"Cuit":"30-71156207-5","EstadoId":2,"AfipId":null,"FechaEnvio":null,"FechaRecepcionAfip":null,"FechaNotificacion":null}]' (Nullable = false) (Size = 317)], CommandType='Text', CommandTimeout='30']
+xmlNotificacionLog @LogText
+2023-09-07 17:03:11.5565|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (126ms) [Parameters=[@LogText='[{"NotificacionId":95,"NotiEstadoId":2,"Cuit":"30-71156207-5","EstadoId":2,"AfipId":null,"FechaEnvio":null,"FechaRecepcionAfip":null,"FechaNotificacion":null},{"NotificacionId":96,"NotiEstadoId":2,"Cuit":"30-71156207-5","EstadoId":2,"AfipId":null,"FechaEnvio":null,"FechaRecepcionAfip":null,"FechaNotificacion":null}]' (Nullable = false) (Size = 317)], CommandType='Text', CommandTimeout='30']
+xmlNotificacionLog @LogText
+2023-09-07 17:03:11.6163|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21'.
+2023-09-07 17:03:11.6764|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closed connection to database 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21' (60ms).
+2023-09-07 17:03:11.7409|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|'SQLServerContext' disposed.
+2023-09-07 17:03:11.8014|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposing connection to database 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21'.
+2023-09-07 17:03:11.8627|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposed connection to database '' on server '' (61ms).
+2023-09-07 17:03:11.9244|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 7.0.8 initialized 'SQLServerContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.8' with options: SensitiveDataLoggingEnabled 
+2023-09-07 17:03:11.9873|DEBUG|Microsoft.EntityFrameworkCore.Query|Compiling query expression: 
+'DbSet<VNotificacionArchivoEnvioWorker>()'
+2023-09-07 17:03:12.0540|DEBUG|Microsoft.EntityFrameworkCore.Query|Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<VNotificacionArchivoEnvioWorker>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: VNotificacionArchivoEnvioWorker.ArchivoId (int) Required PK AfterSave:Throw, 0], [Property: VNotificacionArchivoEnvioWorker.Cedula (bool) Required, 1], [Property: VNotificacionArchivoEnvioWorker.ContentType (string) Required, 2], [Property: VNotificacionArchivoEnvioWorker.Data (byte[]) Required, 3], [Property: VNotificacionArchivoEnvioWorker.FileName (string) Required, 4], [Property: VNotificacionArchivoEnvioWorker.MetaData (string) Required, 5], [Property: VNotificacionArchivoEnvioWorker.NotificacionId (int) Required, 6] }
+        SELECT v.ArchivoId, v.Cedula, v.ContentType, v.Data, v.FileName, v.MetaData, v.NotificacionId
+        FROM vNotificacionArchivoEnvioWorker AS v), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, VNotificacionArchivoEnvioWorker>, 
+    VEJuicios.Infrastructure.SQLServerContext, 
+    False, 
+    False, 
+    True
+)'
+2023-09-07 17:03:12.1157|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteReader'.
+2023-09-07 17:03:12.1772|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Creating DbConnection.
+2023-09-07 17:03:12.2371|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Created DbConnection. (59ms).
+2023-09-07 17:03:12.3025|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteReader' (186ms).
+2023-09-07 17:03:12.3621|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Initialized DbCommand for 'ExecuteReader' (246ms).
+2023-09-07 17:03:12.4244|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21'.
+2023-09-07 17:03:12.4861|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21'.
+2023-09-07 17:03:12.5517|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [v].[ArchivoId], [v].[Cedula], [v].[ContentType], [v].[Data], [v].[FileName], [v].[MetaData], [v].[NotificacionId]
+FROM [vNotificacionArchivoEnvioWorker] AS [v]
+2023-09-07 17:03:12.7112|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (159ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [v].[ArchivoId], [v].[Cedula], [v].[ContentType], [v].[Data], [v].[FileName], [v].[MetaData], [v].[NotificacionId]
+FROM [vNotificacionArchivoEnvioWorker] AS [v]
+2023-09-07 17:03:12.9336|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'SQLServerContext' started tracking 'VNotificacionArchivoEnvioWorker' entity with key '{ArchivoId: 241}'.
+2023-09-07 17:03:13.0102|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'SQLServerContext' started tracking 'VNotificacionArchivoEnvioWorker' entity with key '{ArchivoId: 242}'.
+2023-09-07 17:03:13.1508|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'SQLServerContext' started tracking 'VNotificacionArchivoEnvioWorker' entity with key '{ArchivoId: 243}'.
+2023-09-07 17:03:13.4701|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'SQLServerContext' started tracking 'VNotificacionArchivoEnvioWorker' entity with key '{ArchivoId: 244}'.
+2023-09-07 17:03:13.5332|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Closing data reader to 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21'.
+2023-09-07 17:03:13.5931|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|A data reader for 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21' is being disposed after spending 821ms reading results.
+2023-09-07 17:03:13.6533|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21'.
+2023-09-07 17:03:13.7136|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closed connection to database 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21' (60ms).
+2023-09-07 17:03:13.7754|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|'SQLServerContext' disposed.
+2023-09-07 17:03:13.8355|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposing connection to database 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21'.
+2023-09-07 17:03:13.8961|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposed connection to database '' on server '' (60ms).
+2023-09-07 17:12:54.3091|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-09-07 17:12:56.7721|INFO|VEJuicios.Workers.WorkerRecepcionAfip|Worker running at: 09/07/2023 17:12:56 -03:00
+2023-09-07 17:13:02.4645|ERROR|VEJuicios.Application.WorkerUseCases.EnvioAfip.NotificacionEnvioAfipWorkerUseCase|Fallo en la subida del Archivo 242
+2023-09-07 17:13:02.4645|ERROR|VEJuicios.Application.WorkerUseCases.EnvioAfip.NotificacionEnvioAfipWorkerUseCase|Fallo en la subida del Archivo 241
+2023-09-07 17:13:19.5200|ERROR|VEJuicios.Application.WorkerUseCases.EnvioAfip.NotificacionEnvioAfipWorkerUseCase|Fallo en la subida del Archivo 244
+2023-09-07 17:13:20.9422|ERROR|VEJuicios.Application.WorkerUseCases.EnvioAfip.NotificacionEnvioAfipWorkerUseCase|Fallo en la subida del Archivo 243
+2023-09-07 17:13:20.9422|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 7.0.8 initialized 'SQLServerContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.8' with options: SensitiveDataLoggingEnabled 
+2023-09-07 17:13:20.9511|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 7.0.8 initialized 'SQLServerContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.8' with options: SensitiveDataLoggingEnabled 
+2023-09-07 17:13:21.6455|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-09-07 17:13:22.2868|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 7.0.8 initialized 'SQLServerContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.8' with options: SensitiveDataLoggingEnabled 
+2023-09-07 17:13:22.3734|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 7.0.8 initialized 'SQLServerContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.8' with options: SensitiveDataLoggingEnabled 
+2023-09-07 17:13:22.4348|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 7.0.8 initialized 'SQLServerContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.8' with options: SensitiveDataLoggingEnabled 
+2023-09-07 17:13:22.5130|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteReader'.
+2023-09-07 17:13:22.5608|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteNonQuery'.
+2023-09-07 17:13:22.6807|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteNonQuery'.
+2023-09-07 17:13:22.7411|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteNonQuery'.
+2023-09-07 17:13:22.8010|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteNonQuery'.
+2023-09-07 17:13:23.1173|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Creating DbConnection.
+2023-09-07 17:13:22.9234|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Creating DbConnection.
+2023-09-07 17:13:22.9907|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Creating DbConnection.
+2023-09-07 17:13:23.0515|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Creating DbConnection.
+2023-09-07 17:13:22.8614|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Creating DbConnection.
+2023-09-07 17:13:23.1780|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Created DbConnection. (60ms).
+2023-09-07 17:13:23.2372|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Created DbConnection. (313ms).
+2023-09-07 17:13:23.2986|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Created DbConnection. (307ms).
+2023-09-07 17:13:23.3593|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Created DbConnection. (307ms).
+2023-09-07 17:13:23.4192|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Created DbConnection. (557ms).
+2023-09-07 17:13:23.4828|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteNonQuery' (681ms).
+2023-09-07 17:13:23.5423|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteNonQuery' (981ms).
+2023-09-07 17:13:23.6040|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteNonQuery' (923ms).
+2023-09-07 17:13:23.6645|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteNonQuery' (923ms).
+2023-09-07 17:13:23.7241|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteReader' (1212ms).
+2023-09-07 17:13:23.7852|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Initialized DbCommand for 'ExecuteNonQuery' (984ms).
+2023-09-07 17:13:23.8505|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Initialized DbCommand for 'ExecuteNonQuery' (1289ms).
+2023-09-07 17:13:23.9250|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Initialized DbCommand for 'ExecuteNonQuery' (1244ms).
+2023-09-07 17:13:24.0079|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Initialized DbCommand for 'ExecuteNonQuery' (1266ms).
+2023-09-07 17:13:24.0806|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Initialized DbCommand for 'ExecuteReader' (1569ms).
+2023-09-07 17:13:24.1431|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21'.
+2023-09-07 17:13:24.2322|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21'.
+2023-09-07 17:13:24.3546|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21'.
+2023-09-07 17:13:24.2944|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21'.
+2023-09-07 17:13:24.4161|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21'.
+2023-09-07 17:13:24.8408|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21'.
+2023-09-07 17:13:24.9267|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[@LogText='{"Id":null,"AfipSistemaId":0,"Metadata":null,"Content":null,"ErrorMsg":"An error occurred while sending the request."}' (Nullable = false) (Size = 118)], CommandType='Text', CommandTimeout='30']
+xmlNotificacionLog @LogText
+2023-09-07 17:13:25.0991|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21'.
+2023-09-07 17:13:25.1140|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (188ms) [Parameters=[@LogText='{"Id":null,"AfipSistemaId":0,"Metadata":null,"Content":null,"ErrorMsg":"An error occurred while sending the request."}' (Nullable = false) (Size = 118)], CommandType='Text', CommandTimeout='30']
+xmlNotificacionLog @LogText
+2023-09-07 17:13:25.2010|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[@LogText='{"Id":null,"AfipSistemaId":0,"Metadata":null,"Content":null,"ErrorMsg":"The request was canceled due to the configured HttpClient.Timeout of 100 seconds elapsing."}' (Nullable = false) (Size = 164)], CommandType='Text', CommandTimeout='30']
+xmlNotificacionLog @LogText
+2023-09-07 17:13:25.2917|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21'.
+2023-09-07 17:13:25.3456|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21'.
+2023-09-07 17:13:25.4475|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (246ms) [Parameters=[@LogText='{"Id":null,"AfipSistemaId":0,"Metadata":null,"Content":null,"ErrorMsg":"The request was canceled due to the configured HttpClient.Timeout of 100 seconds elapsing."}' (Nullable = false) (Size = 164)], CommandType='Text', CommandTimeout='30']
+xmlNotificacionLog @LogText
+2023-09-07 17:13:25.5854|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21'.
+2023-09-07 17:13:25.5378|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[@LogText='{"Id":null,"AfipSistemaId":0,"Metadata":null,"Content":null,"ErrorMsg":"An error occurred while sending the request."}' (Nullable = false) (Size = 118)], CommandType='Text', CommandTimeout='30']
+xmlNotificacionLog @LogText
+2023-09-07 17:13:25.4746|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closed connection to database 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21' (182ms).
+2023-09-07 17:13:25.5854|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21'.
+2023-09-07 17:13:25.5982|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21'.
+2023-09-07 17:13:25.6596|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [v].[NotificacionId], [v].[AfipId], [v].[Cuit], [v].[EstadoId], [v].[FechaEnvio], [v].[FechaNotificacion], [v].[FechaRecepcionAfip], [v].[NotiEstadoId]
+FROM [vNotificacionReducida] AS [v]
+WHERE [v].[EstadoId] IN (3, 4, 5, 6)
+2023-09-07 17:13:25.7803|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|'SQLServerContext' disposed.
+2023-09-07 17:13:25.7803|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (243ms) [Parameters=[@LogText='{"Id":null,"AfipSistemaId":0,"Metadata":null,"Content":null,"ErrorMsg":"An error occurred while sending the request."}' (Nullable = false) (Size = 118)], CommandType='Text', CommandTimeout='30']
+xmlNotificacionLog @LogText
+2023-09-07 17:13:26.0244|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposing connection to database 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21'.
+2023-09-07 17:13:26.0259|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (366ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [v].[NotificacionId], [v].[AfipId], [v].[Cuit], [v].[EstadoId], [v].[FechaEnvio], [v].[FechaNotificacion], [v].[FechaRecepcionAfip], [v].[NotiEstadoId]
+FROM [vNotificacionReducida] AS [v]
+WHERE [v].[EstadoId] IN (3, 4, 5, 6)
+2023-09-07 17:13:25.8421|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[@LogText='{"Id":null,"AfipSistemaId":0,"Metadata":null,"Content":null,"ErrorMsg":"The request was canceled due to the configured HttpClient.Timeout of 100 seconds elapsing."}' (Nullable = false) (Size = 164)], CommandType='Text', CommandTimeout='30']
+xmlNotificacionLog @LogText
+2023-09-07 17:13:25.9040|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closed connection to database 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21' (305ms).
+2023-09-07 17:13:26.0932|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21'.
+2023-09-07 17:13:26.1652|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposed connection to database '' on server '' (140ms).
+2023-09-07 17:13:26.2262|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Closing data reader to 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21'.
+2023-09-07 17:13:26.3508|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|'SQLServerContext' disposed.
+2023-09-07 17:13:26.3508|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (510ms) [Parameters=[@LogText='{"Id":null,"AfipSistemaId":0,"Metadata":null,"Content":null,"ErrorMsg":"The request was canceled due to the configured HttpClient.Timeout of 100 seconds elapsing."}' (Nullable = false) (Size = 164)], CommandType='Text', CommandTimeout='30']
+xmlNotificacionLog @LogText
+2023-09-07 17:13:26.4122|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closed connection to database 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21' (319ms).
+2023-09-07 17:13:26.5358|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|A data reader for 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21' is being disposed after spending 310ms reading results.
+2023-09-07 17:13:26.5953|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposing connection to database 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21'.
+2023-09-07 17:13:26.6567|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21'.
+2023-09-07 17:13:26.7161|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|'SQLServerContext' disposed.
+2023-09-07 17:13:26.7759|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21'.
+2023-09-07 17:13:26.8368|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposed connection to database '' on server '' (241ms).
+2023-09-07 17:13:26.8971|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closed connection to database 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21' (240ms).
+2023-09-07 17:13:26.9578|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposing connection to database 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21'.
+2023-09-07 17:13:27.0178|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closed connection to database 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21' (241ms).
+2023-09-07 17:13:27.1370|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|'SQLServerContext' disposed.
+2023-09-07 17:13:27.1963|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposed connection to database '' on server '' (238ms).
+2023-09-07 17:13:27.2564|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|'SQLServerContext' disposed.
+2023-09-07 17:13:27.3164|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposing connection to database 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21'.
+2023-09-07 17:13:27.4415|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposing connection to database 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21'.
+2023-09-07 17:13:27.5107|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposed connection to database '' on server '' (194ms).
+2023-09-07 17:13:27.5829|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposed connection to database '' on server '' (141ms).
+2023-09-07 17:13:27.6669|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|'SQLServerContext' disposed.
+2023-09-07 17:13:27.7630|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposing connection to database 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21'.
+2023-09-07 17:13:27.8230|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposed connection to database '' on server '' (59ms).

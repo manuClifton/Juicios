@@ -1,0 +1,106 @@
+{
+  "NLog": {
+    "throwConfigExceptions": true,
+    "targets": {
+      "async": true,
+      "logfile": {
+        "type": "File",
+        "fileName": "c:/Log/nlog-${shortdate}.log",
+        "maxArchiveFiles": 1
+      },
+      "own-console": {
+        "type": "LimitingWrapper",
+        "interval": "00:00:01",
+        "messageLimit": 100,
+        "target": {
+          "type": "ColoredConsole",
+          "layout": "${longdate}|${event-properties:item=EventId_Id:whenEmpty=0}|${uppercase:${level}}|${logger}|${message} ${exception:format=tostring}|${callsite}",
+          "rowHighlightingRules": [
+            {
+              "condition": "level == LogLevel.Error",
+              "foregroundColor": "Red"
+            },
+            {
+              "condition": "level == LogLevel.Fatal",
+              "foregroundColor": "Red",
+              "backgroundColor": "White"
+            }
+          ],
+          "wordHighlightingRules": [
+            {
+              "regex": "on|off",
+              "foregroundColor": "DarkGreen"
+            },
+            {
+              "condition": "level == LogLevel.Debug",
+              "text": "[TEST]",
+              "foregroundColor": "Blue"
+            }
+          ]
+        }
+      },
+      "dbBuffer": {
+        "type": "BufferingWrapper",
+        "bufferSize": 1,
+        "target": {
+          "database": {
+            "type": "Database",
+            "dbProvider": "System.Data.SqlClient",
+            "connectionString": "server=s1-dixx-sql10;Database=LogsApp;user id=usrLogsApp;password=92ede5b3dc/*-;",
+            "keepConnection": "true",
+            "commandType": "StoredProcedure",
+            "commandText": "[dbo].[WriteLog4Net]",
+            "parameters": [
+              {
+                "name": "@App",
+                "layout": "[Worker-VEJuicios-EnvioAfip] - Local"
+              },
+              {
+                "name": "@Log_date",
+                "layout": "${date}"
+              },
+              {
+                "name": "@Thread",
+                "layout": "${threadid}"
+              },
+
+              {
+                "name": "@Level",
+                "layout": "${level}"
+              },
+              {
+                "name": "@Logger",
+                "layout": "${logger}"
+              },
+              {
+                "name": "@Message",
+                "layout": "${message}"
+              },
+              {
+                "name": "@Exception",
+                "layout": "${exception:tostring}"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "rules": [
+      {
+        "logger": "*",
+        "minLevel": "Debug",
+        "writeTo": "dbBuffer"
+      },
+      {
+        "logger": "*",
+        "minLevel": "Debug",
+        "writeTo": "logfile"
+      },
+      {
+        "logger": "*",
+        "minLevel": "Debug",
+        "writeTo": "own-console"
+      }
+    ]
+  }
+}

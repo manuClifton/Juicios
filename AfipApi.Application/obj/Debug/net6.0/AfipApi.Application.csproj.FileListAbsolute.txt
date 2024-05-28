@@ -1,0 +1,15 @@
+C:\Users\Manuel\source\repos\ve-juicios\Main\Source\AfipApi.Application\bin\Debug\net6.0\AfipApi.Application.deps.json
+C:\Users\Manuel\source\repos\ve-juicios\Main\Source\AfipApi.Application\bin\Debug\net6.0\AfipApi.Application.dll
+C:\Users\Manuel\source\repos\ve-juicios\Main\Source\AfipApi.Application\bin\Debug\net6.0\AfipApi.Application.pdb
+C:\Users\Manuel\source\repos\ve-juicios\Main\Source\AfipApi.Application\bin\Debug\net6.0\AfipApi.Domain.dll
+C:\Users\Manuel\source\repos\ve-juicios\Main\Source\AfipApi.Application\bin\Debug\net6.0\AfipApi.Domain.pdb
+C:\Users\Manuel\source\repos\ve-juicios\Main\Source\AfipApi.Application\obj\Debug\net6.0\AfipApi.Application.csproj.AssemblyReference.cache
+C:\Users\Manuel\source\repos\ve-juicios\Main\Source\AfipApi.Application\obj\Debug\net6.0\AfipApi.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Manuel\source\repos\ve-juicios\Main\Source\AfipApi.Application\obj\Debug\net6.0\AfipApi.Application.AssemblyInfoInputs.cache
+C:\Users\Manuel\source\repos\ve-juicios\Main\Source\AfipApi.Application\obj\Debug\net6.0\AfipApi.Application.AssemblyInfo.cs
+C:\Users\Manuel\source\repos\ve-juicios\Main\Source\AfipApi.Application\obj\Debug\net6.0\AfipApi.Application.csproj.CoreCompileInputs.cache
+C:\Users\Manuel\source\repos\ve-juicios\Main\Source\AfipApi.Application\obj\Debug\net6.0\AfipApi.Application.csproj.CopyComplete
+C:\Users\Manuel\source\repos\ve-juicios\Main\Source\AfipApi.Application\obj\Debug\net6.0\AfipApi.Application.dll
+C:\Users\Manuel\source\repos\ve-juicios\Main\Source\AfipApi.Application\obj\Debug\net6.0\refint\AfipApi.Application.dll
+C:\Users\Manuel\source\repos\ve-juicios\Main\Source\AfipApi.Application\obj\Debug\net6.0\AfipApi.Application.pdb
+C:\Users\Manuel\source\repos\ve-juicios\Main\Source\AfipApi.Application\obj\Debug\net6.0\ref\AfipApi.Application.dll

@@ -1,0 +1,490 @@
+2023-06-29 10:51:21.8067|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting
+2023-06-29 10:51:24.8283|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\Manuel\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-06-29 10:51:25.0266|DEBUG|Quartz.Simpl.TaskSchedulingThreadPool|TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler.
+2023-06-29 10:51:25.1255|INFO|Quartz.Core.SchedulerSignalerImpl|Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2023-06-29 10:51:25.1902|INFO|Quartz.Core.QuartzScheduler|Quartz Scheduler created
+2023-06-29 10:51:25.2597|INFO|Quartz.Core.QuartzScheduler|JobFactory set to: Quartz.Simpl.MicrosoftDependencyInjectionJobFactory
+2023-06-29 10:51:25.3246|INFO|Quartz.Simpl.RAMJobStore|RAMJobStore initialized.
+2023-06-29 10:51:25.4079|INFO|Quartz.Core.QuartzScheduler|Scheduler meta-data: Quartz Scheduler (v3.4.0.0) 'Notificaciones' with instanceId 'Scheduler-Notificacion'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.DefaultThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2023-06-29 10:51:25.4806|INFO|Quartz.Impl.StdSchedulerFactory|Quartz scheduler 'Notificaciones' initialized
+2023-06-29 10:51:25.5476|INFO|Quartz.Impl.StdSchedulerFactory|Quartz scheduler version: 3.4.0.0
+2023-06-29 10:51:25.6559|INFO|Quartz.ContainerConfigurationProcessor|Adding 0 jobs, 0 triggers.
+2023-06-29 10:51:25.7478|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\Manuel\AppData\Local\ASP.NET\DataProtection-Keys\key-2f7463d5-09f6-42b0-b038-897a699a3a01.xml'.
+2023-06-29 10:51:25.8744|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\Manuel\AppData\Local\ASP.NET\DataProtection-Keys\key-8a172727-ab68-4caa-a957-f6dbc16963c2.xml'.
+2023-06-29 10:51:25.9649|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\Manuel\AppData\Local\ASP.NET\DataProtection-Keys\key-8c634a91-ae70-4347-8421-cdb79c947157.xml'.
+2023-06-29 10:51:26.0553|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {2f7463d5-09f6-42b0-b038-897a699a3a01}.
+2023-06-29 10:51:26.1271|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {8a172727-ab68-4caa-a957-f6dbc16963c2}.
+2023-06-29 10:51:26.1938|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {8c634a91-ae70-4347-8421-cdb79c947157}.
+2023-06-29 10:51:26.2685|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver|Considering key {8a172727-ab68-4caa-a957-f6dbc16963c2} with expiration date 2023-09-24 14:42:34Z as default key.
+2023-06-29 10:51:26.3371|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-06-29 10:51:26.4052|DEBUG|Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor|Decrypting secret element using Windows DPAPI.
+2023-06-29 10:51:26.4746|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-06-29 10:51:26.9944|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC.
+2023-06-29 10:51:27.0631|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC.
+2023-06-29 10:51:27.1478|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider|Using key {8a172727-ab68-4caa-a957-f6dbc16963c2} as the default key.
+2023-06-29 10:51:27.2136|DEBUG|Microsoft.AspNetCore.DataProtection.Internal.DataProtectionHostedService|Key ring with default key {8a172727-ab68-4caa-a957-f6dbc16963c2} was loaded during application startup.
+2023-06-29 10:51:28.3256|DEBUG|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|Initializing Razor view compiler with no compiled views.
+2023-06-29 10:51:28.4097|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory|Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider
+2023-06-29 10:51:28.9034|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer|Using development certificate: CN=localhost (Thumbprint: 2A56E4850DEE069647BE910EF39C8C149FAF80EE)
+2023-06-29 10:51:29.0435|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001
+2023-06-29 10:51:29.1188|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000
+2023-06-29 10:51:29.1878|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMROKVO70Q9K" accepted.
+2023-06-29 10:51:29.1878|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly AfipApi
+2023-06-29 10:51:29.2455|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMROKVO70Q9L" accepted.
+2023-06-29 10:51:29.2596|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMROKVO70Q9K" started.
+2023-06-29 10:51:29.3236|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-06-29 10:51:29.3896|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMROKVO70Q9L" started.
+2023-06-29 10:51:29.5205|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-06-29 10:51:29.6483|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2023-06-29 10:51:29.6672|INFO|Quartz.Core.QuartzScheduler|Scheduler Notificaciones_$_Scheduler-Notificacion started.
+2023-06-29 10:51:29.6672|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 10:51:29.7114|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2023-06-29 10:51:29.9284|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\Manuel\source\repos\ve-juicios\Main\Source\AfipApi
+2023-06-29 10:51:30.0451|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started
+2023-06-29 10:51:31.1305|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMROKVO70Q9M" accepted.
+2023-06-29 10:51:31.2079|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMROKVO70Q9M" started.
+2023-06-29 10:51:31.8466|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Connection 0HMROKVO70Q9M established using the following protocol: Tls12
+2023-06-29 10:51:32.5161|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2023-06-29 10:51:32.6655|DEBUG|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|Wildcard detected, all requests with hosts will be allowed.
+2023-06-29 10:51:32.8186|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/index.html'
+2023-06-29 10:51:32.8862|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints
+2023-06-29 10:51:33.1393|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup is scheduled to include browser refresh script injection.
+2023-06-29 10:51:33.6584|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - -
+2023-06-29 10:51:33.6584|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup was updated to include browser refresh script injection.
+2023-06-29 10:51:33.8689|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 1287.5529ms
+2023-06-29 10:51:33.8689|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 200 11984 application/javascript;+charset=utf-8 102.0064ms
+2023-06-29 10:51:34.0203|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - -
+2023-06-29 10:51:34.3305|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 310.1197ms
+2023-06-29 10:51:34.6023|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2023-06-29 10:51:34.6730|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/v1/swagger.json'
+2023-06-29 10:51:34.7657|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints
+2023-06-29 10:51:35.0724|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 470.1562ms
+2023-06-29 10:51:36.9901|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMROKVO70Q9M" received FIN.
+2023-06-29 10:51:37.0626|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMROKVO70Q9M" is closed. The last processed stream ID was 7.
+2023-06-29 10:51:37.1922|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMROKVO70Q9M" sending FIN because: "The client closed the connection."
+2023-06-29 10:51:37.3454|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMROKVO70Q9M" stopped.
+2023-06-29 10:51:39.4863|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Authentication of the HTTPS connection timed out.
+2023-06-29 10:51:39.5545|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMROKVO70Q9K" stopped.
+2023-06-29 10:51:39.5994|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Authentication of the HTTPS connection timed out.
+2023-06-29 10:51:39.6202|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMROKVO70Q9K" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-06-29 10:51:39.7193|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMROKVO70Q9L" stopped.
+2023-06-29 10:51:39.8632|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMROKVO70Q9L" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-06-29 10:51:55.9006|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMROKVO70Q9N" accepted.
+2023-06-29 10:51:55.9694|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMROKVO70Q9N" started.
+2023-06-29 10:51:56.0586|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Connection 0HMROKVO70Q9N established using the following protocol: Tls12
+2023-06-29 10:51:56.1335|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/pdf/Descargarpdf?notificacionId=1&popUpFecha=20-03-2023&CopiasSiNo=si - -
+2023-06-29 10:51:56.2058|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/pdf/Descargarpdf'
+2023-06-29 10:51:56.2787|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'AfipApi.Controllers.PdfControllers.GetPDF (AfipApi)' with route pattern 'pdf/Descargarpdf' is valid for the request path '/pdf/Descargarpdf'
+2023-06-29 10:51:56.3579|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'AfipApi.Controllers.PdfControllers.GetPDF (AfipApi)'
+2023-06-29 10:51:56.4415|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'AfipApi.Controllers.PdfControllers.GetPDF (AfipApi)'
+2023-06-29 10:51:56.5695|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetPDF", controller = "PdfControllers"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetPDF(Int32, System.String, System.String) on controller AfipApi.Controllers.PdfControllers (AfipApi).
+2023-06-29 10:51:56.6376|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None
+2023-06-29 10:51:56.7381|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter
+2023-06-29 10:51:56.8158|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2023-06-29 10:51:56.8829|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None
+2023-06-29 10:51:56.9547|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter, Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2023-06-29 10:51:57.0219|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller AfipApi.Controllers.PdfControllers (AfipApi)
+2023-06-29 10:51:57.3439|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-06-29 10:51:57.4474|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller AfipApi.Controllers.PdfControllers (AfipApi)
+2023-06-29 10:51:57.5413|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'notificacionId' of type 'System.Int32' ...
+2023-06-29 10:51:57.6112|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Attempting to bind parameter 'notificacionId' of type 'System.Int32' using the name 'notificacionId' in request data ...
+2023-06-29 10:51:57.6783|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Done attempting to bind parameter 'notificacionId' of type 'System.Int32'.
+2023-06-29 10:51:57.7446|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'notificacionId' of type 'System.Int32'.
+2023-06-29 10:51:57.8088|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'notificacionId' of type 'System.Int32' ...
+2023-06-29 10:51:57.8848|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'notificacionId' of type 'System.Int32'.
+2023-06-29 10:51:57.9531|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'popUpFecha' of type 'System.String' ...
+2023-06-29 10:51:58.0272|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Attempting to bind parameter 'popUpFecha' of type 'System.String' using the name 'popUpFecha' in request data ...
+2023-06-29 10:51:58.0956|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Done attempting to bind parameter 'popUpFecha' of type 'System.String'.
+2023-06-29 10:51:58.1626|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'popUpFecha' of type 'System.String'.
+2023-06-29 10:51:58.2374|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'popUpFecha' of type 'System.String' ...
+2023-06-29 10:51:58.2726|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 10:51:58.3332|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'popUpFecha' of type 'System.String'.
+2023-06-29 10:51:58.4485|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'CopiasSiNo' of type 'System.String' ...
+2023-06-29 10:51:58.5193|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Attempting to bind parameter 'CopiasSiNo' of type 'System.String' using the name 'CopiasSiNo' in request data ...
+2023-06-29 10:51:58.5995|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Done attempting to bind parameter 'CopiasSiNo' of type 'System.String'.
+2023-06-29 10:51:58.6717|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'CopiasSiNo' of type 'System.String'.
+2023-06-29 10:51:58.7427|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'CopiasSiNo' of type 'System.String' ...
+2023-06-29 10:51:58.8098|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'CopiasSiNo' of type 'System.String'.
+2023-06-29 10:52:18.6529|WARN|Microsoft.EntityFrameworkCore.Model.Validation|Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2023-06-29 10:52:18.8645|WARN|Microsoft.EntityFrameworkCore.Model.Validation|No store type was specified for the decimal property 'NotificacionId' on entity type 'Notificacion'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-06-29 10:52:18.9332|WARN|Microsoft.EntityFrameworkCore.Model.Validation|The decimal property 'NotificacionId' is part of a key on entity type 'Notificacion'. If the configured precision and scale don't match the column type in the database, this will cause values to be silently truncated if they do not fit in the default precision and scale. Consider using a different property as the key, or make sure that the database column type matches the model configuration and enable decimal rounding warnings using 'SET NUMERIC_ROUNDABORT ON'.
+2023-06-29 10:52:18.9966|WARN|Microsoft.EntityFrameworkCore.Model.Validation|No store type was specified for the decimal property 'CasoId' on entity type 'Notificacion'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-06-29 10:52:19.0625|WARN|Microsoft.EntityFrameworkCore.Model.Validation|No store type was specified for the decimal property 'MetodoEnvioId' on entity type 'Notificacion'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-06-29 10:52:19.1260|WARN|Microsoft.EntityFrameworkCore.Model.Validation|No store type was specified for the decimal property 'TipoNotificacionId' on entity type 'Notificacion'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-06-29 10:52:19.1907|WARN|Microsoft.EntityFrameworkCore.Model.Validation|No store type was specified for the decimal property 'UsuarioInsertId' on entity type 'Notificacion'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-06-29 10:52:19.2692|WARN|Microsoft.EntityFrameworkCore.Model.Validation|No store type was specified for the decimal property 'UsuarioUpdateId' on entity type 'Notificacion'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-06-29 10:52:19.3381|WARN|Microsoft.EntityFrameworkCore.Model.Validation|No store type was specified for the decimal property 'NotificacionId' on entity type 'VistaNotificacionPDF'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-06-29 10:52:19.4061|WARN|Microsoft.EntityFrameworkCore.Model.Validation|The decimal property 'NotificacionId' is part of a key on entity type 'VistaNotificacionPDF'. If the configured precision and scale don't match the column type in the database, this will cause values to be silently truncated if they do not fit in the default precision and scale. Consider using a different property as the key, or make sure that the database column type matches the model configuration and enable decimal rounding warnings using 'SET NUMERIC_ROUNDABORT ON'.
+2023-06-29 10:52:19.4703|WARN|Microsoft.EntityFrameworkCore.Model.Validation|No store type was specified for the decimal property 'CasoId' on entity type 'VistaNotificacionPDF'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-06-29 10:52:19.7673|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 7.0.8 initialized 'SQLServerContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.8' with options: SensitiveDataLoggingEnabled 
+2023-06-29 10:52:19.9605|DEBUG|Microsoft.EntityFrameworkCore.Query|Compiling query expression: 
+'DbSet<VistaNotificacionPDF>()
+    .SingleOrDefault(x => x.NotificacionId.Equals(__p_0))'
+2023-06-29 10:52:20.5513|DEBUG|Microsoft.EntityFrameworkCore.Query|Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<VistaNotificacionPDF>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: VistaNotificacionPDF.NotificacionId (decimal) Required PK AfterSave:Throw, 0], [Property: VistaNotificacionPDF.CasoId (decimal) Required, 1], [Property: VistaNotificacionPDF.EstadoId (int) Required, 2], [Property: VistaNotificacionPDF.ParteId (long) Required, 3], [Property: VistaNotificacionPDF.PersonaId (long) Required, 4] }
+        SELECT TOP(2) v.NotificacionId, v.CasoId, v.EstadoId, v.ParteId, v.PersonaId
+        FROM vNotificacionPDF AS v
+        WHERE v.NotificacionId == @__p_0), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, VistaNotificacionPDF>, 
+    AfipApi.Infrastructure.SQLServerContext, 
+    False, 
+    False, 
+    True
+)
+    .SingleOrDefault()'
+2023-06-29 10:52:20.7042|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteReader'.
+2023-06-29 10:52:20.7824|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Creating DbConnection.
+2023-06-29 10:52:20.9261|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Created DbConnection. (141ms).
+2023-06-29 10:52:21.0225|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteReader' (309ms).
+2023-06-29 10:52:21.1154|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Initialized DbCommand for 'ExecuteReader' (413ms).
+2023-06-29 10:52:21.1872|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21'.
+2023-06-29 10:52:22.4083|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21'.
+2023-06-29 10:52:22.5007|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[@__p_0='1' (Precision = 18) (Scale = 2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [v].[NotificacionId], [v].[CasoId], [v].[EstadoId], [v].[ParteId], [v].[PersonaId]
+FROM [vNotificacionPDF] AS [v]
+WHERE [v].[NotificacionId] = @__p_0
+2023-06-29 10:52:23.1169|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (631ms) [Parameters=[@__p_0='1' (Precision = 18) (Scale = 2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [v].[NotificacionId], [v].[CasoId], [v].[EstadoId], [v].[ParteId], [v].[PersonaId]
+FROM [vNotificacionPDF] AS [v]
+WHERE [v].[NotificacionId] = @__p_0
+2023-06-29 10:52:23.2620|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'SQLServerContext' started tracking 'VistaNotificacionPDF' entity with key '{NotificacionId: 1}'.
+2023-06-29 10:52:23.3660|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Closing data reader to 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21'.
+2023-06-29 10:52:23.4647|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|A data reader for 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21' is being disposed after spending 270ms reading results.
+2023-06-29 10:52:23.5553|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21'.
+2023-06-29 10:52:23.6451|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closed connection to database 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21' (88ms).
+2023-06-29 10:52:24.1269|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.FileContentResultExecutor|Executing FileContentResult, sending file with download name 'Notificacion.pdf' ...
+2023-06-29 10:52:24.1972|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.FileContentResultExecutor|The file result has not been enabled for processing range requests. To enable it, set the EnableRangeProcessing property on the result to 'true'.
+2023-06-29 10:52:24.2830|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action AfipApi.Controllers.PdfControllers.GetPDF (AfipApi) in 27253.0278ms
+2023-06-29 10:52:24.3557|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'AfipApi.Controllers.PdfControllers.GetPDF (AfipApi)'
+2023-06-29 10:52:24.4402|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|'SQLServerContext' disposed.
+2023-06-29 10:52:24.5285|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposing connection to database 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21'.
+2023-06-29 10:52:24.5955|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposed connection to database '' on server '' (67ms).
+2023-06-29 10:52:24.6822|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/pdf/Descargarpdf?notificacionId=1&popUpFecha=20-03-2023&CopiasSiNo=si - - - 200 30388 application/pdf 28548.6588ms
+2023-06-29 10:52:24.9879|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 10:52:27.0360|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMROKVO70Q9N" received FIN.
+2023-06-29 10:52:27.1225|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMROKVO70Q9N" is closed. The last processed stream ID was 1.
+2023-06-29 10:52:27.1913|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMROKVO70Q9N" sending FIN because: "The client closed the connection."
+2023-06-29 10:52:27.2903|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMROKVO70Q9N" stopped.
+2023-06-29 10:52:51.6498|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 10:53:17.5954|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 10:53:46.0038|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 10:54:11.1983|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 10:54:36.9345|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 10:55:04.9997|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 10:55:32.1802|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 10:55:57.0437|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 10:56:25.9972|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 10:56:49.9584|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 10:57:14.2424|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 10:57:43.5459|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 10:58:08.2676|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 10:58:32.6731|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 10:58:58.3094|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 10:59:22.0961|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 10:59:51.0807|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 11:00:20.4992|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 11:00:46.1746|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 11:01:13.5640|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 11:01:43.1015|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 11:02:12.3913|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 11:02:36.6776|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 11:03:05.9397|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 11:03:29.2428|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 11:03:56.2887|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 11:04:21.9565|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 11:04:51.3212|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 11:05:20.1983|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 11:05:43.6757|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 11:06:09.3301|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 11:06:38.9879|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 11:07:02.7189|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 11:07:27.6821|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 11:07:51.3019|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 11:08:20.6891|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 11:08:44.7883|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 11:09:13.9010|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 11:09:38.1965|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 11:10:02.3184|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 11:10:31.4677|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 11:10:57.1979|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 11:11:23.7769|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 11:11:48.2333|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 11:12:11.7415|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 11:12:40.2955|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 11:13:07.3526|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 11:13:33.3718|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 11:13:58.2750|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 11:14:25.7821|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 11:14:55.3307|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 11:15:21.3447|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 11:15:49.7857|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 11:16:15.7814|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 11:16:43.9957|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 11:17:09.3859|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 11:17:34.2748|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 11:18:03.1381|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 11:18:27.9878|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 11:18:53.3026|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 11:19:33.0135|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 11:20:15.3157|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 11:20:57.3946|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 11:21:40.7621|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 11:22:22.0213|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 11:23:04.6279|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 11:23:48.0039|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 11:24:27.6672|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 11:25:07.7747|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 11:25:49.7143|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 11:26:31.3192|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 11:27:12.8964|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 11:27:53.6215|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 11:28:38.0049|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 11:29:22.6660|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 11:30:04.8883|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 11:30:45.8943|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 11:31:29.9523|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 11:32:10.0853|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 11:32:54.3812|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 11:33:34.3852|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 11:34:14.4907|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 11:34:52.8695|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 11:35:32.4946|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 11:36:11.1803|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 11:36:52.1166|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 11:37:31.8640|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 11:38:10.2198|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 11:38:50.8539|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 11:39:31.4091|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 11:40:15.6138|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 11:40:59.7880|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 11:41:44.5547|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 11:42:24.4780|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 11:43:08.7285|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 11:43:51.6964|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 11:44:34.5956|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 11:45:15.9824|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 11:45:55.6892|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 11:46:36.6482|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 11:47:19.2971|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 11:48:01.2750|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 11:48:39.9765|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 11:49:21.3155|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 11:50:00.8479|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 11:50:41.8799|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 11:51:20.1431|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 11:52:04.5580|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 11:52:46.9481|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 11:53:28.7173|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 11:54:09.3073|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 11:54:51.8736|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 11:55:31.1775|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 11:56:09.5924|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 11:56:51.6726|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 11:57:31.2322|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 11:58:12.1505|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 11:58:53.0188|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 11:59:35.2983|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 12:00:17.4535|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 12:00:57.3212|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 12:01:40.7519|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 12:02:23.7335|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 12:03:06.3490|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 12:03:46.3753|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 12:04:26.8977|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 12:05:05.8223|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 12:05:45.2778|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 12:06:29.5016|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 12:07:09.8828|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 12:07:54.2815|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 12:08:36.2303|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 12:09:18.8694|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 12:10:03.5293|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 12:10:47.9868|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 12:11:29.9900|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 12:12:11.4971|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 12:12:50.6224|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 12:13:32.5862|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 12:14:16.0899|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 12:15:01.1260|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 12:15:44.8726|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 12:16:29.0648|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 12:17:12.1136|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 12:17:52.4061|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 12:18:32.8385|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 12:19:15.8484|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 12:19:57.1995|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 12:20:36.1742|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 12:21:15.2328|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 12:21:55.1871|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 12:22:36.3881|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 12:23:16.1165|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 12:23:58.7741|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 12:24:40.7946|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 12:25:21.4749|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 12:26:04.9955|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 12:26:50.1416|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 12:27:28.3550|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 12:28:07.9404|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 12:28:49.2416|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 12:29:29.8450|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 12:30:08.7663|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 12:30:51.7250|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 12:31:34.6037|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 12:32:13.9942|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 12:32:57.8080|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 12:33:41.2677|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 12:34:19.5459|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 12:35:01.8072|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 12:35:43.2500|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 12:36:23.9857|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 12:37:07.5593|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 12:37:52.1591|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 12:38:32.9975|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 12:39:16.2158|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 12:39:58.1640|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 12:40:40.7308|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 12:41:24.8891|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 12:42:06.8133|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 12:42:51.9695|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 12:43:32.4315|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 12:44:16.8613|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 12:44:55.6614|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 12:45:37.3963|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 12:46:16.0204|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 12:46:56.0764|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 12:47:38.7346|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 12:48:18.3445|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 12:48:57.0719|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 12:49:38.6806|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 12:50:19.1011|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 12:51:01.8110|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 12:51:42.0713|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 12:52:24.4184|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 12:53:05.5041|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 12:53:47.9675|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 12:54:32.2384|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 12:55:12.9376|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 12:55:55.8377|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 12:56:38.4502|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 12:57:20.0787|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 12:57:58.3503|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 12:58:42.0702|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 12:59:22.4683|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 13:00:05.5432|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 13:00:48.0798|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 13:01:26.3962|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 13:02:11.0594|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 13:02:54.4371|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 13:03:36.4840|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 13:04:15.9019|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 13:04:59.6966|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 13:05:38.5388|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 13:06:19.3672|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 13:06:59.7511|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 13:07:43.1089|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 13:08:21.8302|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 13:09:01.9620|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 13:09:42.1551|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 13:10:20.6116|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 13:11:01.6943|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 13:11:45.5409|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 13:12:29.5175|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 13:13:12.6730|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 13:13:56.2014|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 13:14:35.2317|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 13:15:18.0904|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 13:15:58.6501|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 13:16:40.8806|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 13:17:20.0506|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 13:18:02.9187|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 13:18:41.8466|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 13:19:22.9664|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 13:20:03.8449|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 13:20:43.2081|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 13:21:22.1143|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 13:21:45.7323|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 13:22:12.8306|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 13:22:37.5035|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 13:23:01.6326|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 13:23:24.9953|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 13:23:51.0016|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 13:24:17.8377|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 13:24:43.3486|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 13:25:11.3236|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 13:25:40.9968|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 13:26:07.4016|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 13:26:35.9975|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 13:27:01.8171|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 13:27:26.5264|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 13:27:55.4140|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 13:28:18.7867|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 13:28:45.0950|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 13:29:15.0317|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 13:29:42.7738|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 13:29:55.4778|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMROKVO70Q9O" accepted.
+2023-06-29 13:29:55.5472|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMROKVO70Q9O" started.
+2023-06-29 13:29:55.6468|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Connection 0HMROKVO70Q9O established using the following protocol: Tls12
+2023-06-29 13:29:55.7446|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/pdf/Descargarpdf?notificacionId=1&popUpFecha=20-03-2023&CopiasSiNo=si - -
+2023-06-29 13:29:55.8406|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/pdf/Descargarpdf'
+2023-06-29 13:29:55.9144|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'AfipApi.Controllers.PdfControllers.GetPDF (AfipApi)' with route pattern 'pdf/Descargarpdf' is valid for the request path '/pdf/Descargarpdf'
+2023-06-29 13:29:56.0511|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'AfipApi.Controllers.PdfControllers.GetPDF (AfipApi)'
+2023-06-29 13:29:56.1499|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'AfipApi.Controllers.PdfControllers.GetPDF (AfipApi)'
+2023-06-29 13:29:56.2561|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetPDF", controller = "PdfControllers"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetPDF(Int32, System.String, System.String) on controller AfipApi.Controllers.PdfControllers (AfipApi).
+2023-06-29 13:29:56.3247|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None
+2023-06-29 13:29:56.4180|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter
+2023-06-29 13:29:56.5038|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2023-06-29 13:29:56.6029|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None
+2023-06-29 13:29:56.7416|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter, Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2023-06-29 13:29:56.8261|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller AfipApi.Controllers.PdfControllers (AfipApi)
+2023-06-29 13:29:56.9735|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller AfipApi.Controllers.PdfControllers (AfipApi)
+2023-06-29 13:29:57.0665|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'notificacionId' of type 'System.Int32' ...
+2023-06-29 13:29:57.1416|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Attempting to bind parameter 'notificacionId' of type 'System.Int32' using the name 'notificacionId' in request data ...
+2023-06-29 13:29:57.2202|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Done attempting to bind parameter 'notificacionId' of type 'System.Int32'.
+2023-06-29 13:29:57.3006|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'notificacionId' of type 'System.Int32'.
+2023-06-29 13:29:57.3845|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'notificacionId' of type 'System.Int32' ...
+2023-06-29 13:29:57.4571|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'notificacionId' of type 'System.Int32'.
+2023-06-29 13:29:57.5305|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'popUpFecha' of type 'System.String' ...
+2023-06-29 13:29:57.6101|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Attempting to bind parameter 'popUpFecha' of type 'System.String' using the name 'popUpFecha' in request data ...
+2023-06-29 13:29:57.6857|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Done attempting to bind parameter 'popUpFecha' of type 'System.String'.
+2023-06-29 13:29:57.7738|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'popUpFecha' of type 'System.String'.
+2023-06-29 13:29:57.8938|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'popUpFecha' of type 'System.String' ...
+2023-06-29 13:29:57.9670|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'popUpFecha' of type 'System.String'.
+2023-06-29 13:29:58.0530|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'CopiasSiNo' of type 'System.String' ...
+2023-06-29 13:29:58.1237|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Attempting to bind parameter 'CopiasSiNo' of type 'System.String' using the name 'CopiasSiNo' in request data ...
+2023-06-29 13:29:58.2075|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Done attempting to bind parameter 'CopiasSiNo' of type 'System.String'.
+2023-06-29 13:29:58.2816|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'CopiasSiNo' of type 'System.String'.
+2023-06-29 13:29:58.3511|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'CopiasSiNo' of type 'System.String' ...
+2023-06-29 13:29:58.4221|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'CopiasSiNo' of type 'System.String'.
+2023-06-29 13:30:17.1979|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-29 13:30:17.3149|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 7.0.8 initialized 'SQLServerContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.8' with options: SensitiveDataLoggingEnabled 
+2023-06-29 13:30:17.5244|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteReader'.
+2023-06-29 13:30:17.6042|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Creating DbConnection.
+2023-06-29 13:30:17.6782|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Created DbConnection. (73ms).
+2023-06-29 13:30:17.7720|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteReader' (252ms).
+2023-06-29 13:30:17.8453|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Initialized DbCommand for 'ExecuteReader' (325ms).
+2023-06-29 13:30:17.9175|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21'.
+2023-06-29 13:30:18.3160|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21'.
+2023-06-29 13:30:18.3940|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[@__p_0='1' (Precision = 18) (Scale = 2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [v].[NotificacionId], [v].[CasoId], [v].[EstadoId], [v].[ParteId], [v].[PersonaId]
+FROM [vNotificacionPDF] AS [v]
+WHERE [v].[NotificacionId] = @__p_0
+2023-06-29 13:30:18.5504|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (158ms) [Parameters=[@__p_0='1' (Precision = 18) (Scale = 2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [v].[NotificacionId], [v].[CasoId], [v].[EstadoId], [v].[ParteId], [v].[PersonaId]
+FROM [vNotificacionPDF] AS [v]
+WHERE [v].[NotificacionId] = @__p_0
+2023-06-29 13:30:18.6231|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'SQLServerContext' started tracking 'VistaNotificacionPDF' entity with key '{NotificacionId: 1}'.
+2023-06-29 13:30:18.6880|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Closing data reader to 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21'.
+2023-06-29 13:30:18.7563|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|A data reader for 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21' is being disposed after spending 138ms reading results.
+2023-06-29 13:30:18.8343|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21'.

@@ -1,0 +1,17 @@
+C:\Users\Manuel\Source\Repos\ve-juicios\Main\Source\VEJuicios.Infraestructure\bin\Debug\net6.0\VEJuicios.Infraestructure.deps.json
+C:\Users\Manuel\Source\Repos\ve-juicios\Main\Source\VEJuicios.Infraestructure\bin\Debug\net6.0\VEJuicios.Infraestructure.dll
+C:\Users\Manuel\Source\Repos\ve-juicios\Main\Source\VEJuicios.Infraestructure\bin\Debug\net6.0\VEJuicios.Infraestructure.pdb
+C:\Users\Manuel\Source\Repos\ve-juicios\Main\Source\VEJuicios.Infraestructure\bin\Debug\net6.0\VEJuicios.Domain.dll
+C:\Users\Manuel\Source\Repos\ve-juicios\Main\Source\VEJuicios.Infraestructure\bin\Debug\net6.0\VEJuicios.Domain.pdb
+C:\Users\Manuel\Source\Repos\ve-juicios\Main\Source\VEJuicios.Infraestructure\obj\Debug\net6.0\VEJuicios.Infraestructure.csproj.AssemblyReference.cache
+C:\Users\Manuel\Source\Repos\ve-juicios\Main\Source\VEJuicios.Infraestructure\obj\Debug\net6.0\VEJuicios.Infraestructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Manuel\Source\Repos\ve-juicios\Main\Source\VEJuicios.Infraestructure\obj\Debug\net6.0\VEJuicios.Infraestructure.AssemblyInfoInputs.cache
+C:\Users\Manuel\Source\Repos\ve-juicios\Main\Source\VEJuicios.Infraestructure\obj\Debug\net6.0\VEJuicios.Infraestructure.AssemblyInfo.cs
+C:\Users\Manuel\Source\Repos\ve-juicios\Main\Source\VEJuicios.Infraestructure\obj\Debug\net6.0\VEJuicios.Infraestructure.csproj.CoreCompileInputs.cache
+C:\Users\Manuel\Source\Repos\ve-juicios\Main\Source\VEJuicios.Infraestructure\obj\Debug\net6.0\VEJuicios.Infraestructure.csproj.CopyComplete
+C:\Users\Manuel\Source\Repos\ve-juicios\Main\Source\VEJuicios.Infraestructure\obj\Debug\net6.0\VEJuicios.Infraestructure.dll
+C:\Users\Manuel\Source\Repos\ve-juicios\Main\Source\VEJuicios.Infraestructure\obj\Debug\net6.0\refint\VEJuicios.Infraestructure.dll
+C:\Users\Manuel\Source\Repos\ve-juicios\Main\Source\VEJuicios.Infraestructure\obj\Debug\net6.0\VEJuicios.Infraestructure.pdb
+C:\Users\Manuel\Source\Repos\ve-juicios\Main\Source\VEJuicios.Infraestructure\obj\Debug\net6.0\ref\VEJuicios.Infraestructure.dll
+C:\Users\Manuel\source\repos\ve-juicios\Main\Source\VEJuicios.Infraestructure\bin\Debug\net6.0\VEJuicios.Infraestructure.runtimeconfig.json
+C:\Users\Manuel\source\repos\ve-juicios\Main\Source\VEJuicios.Infraestructure\obj\Debug\net6.0\VEJuicios.Infraestructure.genruntimeconfig.cache

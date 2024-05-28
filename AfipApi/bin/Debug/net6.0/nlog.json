@@ -1,0 +1,68 @@
+{
+    "NLog": {
+        "throwConfigExceptions": true,
+        "targets": {
+            "async": true,
+          "logfile": {
+            "type": "File",
+            "fileName": ".\\Logs\\nlog-${shortdate}.log"
+          },
+            "dbBuffer": {
+                "type": "BufferingWrapper",
+                "bufferSize": "5",
+                "target": {
+                    "database": {
+                        "type": "Database",
+                        "dbProvider": "System.Data.SqlClient",
+                        "connectionString": "server=s1-dixx-sql10;Database=LogsApp;user id=usrLogsApp;password=92ede5b3dc/*-;",
+                        "keepConnection": "true",
+                        "commandType": "StoredProcedure",
+                        "commandText": "[dbo].[WriteLog4Net]",
+                        "parameters": [
+                          {
+                            "name": "@App",
+                            "layout": "[ve-juicios] - Local"
+                          },
+                            {
+                                "name": "@Log_date",
+                                "layout": "${date}"
+                            },
+                            {
+                                "name": "@Thread",
+                                "layout": "${threadid}"
+                            },
+                            {
+                                "name": "@Level",
+                                "layout": "${level}"
+                            },
+                            {
+                                "name": "@Logger",
+                                "layout": "${logger}"
+                            },
+                            {
+                                "name": "@Message",
+                                "layout": "${message}"
+                            },
+                            {
+                                "name": "@Exception",
+                                "layout": "${exception:tostring}"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "rules": [
+            {
+                "logger": "*",
+                "minLevel": "Debug",
+                "writeTo": "database"
+            },
+            {
+                "logger": "*",
+                "minLevel": "Debug",
+                "writeTo": "logfile"
+            }
+        ]
+    }
+}

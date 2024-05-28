@@ -1,0 +1,61 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Manuel\\source\\repos\\ve-juicios\\Main\\Source\\VEJuicios\\wwwroot\\css\\swagger.css",
+      "PackagePath": "staticwebassets\\css\\swagger.css"
+    },
+    {
+      "Id": "C:\\Users\\Manuel\\source\\repos\\ve-juicios\\Main\\Source\\VEJuicios\\wwwroot\\favicon-16x16.png",
+      "PackagePath": "staticwebassets\\favicon-16x16.png"
+    },
+    {
+      "Id": "C:\\Users\\Manuel\\source\\repos\\ve-juicios\\Main\\Source\\VEJuicios\\wwwroot\\favicon-32x32.png",
+      "PackagePath": "staticwebassets\\favicon-32x32.png"
+    },
+    {
+      "Id": "C:\\Users\\Manuel\\source\\repos\\ve-juicios\\Main\\Source\\VEJuicios\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\Manuel\\source\\repos\\ve-juicios\\Main\\Source\\VEJuicios\\wwwroot\\images\\LogoMinCapitalHumanoBn.png",
+      "PackagePath": "staticwebassets\\images\\LogoMinCapitalHumanoBn.png"
+    },
+    {
+      "Id": "C:\\Users\\Manuel\\source\\repos\\ve-juicios\\Main\\Source\\VEJuicios\\wwwroot\\images\\favicon.png",
+      "PackagePath": "staticwebassets\\images\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\Manuel\\source\\repos\\ve-juicios\\Main\\Source\\VEJuicios\\wwwroot\\images\\logo.png",
+      "PackagePath": "staticwebassets\\images\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\Manuel\\source\\repos\\ve-juicios\\Main\\Source\\VEJuicios\\wwwroot\\swagger\\favicon-16x16.png",
+      "PackagePath": "staticwebassets\\swagger\\favicon-16x16.png"
+    },
+    {
+      "Id": "C:\\Users\\Manuel\\source\\repos\\ve-juicios\\Main\\Source\\VEJuicios\\wwwroot\\swagger\\favicon-32x32.png",
+      "PackagePath": "staticwebassets\\swagger\\favicon-32x32.png"
+    },
+    {
+      "Id": "C:\\Users\\Manuel\\source\\repos\\ve-juicios\\Main\\Source\\VEJuicios\\wwwroot\\swagger\\favicon.png",
+      "PackagePath": "staticwebassets\\swagger\\favicon.png"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.VEJuicios.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.VEJuicios.props",
+      "PackagePath": "build\\VEJuicios.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.VEJuicios.props",
+      "PackagePath": "buildMultiTargeting\\VEJuicios.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.VEJuicios.props",
+      "PackagePath": "buildTransitive\\VEJuicios.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

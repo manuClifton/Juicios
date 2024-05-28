@@ -1,0 +1,12 @@
+C:\Users\Manuel\Source\Repos\ve-juicios\Main\Source\VEJuicios.Domain\bin\Debug\net6.0\VEJuicios.Domain.deps.json
+C:\Users\Manuel\Source\Repos\ve-juicios\Main\Source\VEJuicios.Domain\bin\Debug\net6.0\VEJuicios.Domain.dll
+C:\Users\Manuel\Source\Repos\ve-juicios\Main\Source\VEJuicios.Domain\bin\Debug\net6.0\VEJuicios.Domain.pdb
+C:\Users\Manuel\Source\Repos\ve-juicios\Main\Source\VEJuicios.Domain\obj\Debug\net6.0\VEJuicios.Domain.csproj.AssemblyReference.cache
+C:\Users\Manuel\Source\Repos\ve-juicios\Main\Source\VEJuicios.Domain\obj\Debug\net6.0\VEJuicios.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Manuel\Source\Repos\ve-juicios\Main\Source\VEJuicios.Domain\obj\Debug\net6.0\VEJuicios.Domain.AssemblyInfoInputs.cache
+C:\Users\Manuel\Source\Repos\ve-juicios\Main\Source\VEJuicios.Domain\obj\Debug\net6.0\VEJuicios.Domain.AssemblyInfo.cs
+C:\Users\Manuel\Source\Repos\ve-juicios\Main\Source\VEJuicios.Domain\obj\Debug\net6.0\VEJuicios.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Manuel\Source\Repos\ve-juicios\Main\Source\VEJuicios.Domain\obj\Debug\net6.0\VEJuicios.Domain.dll
+C:\Users\Manuel\Source\Repos\ve-juicios\Main\Source\VEJuicios.Domain\obj\Debug\net6.0\refint\VEJuicios.Domain.dll
+C:\Users\Manuel\Source\Repos\ve-juicios\Main\Source\VEJuicios.Domain\obj\Debug\net6.0\VEJuicios.Domain.pdb
+C:\Users\Manuel\Source\Repos\ve-juicios\Main\Source\VEJuicios.Domain\obj\Debug\net6.0\ref\VEJuicios.Domain.dll

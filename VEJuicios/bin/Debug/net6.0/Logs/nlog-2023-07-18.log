@@ -1,0 +1,3 @@
+2023-07-18 00:00:02.4136|INFO|VEJuicios.Worker.Worker|Worker running at: 07/18/2023 00:00:02 -03:00
+2023-07-18 00:00:08.4564|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-07-18 00:00:23.7817|INFO|VEJuicios.Worker.Worker|Worker running at: 07/18/2023 00:00:23 -03:00

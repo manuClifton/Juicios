@@ -1,0 +1,974 @@
+2023-07-12 14:16:25.4139|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting
+2023-07-12 14:16:29.0259|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\Manuel\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-07-12 14:16:29.7691|DEBUG|Quartz.Simpl.TaskSchedulingThreadPool|TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler.
+2023-07-12 14:16:29.8828|INFO|Quartz.Core.SchedulerSignalerImpl|Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2023-07-12 14:16:29.9469|INFO|Quartz.Core.QuartzScheduler|Quartz Scheduler created
+2023-07-12 14:16:30.0116|INFO|Quartz.Core.QuartzScheduler|JobFactory set to: Quartz.Simpl.MicrosoftDependencyInjectionJobFactory
+2023-07-12 14:16:30.0768|INFO|Quartz.Simpl.RAMJobStore|RAMJobStore initialized.
+2023-07-12 14:16:30.1484|INFO|Quartz.Core.QuartzScheduler|Scheduler meta-data: Quartz Scheduler (v3.4.0.0) 'Notificaciones' with instanceId 'Scheduler-Notificacion'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.DefaultThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2023-07-12 14:16:30.2140|INFO|Quartz.Impl.StdSchedulerFactory|Quartz scheduler 'Notificaciones' initialized
+2023-07-12 14:16:30.2825|INFO|Quartz.Impl.StdSchedulerFactory|Quartz scheduler version: 3.4.0.0
+2023-07-12 14:16:30.4286|INFO|Quartz.ContainerConfigurationProcessor|Adding 0 jobs, 0 triggers.
+2023-07-12 14:16:30.5087|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\Manuel\AppData\Local\ASP.NET\DataProtection-Keys\key-2f7463d5-09f6-42b0-b038-897a699a3a01.xml'.
+2023-07-12 14:16:30.6666|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\Manuel\AppData\Local\ASP.NET\DataProtection-Keys\key-8a172727-ab68-4caa-a957-f6dbc16963c2.xml'.
+2023-07-12 14:16:30.7585|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\Manuel\AppData\Local\ASP.NET\DataProtection-Keys\key-8c634a91-ae70-4347-8421-cdb79c947157.xml'.
+2023-07-12 14:16:30.8532|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {2f7463d5-09f6-42b0-b038-897a699a3a01}.
+2023-07-12 14:16:30.9242|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {8a172727-ab68-4caa-a957-f6dbc16963c2}.
+2023-07-12 14:16:30.9912|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {8c634a91-ae70-4347-8421-cdb79c947157}.
+2023-07-12 14:16:31.0682|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver|Considering key {8a172727-ab68-4caa-a957-f6dbc16963c2} with expiration date 2023-09-24 14:42:34Z as default key.
+2023-07-12 14:16:31.1394|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-07-12 14:16:31.2100|DEBUG|Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor|Decrypting secret element using Windows DPAPI.
+2023-07-12 14:16:31.2898|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-07-12 14:16:31.8073|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC.
+2023-07-12 14:16:31.8769|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC.
+2023-07-12 14:16:31.9476|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider|Using key {8a172727-ab68-4caa-a957-f6dbc16963c2} as the default key.
+2023-07-12 14:16:32.0121|DEBUG|Microsoft.AspNetCore.DataProtection.Internal.DataProtectionHostedService|Key ring with default key {8a172727-ab68-4caa-a957-f6dbc16963c2} was loaded during application startup.
+2023-07-12 14:16:33.0238|DEBUG|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|Initializing Razor view compiler with no compiled views.
+2023-07-12 14:16:33.1081|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory|Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider
+2023-07-12 14:16:33.6947|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer|Using development certificate: CN=localhost (Thumbprint: 2A56E4850DEE069647BE910EF39C8C149FAF80EE)
+2023-07-12 14:16:33.9384|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001
+2023-07-12 14:16:33.9746|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMS2VEV0HAA1" accepted.
+2023-07-12 14:16:34.0036|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000
+2023-07-12 14:16:34.0726|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMS2VEV0HAA1" started.
+2023-07-12 14:16:34.1348|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly VEJuicios
+2023-07-12 14:16:34.2659|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-07-12 14:16:34.3305|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-07-12 14:16:34.3305|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMS2VEV0HAA2" accepted.
+2023-07-12 14:16:34.3945|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2023-07-12 14:16:34.4145|INFO|Quartz.Core.QuartzScheduler|Scheduler Notificaciones_$_Scheduler-Notificacion started.
+2023-07-12 14:16:34.4208|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-07-12 14:16:34.4585|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMS2VEV0HAA2" started.
+2023-07-12 14:16:34.5274|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2023-07-12 14:16:34.7850|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\Manuel\source\repos\ve-juicios\Main\Source\VEJuicios
+2023-07-12 14:16:34.8550|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started
+2023-07-12 14:16:35.6344|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMS2VEV0HAA3" accepted.
+2023-07-12 14:16:35.7189|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMS2VEV0HAA3" started.
+2023-07-12 14:16:35.7189|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMS2VEV0HAA4" accepted.
+2023-07-12 14:16:35.8482|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMS2VEV0HAA4" started.
+2023-07-12 14:16:35.9090|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Connection 0HMS2VEV0HAA3 established using the following protocol: Tls12
+2023-07-12 14:16:35.9213|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Connection 0HMS2VEV0HAA4 established using the following protocol: Tls12
+2023-07-12 14:16:36.1065|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2023-07-12 14:16:36.2178|DEBUG|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|Wildcard detected, all requests with hosts will be allowed.
+2023-07-12 14:16:36.2875|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /swagger/index.html does not match an existing file
+2023-07-12 14:16:36.3993|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/index.html'
+2023-07-12 14:16:36.4639|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints
+2023-07-12 14:16:36.6553|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup is scheduled to include browser refresh script injection.
+2023-07-12 14:16:36.7903|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMS2VEV0HAA4" received FIN.
+2023-07-12 14:16:36.8611|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMS2VEV0HAA4" is closed. The last processed stream ID was 0.
+2023-07-12 14:16:36.9259|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMS2VEV0HAA4" sending FIN because: "The client closed the connection."
+2023-07-12 14:16:37.0009|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMS2VEV0HAA4" stopped.
+2023-07-12 14:16:37.2186|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - -
+2023-07-12 14:16:37.2310|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup was updated to include browser refresh script injection.
+2023-07-12 14:16:37.3059|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 200 11988 application/javascript;+charset=utf-8 85.0946ms
+2023-07-12 14:16:37.3580|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 1259.1170ms
+2023-07-12 14:16:37.6333|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - -
+2023-07-12 14:16:38.2433|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 607.8750ms
+2023-07-12 14:16:38.3911|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2023-07-12 14:16:38.4675|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /swagger/v1/swagger.json does not match an existing file
+2023-07-12 14:16:38.5464|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/v1/swagger.json'
+2023-07-12 14:16:38.6109|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints
+2023-07-12 14:16:38.9736|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 582.4767ms
+2023-07-12 14:16:41.7905|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMS2VEV0HAA3" received FIN.
+2023-07-12 14:16:41.8551|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMS2VEV0HAA3" is closed. The last processed stream ID was 7.
+2023-07-12 14:16:41.9196|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMS2VEV0HAA3" sending FIN because: "The client closed the connection."
+2023-07-12 14:16:41.9954|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMS2VEV0HAA3" stopped.
+2023-07-12 14:16:44.2626|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Authentication of the HTTPS connection timed out.
+2023-07-12 14:16:44.3254|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMS2VEV0HAA1" stopped.
+2023-07-12 14:16:44.3916|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMS2VEV0HAA1" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-07-12 14:16:44.7188|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Authentication of the HTTPS connection timed out.
+2023-07-12 14:16:44.7829|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMS2VEV0HAA2" stopped.
+2023-07-12 14:16:44.8458|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMS2VEV0HAA2" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-07-12 14:16:58.1103|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-07-12 14:17:22.1071|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-07-12 14:17:51.1199|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-07-12 14:18:12.9120|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMS2VEV0HAA5" accepted.
+2023-07-12 14:18:12.9913|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMS2VEV0HAA5" started.
+2023-07-12 14:18:13.0680|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Connection 0HMS2VEV0HAA5 established using the following protocol: Tls12
+2023-07-12 14:18:13.1351|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:5001/DescargarPDF?notificacionId=7&popUpFecha=20-03-2023&CopiasSiNo=0&userId=10&tipoNotificacionId=4 - 0
+2023-07-12 14:18:13.1992|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|POST requests are not supported
+2023-07-12 14:18:13.2674|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/DescargarPDF'
+2023-07-12 14:18:13.3424|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'VEJuicios.Controllers.PdfControllers.GetPdfNotificacion (VEJuicios)' with route pattern 'DescargarPDF' is valid for the request path '/DescargarPDF'
+2023-07-12 14:18:13.4137|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'VEJuicios.Controllers.PdfControllers.GetPdfNotificacion (VEJuicios)'
+2023-07-12 14:18:13.4798|DEBUG|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The request has an origin header: 'https://localhost:5001'.
+2023-07-12 14:18:13.5442|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful.
+2023-07-12 14:18:13.6144|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'VEJuicios.Controllers.PdfControllers.GetPdfNotificacion (VEJuicios)'
+2023-07-12 14:18:13.7396|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetPdfNotificacion", controller = "PdfControllers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetPdfNotificacion(Int32, System.String, System.String, Int32, Int32) on controller VEJuicios.Controllers.PdfControllers (VEJuicios).
+2023-07-12 14:18:13.8052|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None
+2023-07-12 14:18:13.8692|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter
+2023-07-12 14:18:13.9342|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2023-07-12 14:18:13.9998|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None
+2023-07-12 14:18:14.0642|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter, Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2023-07-12 14:18:14.1305|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller VEJuicios.Controllers.PdfControllers (VEJuicios)
+2023-07-12 14:18:15.1955|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-07-12 14:18:15.3107|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller VEJuicios.Controllers.PdfControllers (VEJuicios)
+2023-07-12 14:18:15.4093|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'notificacionId' of type 'System.Int32' ...
+2023-07-12 14:18:15.4825|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Attempting to bind parameter 'notificacionId' of type 'System.Int32' using the name 'notificacionId' in request data ...
+2023-07-12 14:18:15.5490|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Done attempting to bind parameter 'notificacionId' of type 'System.Int32'.
+2023-07-12 14:18:15.6147|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'notificacionId' of type 'System.Int32'.
+2023-07-12 14:18:15.6803|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'notificacionId' of type 'System.Int32' ...
+2023-07-12 14:18:15.7494|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'notificacionId' of type 'System.Int32'.
+2023-07-12 14:18:15.8148|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'popUpFecha' of type 'System.String' ...
+2023-07-12 14:18:15.8885|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Attempting to bind parameter 'popUpFecha' of type 'System.String' using the name 'popUpFecha' in request data ...
+2023-07-12 14:18:15.9580|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Done attempting to bind parameter 'popUpFecha' of type 'System.String'.
+2023-07-12 14:18:16.0236|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'popUpFecha' of type 'System.String'.
+2023-07-12 14:18:16.0874|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'popUpFecha' of type 'System.String' ...
+2023-07-12 14:18:16.1530|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'popUpFecha' of type 'System.String'.
+2023-07-12 14:18:16.2163|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'CopiasSiNo' of type 'System.String' ...
+2023-07-12 14:18:16.2812|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Attempting to bind parameter 'CopiasSiNo' of type 'System.String' using the name 'CopiasSiNo' in request data ...
+2023-07-12 14:18:16.3458|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Done attempting to bind parameter 'CopiasSiNo' of type 'System.String'.
+2023-07-12 14:18:16.4100|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'CopiasSiNo' of type 'System.String'.
+2023-07-12 14:18:16.4534|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-07-12 14:18:16.4871|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'CopiasSiNo' of type 'System.String' ...
+2023-07-12 14:18:16.6150|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'CopiasSiNo' of type 'System.String'.
+2023-07-12 14:18:16.6796|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'userId' of type 'System.Int32' ...
+2023-07-12 14:18:16.7442|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Attempting to bind parameter 'userId' of type 'System.Int32' using the name 'userId' in request data ...
+2023-07-12 14:18:16.8075|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Done attempting to bind parameter 'userId' of type 'System.Int32'.
+2023-07-12 14:18:16.8709|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'userId' of type 'System.Int32'.
+2023-07-12 14:18:16.9346|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'userId' of type 'System.Int32' ...
+2023-07-12 14:18:16.9980|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'userId' of type 'System.Int32'.
+2023-07-12 14:18:17.0650|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'tipoNotificacionId' of type 'System.Int32' ...
+2023-07-12 14:18:17.1283|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Attempting to bind parameter 'tipoNotificacionId' of type 'System.Int32' using the name 'tipoNotificacionId' in request data ...
+2023-07-12 14:18:17.1947|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Done attempting to bind parameter 'tipoNotificacionId' of type 'System.Int32'.
+2023-07-12 14:18:17.2593|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'tipoNotificacionId' of type 'System.Int32'.
+2023-07-12 14:18:17.3231|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'tipoNotificacionId' of type 'System.Int32' ...
+2023-07-12 14:18:17.3881|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'tipoNotificacionId' of type 'System.Int32'.
+2023-07-12 14:18:26.5962|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter
+2023-07-12 14:18:26.6717|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|No information found on request to perform content negotiation.
+2023-07-12 14:18:26.7376|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2023-07-12 14:18:26.8137|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select the first formatter in the output formatters list which can write the result.
+2023-07-12 14:18:26.8805|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/plain' to write the response.
+2023-07-12 14:18:26.9455|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing NotFoundObjectResult, writing value of type 'System.String'.
+2023-07-12 14:18:27.0230|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action VEJuicios.Controllers.PdfControllers.GetPdfNotificacion (VEJuicios) in 12886.9314ms
+2023-07-12 14:18:27.0885|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'VEJuicios.Controllers.PdfControllers.GetPdfNotificacion (VEJuicios)'
+2023-07-12 14:18:27.1704|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 POST https://localhost:5001/DescargarPDF?notificacionId=7&popUpFecha=20-03-2023&CopiasSiNo=0&userId=10&tipoNotificacionId=4 - 0 - 404 - text/plain;+charset=utf-8 14035.3360ms
+2023-07-12 14:18:31.8204|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMS2VEV0HAA5" received FIN.
+2023-07-12 14:18:31.8842|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMS2VEV0HAA5" is closed. The last processed stream ID was 1.
+2023-07-12 14:18:31.9491|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMS2VEV0HAA5" sending FIN because: "The client closed the connection."
+2023-07-12 14:18:32.0254|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMS2VEV0HAA5" stopped.
+2023-07-12 14:18:45.9178|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-07-12 14:19:05.7465|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting
+2023-07-12 14:19:06.7520|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\Manuel\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-07-12 14:19:06.9910|DEBUG|Quartz.Simpl.TaskSchedulingThreadPool|TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler.
+2023-07-12 14:19:07.0961|INFO|Quartz.Core.SchedulerSignalerImpl|Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2023-07-12 14:19:07.1626|INFO|Quartz.Core.QuartzScheduler|Quartz Scheduler created
+2023-07-12 14:19:07.2281|INFO|Quartz.Core.QuartzScheduler|JobFactory set to: Quartz.Simpl.MicrosoftDependencyInjectionJobFactory
+2023-07-12 14:19:07.2945|INFO|Quartz.Simpl.RAMJobStore|RAMJobStore initialized.
+2023-07-12 14:19:07.3683|INFO|Quartz.Core.QuartzScheduler|Scheduler meta-data: Quartz Scheduler (v3.4.0.0) 'Notificaciones' with instanceId 'Scheduler-Notificacion'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.DefaultThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2023-07-12 14:19:07.4345|INFO|Quartz.Impl.StdSchedulerFactory|Quartz scheduler 'Notificaciones' initialized
+2023-07-12 14:19:07.4996|INFO|Quartz.Impl.StdSchedulerFactory|Quartz scheduler version: 3.4.0.0
+2023-07-12 14:19:07.6363|INFO|Quartz.ContainerConfigurationProcessor|Adding 0 jobs, 0 triggers.
+2023-07-12 14:19:07.7224|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\Manuel\AppData\Local\ASP.NET\DataProtection-Keys\key-2f7463d5-09f6-42b0-b038-897a699a3a01.xml'.
+2023-07-12 14:19:07.8150|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\Manuel\AppData\Local\ASP.NET\DataProtection-Keys\key-8a172727-ab68-4caa-a957-f6dbc16963c2.xml'.
+2023-07-12 14:19:07.8809|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\Manuel\AppData\Local\ASP.NET\DataProtection-Keys\key-8c634a91-ae70-4347-8421-cdb79c947157.xml'.
+2023-07-12 14:19:07.9615|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {2f7463d5-09f6-42b0-b038-897a699a3a01}.
+2023-07-12 14:19:08.0388|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {8a172727-ab68-4caa-a957-f6dbc16963c2}.
+2023-07-12 14:19:08.1027|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {8c634a91-ae70-4347-8421-cdb79c947157}.
+2023-07-12 14:19:08.1819|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver|Considering key {8a172727-ab68-4caa-a957-f6dbc16963c2} with expiration date 2023-09-24 14:42:34Z as default key.
+2023-07-12 14:19:08.2522|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-07-12 14:19:08.3212|DEBUG|Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor|Decrypting secret element using Windows DPAPI.
+2023-07-12 14:19:08.3885|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-07-12 14:19:08.4606|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC.
+2023-07-12 14:19:08.5317|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC.
+2023-07-12 14:19:08.5993|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider|Using key {8a172727-ab68-4caa-a957-f6dbc16963c2} as the default key.
+2023-07-12 14:19:08.6652|DEBUG|Microsoft.AspNetCore.DataProtection.Internal.DataProtectionHostedService|Key ring with default key {8a172727-ab68-4caa-a957-f6dbc16963c2} was loaded during application startup.
+2023-07-12 14:19:08.9597|DEBUG|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|Initializing Razor view compiler with no compiled views.
+2023-07-12 14:19:09.0471|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory|Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider
+2023-07-12 14:19:09.4632|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer|Using development certificate: CN=localhost (Thumbprint: 2A56E4850DEE069647BE910EF39C8C149FAF80EE)
+2023-07-12 14:19:09.6108|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001
+2023-07-12 14:19:09.6774|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000
+2023-07-12 14:19:09.6891|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMS2VGDDHOSV" accepted.
+2023-07-12 14:19:09.7151|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMS2VGDDHOSV" received FIN.
+2023-07-12 14:19:09.7457|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly VEJuicios
+2023-07-12 14:19:09.8108|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMS2VGDDHOSV" started.
+2023-07-12 14:19:09.9394|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-07-12 14:19:10.0772|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-07-12 14:19:10.0896|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Failed to authenticate HTTPS connection.|System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-07-12 14:19:10.1457|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2023-07-12 14:19:10.7460|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2023-07-12 14:19:10.2868|INFO|Quartz.Core.QuartzScheduler|Scheduler Notificaciones_$_Scheduler-Notificacion started.
+2023-07-12 14:19:10.5859|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMS2VGDDHOT0" accepted.
+2023-07-12 14:19:10.6941|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMS2VGDDHOSV" stopped.
+2023-07-12 14:19:10.8100|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\Manuel\source\repos\ve-juicios\Main\Source\VEJuicios
+2023-07-12 14:19:10.3400|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-07-12 14:19:11.0103|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMS2VGDDHOSV" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-07-12 14:19:10.9376|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMS2VGDDHOT0" started.
+2023-07-12 14:19:11.0697|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started
+2023-07-12 14:19:11.3304|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Connection 0HMS2VGDDHOT0 established using the following protocol: Tls12
+2023-07-12 14:19:11.5008|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2023-07-12 14:19:11.6183|DEBUG|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|Wildcard detected, all requests with hosts will be allowed.
+2023-07-12 14:19:11.6877|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /swagger/index.html does not match an existing file
+2023-07-12 14:19:11.7903|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/index.html'
+2023-07-12 14:19:11.8550|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints
+2023-07-12 14:19:12.0618|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup is scheduled to include browser refresh script injection.
+2023-07-12 14:19:12.4011|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - -
+2023-07-12 14:19:12.4011|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup was updated to include browser refresh script injection.
+2023-07-12 14:19:12.4935|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 200 11988 application/javascript;+charset=utf-8 90.3603ms
+2023-07-12 14:19:12.5614|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 1065.1648ms
+2023-07-12 14:19:12.7145|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - -
+2023-07-12 14:19:12.8672|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 152.7372ms
+2023-07-12 14:19:13.0116|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2023-07-12 14:19:13.0780|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /swagger/v1/swagger.json does not match an existing file
+2023-07-12 14:19:13.1480|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/v1/swagger.json'
+2023-07-12 14:19:13.2128|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints
+2023-07-12 14:19:13.9220|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 910.4585ms
+2023-07-12 14:19:16.9004|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMS2VGDDHOT0" received FIN.
+2023-07-12 14:19:16.9728|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMS2VGDDHOT0" is closed. The last processed stream ID was 7.
+2023-07-12 14:19:17.0456|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMS2VGDDHOT0" sending FIN because: "The client closed the connection."
+2023-07-12 14:19:17.1251|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMS2VGDDHOT0" stopped.
+2023-07-12 14:19:36.1565|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-07-12 14:20:01.5668|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-07-12 14:20:25.7647|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-07-12 14:20:34.0669|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMS2VGDDHOT1" accepted.
+2023-07-12 14:20:34.1315|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMS2VGDDHOT1" started.
+2023-07-12 14:20:34.2275|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Connection 0HMS2VGDDHOT1 established using the following protocol: Tls12
+2023-07-12 14:20:34.2940|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:5001/DescargarPDF?notificacionId=7&popUpFecha=20-03-2023&CopiasSiNo=0&userId=10&tipoNotificacionId=4 - 0
+2023-07-12 14:20:34.3584|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|POST requests are not supported
+2023-07-12 14:20:34.4320|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/DescargarPDF'
+2023-07-12 14:20:34.5059|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'VEJuicios.Controllers.PdfControllers.GetPdfNotificacion (VEJuicios)' with route pattern 'DescargarPDF' is valid for the request path '/DescargarPDF'
+2023-07-12 14:20:34.5714|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'VEJuicios.Controllers.PdfControllers.GetPdfNotificacion (VEJuicios)'
+2023-07-12 14:20:34.6669|DEBUG|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The request has an origin header: 'https://localhost:5001'.
+2023-07-12 14:20:34.7312|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful.
+2023-07-12 14:20:34.8011|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'VEJuicios.Controllers.PdfControllers.GetPdfNotificacion (VEJuicios)'
+2023-07-12 14:20:34.9426|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetPdfNotificacion", controller = "PdfControllers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetPdfNotificacion(Int32, System.String, System.String, Int32, Int32) on controller VEJuicios.Controllers.PdfControllers (VEJuicios).
+2023-07-12 14:20:35.0089|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None
+2023-07-12 14:20:35.0760|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter
+2023-07-12 14:20:35.1399|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2023-07-12 14:20:35.2053|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None
+2023-07-12 14:20:35.2695|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter, Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2023-07-12 14:20:35.3498|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller VEJuicios.Controllers.PdfControllers (VEJuicios)
+2023-07-12 14:20:35.7215|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-07-12 14:20:35.8332|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller VEJuicios.Controllers.PdfControllers (VEJuicios)
+2023-07-12 14:20:35.9548|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'notificacionId' of type 'System.Int32' ...
+2023-07-12 14:20:36.0411|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Attempting to bind parameter 'notificacionId' of type 'System.Int32' using the name 'notificacionId' in request data ...
+2023-07-12 14:20:36.1103|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Done attempting to bind parameter 'notificacionId' of type 'System.Int32'.
+2023-07-12 14:20:36.1749|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'notificacionId' of type 'System.Int32'.
+2023-07-12 14:20:36.2419|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'notificacionId' of type 'System.Int32' ...
+2023-07-12 14:20:36.3088|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'notificacionId' of type 'System.Int32'.
+2023-07-12 14:20:36.3752|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'popUpFecha' of type 'System.String' ...
+2023-07-12 14:20:36.4392|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Attempting to bind parameter 'popUpFecha' of type 'System.String' using the name 'popUpFecha' in request data ...
+2023-07-12 14:20:36.5058|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Done attempting to bind parameter 'popUpFecha' of type 'System.String'.
+2023-07-12 14:20:36.5724|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'popUpFecha' of type 'System.String'.
+2023-07-12 14:20:36.6369|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'popUpFecha' of type 'System.String' ...
+2023-07-12 14:20:36.7058|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'popUpFecha' of type 'System.String'.
+2023-07-12 14:20:36.7713|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'CopiasSiNo' of type 'System.String' ...
+2023-07-12 14:20:36.8360|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Attempting to bind parameter 'CopiasSiNo' of type 'System.String' using the name 'CopiasSiNo' in request data ...
+2023-07-12 14:20:36.9018|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Done attempting to bind parameter 'CopiasSiNo' of type 'System.String'.
+2023-07-12 14:20:36.9661|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'CopiasSiNo' of type 'System.String'.
+2023-07-12 14:20:37.0311|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'CopiasSiNo' of type 'System.String' ...
+2023-07-12 14:20:37.0961|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'CopiasSiNo' of type 'System.String'.
+2023-07-12 14:20:37.1599|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'userId' of type 'System.Int32' ...
+2023-07-12 14:20:37.2270|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Attempting to bind parameter 'userId' of type 'System.Int32' using the name 'userId' in request data ...
+2023-07-12 14:20:37.2911|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Done attempting to bind parameter 'userId' of type 'System.Int32'.
+2023-07-12 14:20:37.3558|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'userId' of type 'System.Int32'.
+2023-07-12 14:20:37.4195|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'userId' of type 'System.Int32' ...
+2023-07-12 14:20:37.4865|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'userId' of type 'System.Int32'.
+2023-07-12 14:20:37.5626|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'tipoNotificacionId' of type 'System.Int32' ...
+2023-07-12 14:20:37.6269|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Attempting to bind parameter 'tipoNotificacionId' of type 'System.Int32' using the name 'tipoNotificacionId' in request data ...
+2023-07-12 14:20:37.6908|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Done attempting to bind parameter 'tipoNotificacionId' of type 'System.Int32'.
+2023-07-12 14:20:37.7557|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'tipoNotificacionId' of type 'System.Int32'.
+2023-07-12 14:20:37.8204|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'tipoNotificacionId' of type 'System.Int32' ...
+2023-07-12 14:20:37.8850|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'tipoNotificacionId' of type 'System.Int32'.
+2023-07-12 14:20:52.0891|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-07-12 14:24:43.3188|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting
+2023-07-12 14:24:44.3625|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\Manuel\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-07-12 14:24:44.6141|DEBUG|Quartz.Simpl.TaskSchedulingThreadPool|TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler.
+2023-07-12 14:24:44.7152|INFO|Quartz.Core.SchedulerSignalerImpl|Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2023-07-12 14:24:44.7802|INFO|Quartz.Core.QuartzScheduler|Quartz Scheduler created
+2023-07-12 14:24:44.8467|INFO|Quartz.Core.QuartzScheduler|JobFactory set to: Quartz.Simpl.MicrosoftDependencyInjectionJobFactory
+2023-07-12 14:24:44.9117|INFO|Quartz.Simpl.RAMJobStore|RAMJobStore initialized.
+2023-07-12 14:24:44.9829|INFO|Quartz.Core.QuartzScheduler|Scheduler meta-data: Quartz Scheduler (v3.4.0.0) 'Notificaciones' with instanceId 'Scheduler-Notificacion'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.DefaultThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2023-07-12 14:24:45.0519|INFO|Quartz.Impl.StdSchedulerFactory|Quartz scheduler 'Notificaciones' initialized
+2023-07-12 14:24:45.1343|INFO|Quartz.Impl.StdSchedulerFactory|Quartz scheduler version: 3.4.0.0
+2023-07-12 14:24:45.2389|INFO|Quartz.ContainerConfigurationProcessor|Adding 0 jobs, 0 triggers.
+2023-07-12 14:24:45.3182|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\Manuel\AppData\Local\ASP.NET\DataProtection-Keys\key-2f7463d5-09f6-42b0-b038-897a699a3a01.xml'.
+2023-07-12 14:24:45.4090|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\Manuel\AppData\Local\ASP.NET\DataProtection-Keys\key-8a172727-ab68-4caa-a957-f6dbc16963c2.xml'.
+2023-07-12 14:24:45.4756|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\Manuel\AppData\Local\ASP.NET\DataProtection-Keys\key-8c634a91-ae70-4347-8421-cdb79c947157.xml'.
+2023-07-12 14:24:45.5503|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {2f7463d5-09f6-42b0-b038-897a699a3a01}.
+2023-07-12 14:24:45.6258|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {8a172727-ab68-4caa-a957-f6dbc16963c2}.
+2023-07-12 14:24:45.6918|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {8c634a91-ae70-4347-8421-cdb79c947157}.
+2023-07-12 14:24:45.7654|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver|Considering key {8a172727-ab68-4caa-a957-f6dbc16963c2} with expiration date 2023-09-24 14:42:34Z as default key.
+2023-07-12 14:24:45.8340|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-07-12 14:24:45.9013|DEBUG|Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor|Decrypting secret element using Windows DPAPI.
+2023-07-12 14:24:45.9675|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-07-12 14:24:46.0392|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC.
+2023-07-12 14:24:46.1077|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC.
+2023-07-12 14:24:46.1826|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider|Using key {8a172727-ab68-4caa-a957-f6dbc16963c2} as the default key.
+2023-07-12 14:24:46.2470|DEBUG|Microsoft.AspNetCore.DataProtection.Internal.DataProtectionHostedService|Key ring with default key {8a172727-ab68-4caa-a957-f6dbc16963c2} was loaded during application startup.
+2023-07-12 14:24:46.5457|DEBUG|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|Initializing Razor view compiler with no compiled views.
+2023-07-12 14:24:46.6317|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory|Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider
+2023-07-12 14:24:47.1100|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer|Using development certificate: CN=localhost (Thumbprint: 2A56E4850DEE069647BE910EF39C8C149FAF80EE)
+2023-07-12 14:24:47.2856|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001
+2023-07-12 14:24:47.3104|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMS2VJI1BA06" accepted.
+2023-07-12 14:24:47.3104|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMS2VJI1BA06" received FIN.
+2023-07-12 14:24:47.3496|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000
+2023-07-12 14:24:47.4155|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMS2VJI1BA06" started.
+2023-07-12 14:24:47.5426|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly VEJuicios
+2023-07-12 14:24:47.6801|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-07-12 14:24:47.7020|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Failed to authenticate HTTPS connection.|System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-07-12 14:24:47.7456|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-07-12 14:24:47.9090|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMS2VJI1BA06" stopped.
+2023-07-12 14:24:47.9640|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2023-07-12 14:24:48.0036|INFO|Quartz.Core.QuartzScheduler|Scheduler Notificaciones_$_Scheduler-Notificacion started.
+2023-07-12 14:24:48.0993|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2023-07-12 14:24:48.3232|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\Manuel\source\repos\ve-juicios\Main\Source\VEJuicios
+2023-07-12 14:24:48.0329|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMS2VJI1BA06" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-07-12 14:24:48.2438|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMS2VJI1BA07" accepted.
+2023-07-12 14:24:48.0108|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-07-12 14:24:48.3924|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started
+2023-07-12 14:24:48.5275|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMS2VJI1BA07" started.
+2023-07-12 14:24:48.8415|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Connection 0HMS2VJI1BA07 established using the following protocol: Tls12
+2023-07-12 14:24:49.0386|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2023-07-12 14:24:49.1787|DEBUG|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|Wildcard detected, all requests with hosts will be allowed.
+2023-07-12 14:24:49.2460|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /swagger/index.html does not match an existing file
+2023-07-12 14:24:49.3535|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/index.html'
+2023-07-12 14:24:49.4194|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints
+2023-07-12 14:24:49.6365|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup is scheduled to include browser refresh script injection.
+2023-07-12 14:24:50.0680|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - -
+2023-07-12 14:24:50.0922|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup was updated to include browser refresh script injection.
+2023-07-12 14:24:50.1579|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 200 11988 application/javascript;+charset=utf-8 85.0052ms
+2023-07-12 14:24:50.2103|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 1184.1713ms
+2023-07-12 14:24:50.4538|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - -
+2023-07-12 14:24:50.7661|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 312.2349ms
+2023-07-12 14:24:51.1690|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2023-07-12 14:24:51.2391|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /swagger/v1/swagger.json does not match an existing file
+2023-07-12 14:24:51.3084|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/v1/swagger.json'
+2023-07-12 14:24:51.3762|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints
+2023-07-12 14:24:52.0777|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 908.6539ms
+2023-07-12 14:24:52.4596|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMS2VJI1BA07" received FIN.
+2023-07-12 14:24:52.5393|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMS2VJI1BA07" is closed. The last processed stream ID was 7.
+2023-07-12 14:24:52.6035|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMS2VJI1BA07" sending FIN because: "The client closed the connection."
+2023-07-12 14:24:52.6767|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMS2VJI1BA07" stopped.
+2023-07-12 14:25:17.7682|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-07-12 14:25:47.4447|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-07-12 14:26:14.7296|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-07-12 14:26:44.3917|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-07-12 14:27:07.5735|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-07-12 14:27:34.7155|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-07-12 14:28:04.0606|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-07-12 14:28:31.2724|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-07-12 14:28:59.0137|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-07-12 14:29:10.4211|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMS2VJI1BA08" accepted.
+2023-07-12 14:29:10.4880|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMS2VJI1BA08" started.
+2023-07-12 14:29:10.5688|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Connection 0HMS2VJI1BA08 established using the following protocol: Tls12
+2023-07-12 14:29:10.6377|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:5001/DescargarPDF?notificacionId=7&popUpFecha=20-03-2023&CopiasSiNo=0&userId=10&tipoNotificacionId=4 - 0
+2023-07-12 14:29:10.7045|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|POST requests are not supported
+2023-07-12 14:29:10.7869|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/DescargarPDF'
+2023-07-12 14:29:10.8658|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'VEJuicios.Controllers.PdfControllers.GetPdfNotificacion (VEJuicios)' with route pattern 'DescargarPDF' is valid for the request path '/DescargarPDF'
+2023-07-12 14:29:10.9311|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'VEJuicios.Controllers.PdfControllers.GetPdfNotificacion (VEJuicios)'
+2023-07-12 14:29:10.9996|DEBUG|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The request has an origin header: 'https://localhost:5001'.
+2023-07-12 14:29:11.0658|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful.
+2023-07-12 14:29:11.1351|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'VEJuicios.Controllers.PdfControllers.GetPdfNotificacion (VEJuicios)'
+2023-07-12 14:29:11.2925|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetPdfNotificacion", controller = "PdfControllers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetPdfNotificacion(Int32, System.String, System.String, Int32, Int32) on controller VEJuicios.Controllers.PdfControllers (VEJuicios).
+2023-07-12 14:29:11.3626|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None
+2023-07-12 14:29:11.4270|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter
+2023-07-12 14:29:11.4945|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2023-07-12 14:29:11.5589|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None
+2023-07-12 14:29:11.6230|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter, Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2023-07-12 14:29:11.6896|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller VEJuicios.Controllers.PdfControllers (VEJuicios)
+2023-07-12 14:29:12.0938|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-07-12 14:29:12.2293|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller VEJuicios.Controllers.PdfControllers (VEJuicios)
+2023-07-12 14:29:12.3286|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'notificacionId' of type 'System.Int32' ...
+2023-07-12 14:29:12.3992|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Attempting to bind parameter 'notificacionId' of type 'System.Int32' using the name 'notificacionId' in request data ...
+2023-07-12 14:29:12.4673|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Done attempting to bind parameter 'notificacionId' of type 'System.Int32'.
+2023-07-12 14:29:12.5315|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'notificacionId' of type 'System.Int32'.
+2023-07-12 14:29:12.5988|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'notificacionId' of type 'System.Int32' ...
+2023-07-12 14:29:12.6685|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'notificacionId' of type 'System.Int32'.
+2023-07-12 14:29:12.7350|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'popUpFecha' of type 'System.String' ...
+2023-07-12 14:29:12.8010|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Attempting to bind parameter 'popUpFecha' of type 'System.String' using the name 'popUpFecha' in request data ...
+2023-07-12 14:29:12.8661|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Done attempting to bind parameter 'popUpFecha' of type 'System.String'.
+2023-07-12 14:29:12.9311|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'popUpFecha' of type 'System.String'.
+2023-07-12 14:29:12.9948|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'popUpFecha' of type 'System.String' ...
+2023-07-12 14:29:13.0840|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'popUpFecha' of type 'System.String'.
+2023-07-12 14:29:13.1501|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'CopiasSiNo' of type 'System.String' ...
+2023-07-12 14:29:13.2157|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Attempting to bind parameter 'CopiasSiNo' of type 'System.String' using the name 'CopiasSiNo' in request data ...
+2023-07-12 14:29:13.2804|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Done attempting to bind parameter 'CopiasSiNo' of type 'System.String'.
+2023-07-12 14:29:13.3441|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'CopiasSiNo' of type 'System.String'.
+2023-07-12 14:29:13.4197|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'CopiasSiNo' of type 'System.String' ...
+2023-07-12 14:29:13.4837|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'CopiasSiNo' of type 'System.String'.
+2023-07-12 14:29:13.5473|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'userId' of type 'System.Int32' ...
+2023-07-12 14:29:13.6126|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Attempting to bind parameter 'userId' of type 'System.Int32' using the name 'userId' in request data ...
+2023-07-12 14:29:13.6764|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Done attempting to bind parameter 'userId' of type 'System.Int32'.
+2023-07-12 14:29:13.7412|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'userId' of type 'System.Int32'.
+2023-07-12 14:29:13.8045|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'userId' of type 'System.Int32' ...
+2023-07-12 14:29:13.8783|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'userId' of type 'System.Int32'.
+2023-07-12 14:29:13.9465|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'tipoNotificacionId' of type 'System.Int32' ...
+2023-07-12 14:29:14.0108|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Attempting to bind parameter 'tipoNotificacionId' of type 'System.Int32' using the name 'tipoNotificacionId' in request data ...
+2023-07-12 14:29:14.0792|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Done attempting to bind parameter 'tipoNotificacionId' of type 'System.Int32'.
+2023-07-12 14:29:14.1470|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'tipoNotificacionId' of type 'System.Int32'.
+2023-07-12 14:29:14.2118|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'tipoNotificacionId' of type 'System.Int32' ...
+2023-07-12 14:29:14.2767|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'tipoNotificacionId' of type 'System.Int32'.
+2023-07-12 14:29:27.3793|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-07-12 14:29:52.1647|WARN|Microsoft.EntityFrameworkCore.Model.Validation|Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2023-07-12 14:29:52.4028|WARN|Microsoft.EntityFrameworkCore.Model.Validation|No store type was specified for the decimal property 'NotificacionId' on entity type 'Notificacion'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-07-12 14:29:52.4696|WARN|Microsoft.EntityFrameworkCore.Model.Validation|The decimal property 'NotificacionId' is part of a key on entity type 'Notificacion'. If the configured precision and scale don't match the column type in the database, this will cause values to be silently truncated if they do not fit in the default precision and scale. Consider using a different property as the key, or make sure that the database column type matches the model configuration and enable decimal rounding warnings using 'SET NUMERIC_ROUNDABORT ON'.
+2023-07-12 14:29:53.2376|WARN|Microsoft.EntityFrameworkCore.Model.Validation|No store type was specified for the decimal property 'CasoId' on entity type 'Notificacion'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-07-12 14:29:53.3032|WARN|Microsoft.EntityFrameworkCore.Model.Validation|No store type was specified for the decimal property 'MetodoEnvioId' on entity type 'Notificacion'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-07-12 14:29:53.3676|WARN|Microsoft.EntityFrameworkCore.Model.Validation|No store type was specified for the decimal property 'TipoNotificacionId' on entity type 'Notificacion'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-07-12 14:29:53.4325|WARN|Microsoft.EntityFrameworkCore.Model.Validation|No store type was specified for the decimal property 'UsuarioInsertId' on entity type 'Notificacion'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-07-12 14:29:53.5020|WARN|Microsoft.EntityFrameworkCore.Model.Validation|No store type was specified for the decimal property 'UsuarioUpdateId' on entity type 'Notificacion'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-07-12 14:29:53.5661|WARN|Microsoft.EntityFrameworkCore.Model.Validation|No store type was specified for the decimal property 'ArchivoId' on entity type 'NotificacionArchivoTemporal'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-07-12 14:29:53.6316|WARN|Microsoft.EntityFrameworkCore.Model.Validation|The decimal property 'ArchivoId' is part of a key on entity type 'NotificacionArchivoTemporal'. If the configured precision and scale don't match the column type in the database, this will cause values to be silently truncated if they do not fit in the default precision and scale. Consider using a different property as the key, or make sure that the database column type matches the model configuration and enable decimal rounding warnings using 'SET NUMERIC_ROUNDABORT ON'.
+2023-07-12 14:29:53.6975|WARN|Microsoft.EntityFrameworkCore.Model.Validation|No store type was specified for the decimal property 'NotificacionId' on entity type 'NotificacionArchivoTemporal'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-07-12 14:29:53.7639|WARN|Microsoft.EntityFrameworkCore.Model.Validation|No store type was specified for the decimal property 'UsuarioInsertId' on entity type 'NotificacionArchivoTemporal'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-07-12 14:29:53.8300|WARN|Microsoft.EntityFrameworkCore.Model.Validation|No store type was specified for the decimal property 'UsuarioUpdateId' on entity type 'NotificacionArchivoTemporal'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-07-12 14:29:53.8987|WARN|Microsoft.EntityFrameworkCore.Model.Validation|No store type was specified for the decimal property 'NotificacionId' on entity type 'VistaNotificacionPDF'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-07-12 14:29:53.9654|WARN|Microsoft.EntityFrameworkCore.Model.Validation|The decimal property 'NotificacionId' is part of a key on entity type 'VistaNotificacionPDF'. If the configured precision and scale don't match the column type in the database, this will cause values to be silently truncated if they do not fit in the default precision and scale. Consider using a different property as the key, or make sure that the database column type matches the model configuration and enable decimal rounding warnings using 'SET NUMERIC_ROUNDABORT ON'.
+2023-07-12 14:29:54.4057|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 7.0.8 initialized 'SQLServerContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.8' with options: SensitiveDataLoggingEnabled 
+2023-07-12 14:29:54.6245|DEBUG|Microsoft.EntityFrameworkCore.Query|Compiling query expression: 
+'DbSet<VistaNotificacionPDF>()
+    .FirstOrDefault(x => x.NotificacionId.Equals(__p_0))'
+2023-07-12 14:29:54.7672|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-07-12 14:29:55.4995|DEBUG|Microsoft.EntityFrameworkCore.Query|Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<VistaNotificacionPDF>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: VistaNotificacionPDF.NotificacionId (decimal) Required PK AfterSave:Throw, 0], [Property: VistaNotificacionPDF.AbogadoCelular (string), 1], [Property: VistaNotificacionPDF.AbogadoEmail (string), 2], [Property: VistaNotificacionPDF.AbogadoFolio (string), 3], [Property: VistaNotificacionPDF.AbogadoNombre (string), 4], [Property: VistaNotificacionPDF.AbogadoTelefono (string), 5], [Property: VistaNotificacionPDF.AbogadoTomo (string), 6], [Property: VistaNotificacionPDF.CasoAutos (string), 7], [Property: VistaNotificacionPDF.CasoExpedienteJudicial (string), 8], [Property: VistaNotificacionPDF.CasoFechaSentencia (DateTime?), 9], [Property: VistaNotificacionPDF.FueroDescripcion (string), 10], [Property: VistaNotificacionPDF.JurisdiccionDescripcion (string), 11], [Property: VistaNotificacionPDF.JuzgadoDescripcion (string), 12], [Property: VistaNotificacionPDF.JuzgadoDireccion (string), 13], [Property: VistaNotificacionPDF.JuzgadoJuez (string), 14], [Property: VistaNotificacionPDF.ParteDireccion (string), 15], [Property: VistaNotificacionPDF.PersonaNombre (string), 16], [Property: VistaNotificacionPDF.SecretariaDescripcion (string), 17], [Property: VistaNotificacionPDF.TipoNotificacionCodigo (string), 18] }
+        SELECT TOP(1) v.NotificacionId, v.AbogadoCelular, v.AbogadoEmail, v.AbogadoFolio, v.AbogadoNombre, v.AbogadoTelefono, v.AbogadoTomo, v.CasoAutos, v.CasoExpedienteJudicial, v.CasoFechaSentencia, v.FueroDescripcion, v.JurisdiccionDescripcion, v.JuzgadoDescripcion, v.JuzgadoDireccion, v.JuzgadoJuez, v.ParteDireccion, v.PersonaNombre, v.SecretariaDescripcion, v.TipoNotificacionCodigo
+        FROM vNotificacionPDF AS v
+        WHERE v.NotificacionId == @__p_0), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, VistaNotificacionPDF>, 
+    VEJuicios.Infrastructure.SQLServerContext, 
+    False, 
+    False, 
+    True
+)
+    .SingleOrDefault()'
+2023-07-12 14:29:55.6566|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteReader'.
+2023-07-12 14:29:55.7321|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Creating DbConnection.
+2023-07-12 14:29:55.8715|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Created DbConnection. (137ms).
+2023-07-12 14:29:55.9508|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteReader' (296ms).
+2023-07-12 14:29:56.0500|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Initialized DbCommand for 'ExecuteReader' (396ms).
+2023-07-12 14:29:56.1237|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21'.
+2023-07-12 14:29:57.2609|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21'.
+2023-07-12 14:29:57.3711|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[@__p_0='7' (Precision = 18) (Scale = 2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [v].[NotificacionId], [v].[AbogadoCelular], [v].[AbogadoEmail], [v].[AbogadoFolio], [v].[AbogadoNombre], [v].[AbogadoTelefono], [v].[AbogadoTomo], [v].[CasoAutos], [v].[CasoExpedienteJudicial], [v].[CasoFechaSentencia], [v].[FueroDescripcion], [v].[JurisdiccionDescripcion], [v].[JuzgadoDescripcion], [v].[JuzgadoDireccion], [v].[JuzgadoJuez], [v].[ParteDireccion], [v].[PersonaNombre], [v].[SecretariaDescripcion], [v].[TipoNotificacionCodigo]
+FROM [vNotificacionPDF] AS [v]
+WHERE [v].[NotificacionId] = @__p_0
+2023-07-12 14:29:57.8047|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (458ms) [Parameters=[@__p_0='7' (Precision = 18) (Scale = 2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [v].[NotificacionId], [v].[AbogadoCelular], [v].[AbogadoEmail], [v].[AbogadoFolio], [v].[AbogadoNombre], [v].[AbogadoTelefono], [v].[AbogadoTomo], [v].[CasoAutos], [v].[CasoExpedienteJudicial], [v].[CasoFechaSentencia], [v].[FueroDescripcion], [v].[JurisdiccionDescripcion], [v].[JuzgadoDescripcion], [v].[JuzgadoDireccion], [v].[JuzgadoJuez], [v].[ParteDireccion], [v].[PersonaNombre], [v].[SecretariaDescripcion], [v].[TipoNotificacionCodigo]
+FROM [vNotificacionPDF] AS [v]
+WHERE [v].[NotificacionId] = @__p_0
+2023-07-12 14:29:58.0546|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'SQLServerContext' started tracking 'VistaNotificacionPDF' entity with key '{NotificacionId: 7}'.
+2023-07-12 14:29:58.2515|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Closing data reader to 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21'.
+2023-07-12 14:29:58.5621|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|A data reader for 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21' is being disposed after spending 676ms reading results.
+2023-07-12 14:29:58.6344|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21'.
+2023-07-12 14:29:58.7200|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closed connection to database 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21' (85ms).
+2023-07-12 14:30:52.7241|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-07-12 14:31:20.7861|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-07-12 14:31:48.9702|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-07-12 14:32:22.8816|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-07-12 14:34:08.4025|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-07-12 14:34:39.8092|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-07-12 14:34:42.5446|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|'"SQLServerContext"' generated temporary value '-2147482647' for the property '"ArchivoId"."NotificacionArchivoTemporal"'.
+2023-07-12 14:34:42.6846|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'SQLServerContext' started tracking 'NotificacionArchivoTemporal' entity with key '{ArchivoId: -2147482647}'.
+2023-07-12 14:34:43.4349|DEBUG|Microsoft.EntityFrameworkCore.Update|SaveChanges starting for 'SQLServerContext'.
+2023-07-12 14:34:43.5036|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|DetectChanges starting for 'SQLServerContext'.
+2023-07-12 14:34:43.6223|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|DetectChanges completed for 'SQLServerContext'.
+2023-07-12 14:34:43.8232|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21'.
+2023-07-12 14:34:43.8887|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21'.
+2023-07-12 14:34:43.9549|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteReader'.
+2023-07-12 14:34:44.0254|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteReader' (70ms).
+2023-07-12 14:34:44.0973|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Initialized DbCommand for 'ExecuteReader' (142ms).
+2023-07-12 14:34:44.1622|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[@p0='1', @p1='0x255044462D312E340A25D3F4CCE10A312030206F626A0A3C3C0A2F4372656174...' (Nullable = false) (Size = -1), @p2='2023-07-12T14:34:22.6523480-03:00', @p3='2023-07-12T14:34:22.6748395-03:00', @p4='Notificacion-7' (Nullable = false) (Size = 4000), @p5='7' (Precision = 18) (Scale = 2), @p6='4', @p7='10' (Precision = 18) (Scale = 2), @p8='10' (Precision = 18) (Scale = 2)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [NotificacionArchivoTemporal] ([Cedula], [Content], [FechaInsert], [FechaUpdate], [FileName], [NotificacionId], [TipoNotificacionId], [UsuarioInsertId], [UsuarioUpdateId])
+OUTPUT INSERTED.[ArchivoId]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8);
+2023-07-12 14:34:45.1116|ERROR|Microsoft.EntityFrameworkCore.Database.Command|Failed executing DbCommand (943ms) [Parameters=[@p0='1', @p1='0x255044462D312E340A25D3F4CCE10A312030206F626A0A3C3C0A2F4372656174...' (Nullable = false) (Size = -1), @p2='2023-07-12T14:34:22.6523480-03:00', @p3='2023-07-12T14:34:22.6748395-03:00', @p4='Notificacion-7' (Nullable = false) (Size = 4000), @p5='7' (Precision = 18) (Scale = 2), @p6='4', @p7='10' (Precision = 18) (Scale = 2), @p8='10' (Precision = 18) (Scale = 2)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [NotificacionArchivoTemporal] ([Cedula], [Content], [FechaInsert], [FechaUpdate], [FileName], [NotificacionId], [TipoNotificacionId], [UsuarioInsertId], [UsuarioUpdateId])
+OUTPUT INSERTED.[ArchivoId]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8);
+2023-07-12 14:34:45.1809|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21'.
+2023-07-12 14:34:45.2455|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closed connection to database 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21' (64ms).
+2023-07-12 15:10:36.1881|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting
+2023-07-12 15:10:37.3789|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\Manuel\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-07-12 15:10:37.6258|DEBUG|Quartz.Simpl.TaskSchedulingThreadPool|TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler.
+2023-07-12 15:10:37.7432|INFO|Quartz.Core.SchedulerSignalerImpl|Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2023-07-12 15:10:37.8096|INFO|Quartz.Core.QuartzScheduler|Quartz Scheduler created
+2023-07-12 15:10:37.8773|INFO|Quartz.Core.QuartzScheduler|JobFactory set to: Quartz.Simpl.MicrosoftDependencyInjectionJobFactory
+2023-07-12 15:10:37.9443|INFO|Quartz.Simpl.RAMJobStore|RAMJobStore initialized.
+2023-07-12 15:10:38.0153|INFO|Quartz.Core.QuartzScheduler|Scheduler meta-data: Quartz Scheduler (v3.4.0.0) 'Notificaciones' with instanceId 'Scheduler-Notificacion'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.DefaultThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2023-07-12 15:10:38.0897|INFO|Quartz.Impl.StdSchedulerFactory|Quartz scheduler 'Notificaciones' initialized
+2023-07-12 15:10:38.1537|INFO|Quartz.Impl.StdSchedulerFactory|Quartz scheduler version: 3.4.0.0
+2023-07-12 15:10:38.4211|INFO|Quartz.ContainerConfigurationProcessor|Adding 0 jobs, 0 triggers.
+2023-07-12 15:10:38.5237|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\Manuel\AppData\Local\ASP.NET\DataProtection-Keys\key-2f7463d5-09f6-42b0-b038-897a699a3a01.xml'.
+2023-07-12 15:10:38.6162|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\Manuel\AppData\Local\ASP.NET\DataProtection-Keys\key-8a172727-ab68-4caa-a957-f6dbc16963c2.xml'.
+2023-07-12 15:10:38.6817|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\Manuel\AppData\Local\ASP.NET\DataProtection-Keys\key-8c634a91-ae70-4347-8421-cdb79c947157.xml'.
+2023-07-12 15:10:38.7629|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {2f7463d5-09f6-42b0-b038-897a699a3a01}.
+2023-07-12 15:10:38.8343|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {8a172727-ab68-4caa-a957-f6dbc16963c2}.
+2023-07-12 15:10:38.9005|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {8c634a91-ae70-4347-8421-cdb79c947157}.
+2023-07-12 15:10:38.9819|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver|Considering key {8a172727-ab68-4caa-a957-f6dbc16963c2} with expiration date 2023-09-24 14:42:34Z as default key.
+2023-07-12 15:10:39.0534|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-07-12 15:10:39.1243|DEBUG|Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor|Decrypting secret element using Windows DPAPI.
+2023-07-12 15:10:39.1958|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-07-12 15:10:39.7176|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC.
+2023-07-12 15:10:39.8033|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC.
+2023-07-12 15:10:39.8833|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider|Using key {8a172727-ab68-4caa-a957-f6dbc16963c2} as the default key.
+2023-07-12 15:10:39.9486|DEBUG|Microsoft.AspNetCore.DataProtection.Internal.DataProtectionHostedService|Key ring with default key {8a172727-ab68-4caa-a957-f6dbc16963c2} was loaded during application startup.
+2023-07-12 15:10:40.2883|DEBUG|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|Initializing Razor view compiler with no compiled views.
+2023-07-12 15:10:40.3859|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory|Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider
+2023-07-12 15:10:40.8619|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer|Using development certificate: CN=localhost (Thumbprint: 2A56E4850DEE069647BE910EF39C8C149FAF80EE)
+2023-07-12 15:10:41.0429|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001
+2023-07-12 15:10:41.1090|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000
+2023-07-12 15:10:41.1552|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMS30D6O2CFG" accepted.
+2023-07-12 15:10:41.1760|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly VEJuicios
+2023-07-12 15:10:41.3057|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-07-12 15:10:41.2425|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMS30D6O2CFG" started.
+2023-07-12 15:10:41.1849|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMS30D6O2CFG" received FIN.
+2023-07-12 15:10:41.3717|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-07-12 15:10:41.5649|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2023-07-12 15:10:41.6288|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2023-07-12 15:10:41.6468|INFO|Quartz.Core.QuartzScheduler|Scheduler Notificaciones_$_Scheduler-Notificacion started.
+2023-07-12 15:10:41.6924|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\Manuel\source\repos\ve-juicios\Main\Source\VEJuicios
+2023-07-12 15:10:41.7380|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-07-12 15:10:41.7752|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Failed to authenticate HTTPS connection.|System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-07-12 15:10:41.8331|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started
+2023-07-12 15:10:42.0662|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMS30D6O2CFG" stopped.
+2023-07-12 15:10:42.1863|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMS30D6O2CFG" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-07-12 15:10:42.3656|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMS30D6O2CFH" accepted.
+2023-07-12 15:10:42.4326|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMS30D6O2CFH" started.
+2023-07-12 15:10:42.7811|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Connection 0HMS30D6O2CFH established using the following protocol: Tls12
+2023-07-12 15:10:42.9754|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2023-07-12 15:10:43.0945|DEBUG|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|Wildcard detected, all requests with hosts will be allowed.
+2023-07-12 15:10:43.1629|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /swagger/index.html does not match an existing file
+2023-07-12 15:10:43.2801|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/index.html'
+2023-07-12 15:10:43.3452|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints
+2023-07-12 15:10:43.5651|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup is scheduled to include browser refresh script injection.
+2023-07-12 15:10:44.0122|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - -
+2023-07-12 15:10:44.0363|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup was updated to include browser refresh script injection.
+2023-07-12 15:10:44.0895|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 200 11988 application/javascript;+charset=utf-8 75.9824ms
+2023-07-12 15:10:44.1496|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 1179.2006ms
+2023-07-12 15:10:44.3859|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - -
+2023-07-12 15:10:44.6314|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 245.4862ms
+2023-07-12 15:10:44.8947|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMS30D6O2CFH" received FIN.
+2023-07-12 15:10:44.9692|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMS30D6O2CFH" is closed. The last processed stream ID was 5.
+2023-07-12 15:10:45.0486|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMS30D6O2CFH" sending FIN because: "The client closed the connection."
+2023-07-12 15:10:45.1221|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMS30D6O2CFH" stopped.
+2023-07-12 15:10:45.1999|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMS30D6O2CFI" accepted.
+2023-07-12 15:10:45.2835|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMS30D6O2CFI" started.
+2023-07-12 15:10:45.3843|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Connection 0HMS30D6O2CFI established using the following protocol: Tls12
+2023-07-12 15:10:45.4536|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2023-07-12 15:10:45.5226|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /swagger/v1/swagger.json does not match an existing file
+2023-07-12 15:10:45.5904|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/v1/swagger.json'
+2023-07-12 15:10:45.6549|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints
+2023-07-12 15:10:45.9566|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 503.0272ms
+2023-07-12 15:10:49.8938|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMS30D6O2CFI" received FIN.
+2023-07-12 15:10:49.9587|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMS30D6O2CFI" is closed. The last processed stream ID was 1.
+2023-07-12 15:10:50.0242|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMS30D6O2CFI" sending FIN because: "The client closed the connection."
+2023-07-12 15:10:50.1005|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMS30D6O2CFI" stopped.
+2023-07-12 15:11:02.9683|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMS30D6O2CFJ" accepted.
+2023-07-12 15:11:03.0337|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMS30D6O2CFJ" started.
+2023-07-12 15:11:03.1034|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Connection 0HMS30D6O2CFJ established using the following protocol: Tls12
+2023-07-12 15:11:03.1694|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:5001/DescargarPDF?notificacionId=7&popUpFecha=20-03-2023&CopiasSiNo=1&userId=10&tipoNotificacionId=4 - 0
+2023-07-12 15:11:03.2382|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|POST requests are not supported
+2023-07-12 15:11:03.3111|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/DescargarPDF'
+2023-07-12 15:11:03.3844|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'VEJuicios.Controllers.PdfControllers.GetPdfNotificacion (VEJuicios)' with route pattern 'DescargarPDF' is valid for the request path '/DescargarPDF'
+2023-07-12 15:11:03.4506|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'VEJuicios.Controllers.PdfControllers.GetPdfNotificacion (VEJuicios)'
+2023-07-12 15:11:03.5204|DEBUG|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The request has an origin header: 'https://localhost:5001'.
+2023-07-12 15:11:03.5853|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful.
+2023-07-12 15:11:03.6522|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'VEJuicios.Controllers.PdfControllers.GetPdfNotificacion (VEJuicios)'
+2023-07-12 15:11:03.8046|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetPdfNotificacion", controller = "PdfControllers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetPdfNotificacion(Int32, System.String, System.String, Int32, Int32) on controller VEJuicios.Controllers.PdfControllers (VEJuicios).
+2023-07-12 15:11:03.8702|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None
+2023-07-12 15:11:03.9379|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter
+2023-07-12 15:11:04.0037|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2023-07-12 15:11:04.0700|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None
+2023-07-12 15:11:04.1355|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter, Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2023-07-12 15:11:04.2022|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller VEJuicios.Controllers.PdfControllers (VEJuicios)
+2023-07-12 15:11:04.5957|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-07-12 15:11:04.7162|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller VEJuicios.Controllers.PdfControllers (VEJuicios)
+2023-07-12 15:11:04.8285|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'notificacionId' of type 'System.Int32' ...
+2023-07-12 15:11:04.9290|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Attempting to bind parameter 'notificacionId' of type 'System.Int32' using the name 'notificacionId' in request data ...
+2023-07-12 15:11:04.9943|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Done attempting to bind parameter 'notificacionId' of type 'System.Int32'.
+2023-07-12 15:11:05.0610|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'notificacionId' of type 'System.Int32'.
+2023-07-12 15:11:05.1268|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'notificacionId' of type 'System.Int32' ...
+2023-07-12 15:11:05.1966|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'notificacionId' of type 'System.Int32'.
+2023-07-12 15:11:05.2671|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'popUpFecha' of type 'System.String' ...
+2023-07-12 15:11:05.3362|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Attempting to bind parameter 'popUpFecha' of type 'System.String' using the name 'popUpFecha' in request data ...
+2023-07-12 15:11:05.4032|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Done attempting to bind parameter 'popUpFecha' of type 'System.String'.
+2023-07-12 15:11:05.4700|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'popUpFecha' of type 'System.String'.
+2023-07-12 15:11:05.5362|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'popUpFecha' of type 'System.String' ...
+2023-07-12 15:11:05.6214|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'popUpFecha' of type 'System.String'.
+2023-07-12 15:11:05.6858|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'CopiasSiNo' of type 'System.String' ...
+2023-07-12 15:11:05.7495|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Attempting to bind parameter 'CopiasSiNo' of type 'System.String' using the name 'CopiasSiNo' in request data ...
+2023-07-12 15:11:05.8151|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Done attempting to bind parameter 'CopiasSiNo' of type 'System.String'.
+2023-07-12 15:11:05.8805|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'CopiasSiNo' of type 'System.String'.
+2023-07-12 15:11:05.9450|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'CopiasSiNo' of type 'System.String' ...
+2023-07-12 15:11:06.0097|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'CopiasSiNo' of type 'System.String'.
+2023-07-12 15:11:06.0742|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'userId' of type 'System.Int32' ...
+2023-07-12 15:11:06.1429|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Attempting to bind parameter 'userId' of type 'System.Int32' using the name 'userId' in request data ...
+2023-07-12 15:11:06.2082|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Done attempting to bind parameter 'userId' of type 'System.Int32'.
+2023-07-12 15:11:06.2716|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'userId' of type 'System.Int32'.
+2023-07-12 15:11:06.3453|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'userId' of type 'System.Int32' ...
+2023-07-12 15:11:06.4193|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'userId' of type 'System.Int32'.
+2023-07-12 15:11:06.4906|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'tipoNotificacionId' of type 'System.Int32' ...
+2023-07-12 15:11:06.5557|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Attempting to bind parameter 'tipoNotificacionId' of type 'System.Int32' using the name 'tipoNotificacionId' in request data ...
+2023-07-12 15:11:06.6205|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Done attempting to bind parameter 'tipoNotificacionId' of type 'System.Int32'.
+2023-07-12 15:11:06.6824|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-07-12 15:11:06.6824|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'tipoNotificacionId' of type 'System.Int32'.
+2023-07-12 15:11:06.8128|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'tipoNotificacionId' of type 'System.Int32' ...
+2023-07-12 15:11:06.8763|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'tipoNotificacionId' of type 'System.Int32'.
+2023-07-12 15:11:18.4069|WARN|Microsoft.EntityFrameworkCore.Model.Validation|Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2023-07-12 15:11:18.7890|WARN|Microsoft.EntityFrameworkCore.Model.Validation|No store type was specified for the decimal property 'NotificacionId' on entity type 'Notificacion'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-07-12 15:11:18.8637|WARN|Microsoft.EntityFrameworkCore.Model.Validation|The decimal property 'NotificacionId' is part of a key on entity type 'Notificacion'. If the configured precision and scale don't match the column type in the database, this will cause values to be silently truncated if they do not fit in the default precision and scale. Consider using a different property as the key, or make sure that the database column type matches the model configuration and enable decimal rounding warnings using 'SET NUMERIC_ROUNDABORT ON'.
+2023-07-12 15:11:18.9317|WARN|Microsoft.EntityFrameworkCore.Model.Validation|No store type was specified for the decimal property 'CasoId' on entity type 'Notificacion'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-07-12 15:11:19.0007|WARN|Microsoft.EntityFrameworkCore.Model.Validation|No store type was specified for the decimal property 'MetodoEnvioId' on entity type 'Notificacion'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-07-12 15:11:19.0699|WARN|Microsoft.EntityFrameworkCore.Model.Validation|No store type was specified for the decimal property 'TipoNotificacionId' on entity type 'Notificacion'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-07-12 15:11:19.1363|WARN|Microsoft.EntityFrameworkCore.Model.Validation|No store type was specified for the decimal property 'UsuarioInsertId' on entity type 'Notificacion'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-07-12 15:11:19.2003|WARN|Microsoft.EntityFrameworkCore.Model.Validation|No store type was specified for the decimal property 'UsuarioUpdateId' on entity type 'Notificacion'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-07-12 15:11:19.2654|WARN|Microsoft.EntityFrameworkCore.Model.Validation|No store type was specified for the decimal property 'ArchivoId' on entity type 'NotificacionArchivoTemporal'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-07-12 15:11:19.3300|WARN|Microsoft.EntityFrameworkCore.Model.Validation|The decimal property 'ArchivoId' is part of a key on entity type 'NotificacionArchivoTemporal'. If the configured precision and scale don't match the column type in the database, this will cause values to be silently truncated if they do not fit in the default precision and scale. Consider using a different property as the key, or make sure that the database column type matches the model configuration and enable decimal rounding warnings using 'SET NUMERIC_ROUNDABORT ON'.
+2023-07-12 15:11:19.3932|WARN|Microsoft.EntityFrameworkCore.Model.Validation|No store type was specified for the decimal property 'NotificacionId' on entity type 'NotificacionArchivoTemporal'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-07-12 15:11:19.4576|WARN|Microsoft.EntityFrameworkCore.Model.Validation|No store type was specified for the decimal property 'UsuarioInsertId' on entity type 'NotificacionArchivoTemporal'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-07-12 15:11:19.5222|WARN|Microsoft.EntityFrameworkCore.Model.Validation|No store type was specified for the decimal property 'UsuarioUpdateId' on entity type 'NotificacionArchivoTemporal'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-07-12 15:11:19.5868|WARN|Microsoft.EntityFrameworkCore.Model.Validation|No store type was specified for the decimal property 'NotificacionId' on entity type 'VistaNotificacionPDF'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-07-12 15:11:19.6511|WARN|Microsoft.EntityFrameworkCore.Model.Validation|The decimal property 'NotificacionId' is part of a key on entity type 'VistaNotificacionPDF'. If the configured precision and scale don't match the column type in the database, this will cause values to be silently truncated if they do not fit in the default precision and scale. Consider using a different property as the key, or make sure that the database column type matches the model configuration and enable decimal rounding warnings using 'SET NUMERIC_ROUNDABORT ON'.
+2023-07-12 15:11:20.2050|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 7.0.8 initialized 'SQLServerContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.8' with options: SensitiveDataLoggingEnabled 
+2023-07-12 15:11:20.4437|DEBUG|Microsoft.EntityFrameworkCore.Query|Compiling query expression: 
+'DbSet<VistaNotificacionPDF>()
+    .FirstOrDefault(x => x.NotificacionId.Equals(__p_0))'
+2023-07-12 15:11:21.3770|DEBUG|Microsoft.EntityFrameworkCore.Query|Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<VistaNotificacionPDF>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: VistaNotificacionPDF.NotificacionId (decimal) Required PK AfterSave:Throw, 0], [Property: VistaNotificacionPDF.AbogadoCelular (string), 1], [Property: VistaNotificacionPDF.AbogadoEmail (string), 2], [Property: VistaNotificacionPDF.AbogadoFolio (string), 3], [Property: VistaNotificacionPDF.AbogadoNombre (string), 4], [Property: VistaNotificacionPDF.AbogadoTelefono (string), 5], [Property: VistaNotificacionPDF.AbogadoTomo (string), 6], [Property: VistaNotificacionPDF.CasoAutos (string), 7], [Property: VistaNotificacionPDF.CasoExpedienteJudicial (string), 8], [Property: VistaNotificacionPDF.CasoFechaSentencia (DateTime?), 9], [Property: VistaNotificacionPDF.FueroDescripcion (string), 10], [Property: VistaNotificacionPDF.JurisdiccionDescripcion (string), 11], [Property: VistaNotificacionPDF.JuzgadoDescripcion (string), 12], [Property: VistaNotificacionPDF.JuzgadoDireccion (string), 13], [Property: VistaNotificacionPDF.JuzgadoJuez (string), 14], [Property: VistaNotificacionPDF.ParteDireccion (string), 15], [Property: VistaNotificacionPDF.PersonaNombre (string), 16], [Property: VistaNotificacionPDF.SecretariaDescripcion (string), 17], [Property: VistaNotificacionPDF.TipoNotificacionCodigo (string), 18] }
+        SELECT TOP(1) v.NotificacionId, v.AbogadoCelular, v.AbogadoEmail, v.AbogadoFolio, v.AbogadoNombre, v.AbogadoTelefono, v.AbogadoTomo, v.CasoAutos, v.CasoExpedienteJudicial, v.CasoFechaSentencia, v.FueroDescripcion, v.JurisdiccionDescripcion, v.JuzgadoDescripcion, v.JuzgadoDireccion, v.JuzgadoJuez, v.ParteDireccion, v.PersonaNombre, v.SecretariaDescripcion, v.TipoNotificacionCodigo
+        FROM vNotificacionPDF AS v
+        WHERE v.NotificacionId == @__p_0), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, VistaNotificacionPDF>, 
+    VEJuicios.Infrastructure.SQLServerContext, 
+    False, 
+    False, 
+    True
+)
+    .SingleOrDefault()'
+2023-07-12 15:11:21.5472|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteReader'.
+2023-07-12 15:11:21.6298|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Creating DbConnection.
+2023-07-12 15:11:21.7692|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Created DbConnection. (137ms).
+2023-07-12 15:11:21.8526|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteReader' (307ms).
+2023-07-12 15:11:21.9324|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Initialized DbCommand for 'ExecuteReader' (390ms).
+2023-07-12 15:11:22.0033|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21'.
+2023-07-12 15:11:22.8995|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21'.
+2023-07-12 15:11:22.9967|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[@__p_0='7' (Precision = 18) (Scale = 2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [v].[NotificacionId], [v].[AbogadoCelular], [v].[AbogadoEmail], [v].[AbogadoFolio], [v].[AbogadoNombre], [v].[AbogadoTelefono], [v].[AbogadoTomo], [v].[CasoAutos], [v].[CasoExpedienteJudicial], [v].[CasoFechaSentencia], [v].[FueroDescripcion], [v].[JurisdiccionDescripcion], [v].[JuzgadoDescripcion], [v].[JuzgadoDireccion], [v].[JuzgadoJuez], [v].[ParteDireccion], [v].[PersonaNombre], [v].[SecretariaDescripcion], [v].[TipoNotificacionCodigo]
+FROM [vNotificacionPDF] AS [v]
+WHERE [v].[NotificacionId] = @__p_0
+2023-07-12 15:11:23.2818|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (301ms) [Parameters=[@__p_0='7' (Precision = 18) (Scale = 2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [v].[NotificacionId], [v].[AbogadoCelular], [v].[AbogadoEmail], [v].[AbogadoFolio], [v].[AbogadoNombre], [v].[AbogadoTelefono], [v].[AbogadoTomo], [v].[CasoAutos], [v].[CasoExpedienteJudicial], [v].[CasoFechaSentencia], [v].[FueroDescripcion], [v].[JurisdiccionDescripcion], [v].[JuzgadoDescripcion], [v].[JuzgadoDireccion], [v].[JuzgadoJuez], [v].[ParteDireccion], [v].[PersonaNombre], [v].[SecretariaDescripcion], [v].[TipoNotificacionCodigo]
+FROM [vNotificacionPDF] AS [v]
+WHERE [v].[NotificacionId] = @__p_0
+2023-07-12 15:11:23.4682|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'SQLServerContext' started tracking 'VistaNotificacionPDF' entity with key '{NotificacionId: 7}'.
+2023-07-12 15:11:23.6305|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Closing data reader to 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21'.
+2023-07-12 15:11:23.7130|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|A data reader for 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21' is being disposed after spending 358ms reading results.
+2023-07-12 15:11:23.7861|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21'.
+2023-07-12 15:11:23.8676|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closed connection to database 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21' (82ms).
+2023-07-12 15:11:34.6741|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-07-12 15:12:02.4275|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-07-12 15:12:18.8255|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|'"SQLServerContext"' generated temporary value '-2147482647' for the property '"ArchivoId"."NotificacionArchivoTemporal"'.
+2023-07-12 15:12:18.9941|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'SQLServerContext' started tracking 'NotificacionArchivoTemporal' entity with key '{ArchivoId: -2147482647}'.
+2023-07-12 15:12:20.1335|DEBUG|Microsoft.EntityFrameworkCore.Update|SaveChanges starting for 'SQLServerContext'.
+2023-07-12 15:12:20.2019|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|DetectChanges starting for 'SQLServerContext'.
+2023-07-12 15:12:20.3154|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|DetectChanges completed for 'SQLServerContext'.
+2023-07-12 15:12:20.5271|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21'.
+2023-07-12 15:12:20.5932|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21'.
+2023-07-12 15:12:20.6612|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteReader'.
+2023-07-12 15:12:20.7262|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteReader' (65ms).
+2023-07-12 15:12:20.7964|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Initialized DbCommand for 'ExecuteReader' (135ms).
+2023-07-12 15:12:20.8620|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[@p0='1', @p1='application/pdf' (Nullable = false) (Size = 4000), @p2='0x255044462D312E340A25D3F4CCE10A312030206F626A0A3C3C0A2F4372656174...' (Nullable = false) (Size = -1), @p3='2023-07-12T15:12:11.3629939-03:00', @p4='2023-07-12T15:12:11.3849333-03:00', @p5='Notificacion-7' (Nullable = false) (Size = 4000), @p6='7' (Precision = 18) (Scale = 2), @p7='LIQUIDACION' (Nullable = false) (Size = 4000), @p8='10' (Precision = 18) (Scale = 2), @p9='10' (Precision = 18) (Scale = 2)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [NotificacionArchivoTemporal] ([Cedula], [ContentType], [Data], [FechaInsert], [FechaUpdate], [FileName], [NotificacionId], [TipoNotificacionDescripcion], [UsuarioInsertId], [UsuarioUpdateId])
+OUTPUT INSERTED.[ArchivoId]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9);
+2023-07-12 15:12:21.7857|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (925ms) [Parameters=[@p0='1', @p1='application/pdf' (Nullable = false) (Size = 4000), @p2='0x255044462D312E340A25D3F4CCE10A312030206F626A0A3C3C0A2F4372656174...' (Nullable = false) (Size = -1), @p3='2023-07-12T15:12:11.3629939-03:00', @p4='2023-07-12T15:12:11.3849333-03:00', @p5='Notificacion-7' (Nullable = false) (Size = 4000), @p6='7' (Precision = 18) (Scale = 2), @p7='LIQUIDACION' (Nullable = false) (Size = 4000), @p8='10' (Precision = 18) (Scale = 2), @p9='10' (Precision = 18) (Scale = 2)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [NotificacionArchivoTemporal] ([Cedula], [ContentType], [Data], [FechaInsert], [FechaUpdate], [FileName], [NotificacionId], [TipoNotificacionDescripcion], [UsuarioInsertId], [UsuarioUpdateId])
+OUTPUT INSERTED.[ArchivoId]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9);
+2023-07-12 15:12:21.8807|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|The foreign key property 'NotificacionArchivoTemporal.ArchivoId' was detected as changed from '-2147482647' to '1' for entity with key '{ArchivoId: 1}'.
+2023-07-12 15:12:21.9648|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Closing data reader to 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21'.
+2023-07-12 15:12:22.0297|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|A data reader for 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21' is being disposed after spending 178ms reading results.
+2023-07-12 15:12:22.0951|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21'.
+2023-07-12 15:12:22.1613|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closed connection to database 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21' (66ms).
+2023-07-12 15:12:22.2510|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|The 'NotificacionArchivoTemporal' entity with key '{ArchivoId: 1}' tracked by 'SQLServerContext' changed state from 'Added' to 'Unchanged'.
+2023-07-12 15:12:22.3215|DEBUG|Microsoft.EntityFrameworkCore.Update|SaveChanges completed for 'SQLServerContext' with 1 entities written to the database.
+2023-07-12 15:12:29.8626|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-07-12 15:12:45.1260|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.FileContentResultExecutor|Executing FileContentResult, sending file with download name 'Notificacion.pdf' ...
+2023-07-12 15:12:45.2001|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.FileContentResultExecutor|The file result has not been enabled for processing range requests. To enable it, set the EnableRangeProcessing property on the result to 'true'.
+2023-07-12 15:12:45.2826|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action VEJuicios.Controllers.PdfControllers.GetPdfNotificacion (VEJuicios) in 101077.1805ms
+2023-07-12 15:12:45.3466|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'VEJuicios.Controllers.PdfControllers.GetPdfNotificacion (VEJuicios)'
+2023-07-12 15:12:45.4228|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|'SQLServerContext' disposed.
+2023-07-12 15:12:45.5048|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposing connection to database 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21'.
+2023-07-12 15:12:45.5740|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposed connection to database '' on server '' (68ms).
+2023-07-12 15:12:45.6383|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 POST https://localhost:5001/DescargarPDF?notificacionId=7&popUpFecha=20-03-2023&CopiasSiNo=1&userId=10&tipoNotificacionId=4 - 0 - 200 30103 application/pdf 102468.9019ms
+2023-07-12 15:12:54.9572|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMS30D6O2CFJ" received FIN.
+2023-07-12 15:12:55.0220|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMS30D6O2CFJ" is closed. The last processed stream ID was 1.
+2023-07-12 15:12:55.0871|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMS30D6O2CFJ" sending FIN because: "The client closed the connection."
+2023-07-12 15:12:55.1640|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMS30D6O2CFJ" stopped.
+2023-07-12 15:12:59.8918|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-07-12 15:13:26.7415|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-07-12 15:13:53.6042|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-07-12 15:14:21.2392|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-07-12 15:14:50.8519|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-07-12 15:15:14.5925|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-07-12 15:15:38.8489|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-07-12 15:16:08.8940|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-07-12 15:16:37.6226|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-07-12 15:17:04.6189|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-07-12 15:17:28.2811|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-07-12 15:17:58.2528|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-07-12 15:18:24.2971|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-07-12 15:18:47.8126|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-07-12 15:19:11.6569|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-07-12 15:19:41.6088|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-07-12 15:20:11.5766|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-07-12 15:20:40.6197|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-07-12 15:21:05.8570|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-07-12 15:21:29.3213|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-07-12 15:21:56.1587|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-07-12 15:22:23.7367|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-07-12 15:22:48.1500|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-07-12 15:23:14.6440|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-07-12 15:23:39.5584|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-07-12 15:24:05.9418|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-07-12 15:24:29.0407|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-07-12 15:24:52.9721|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-07-12 15:25:17.3105|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-07-12 15:25:43.1569|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-07-12 15:26:06.5752|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-07-12 15:26:31.1067|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-07-12 15:26:58.0530|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-07-12 15:27:27.6970|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-07-12 15:27:56.0108|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-07-12 15:28:24.3609|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-07-12 15:28:53.0520|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-07-12 15:29:21.3709|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-07-12 15:29:51.3164|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-07-12 15:30:18.7095|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-07-12 15:30:43.9011|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-07-12 15:31:10.2796|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-07-12 15:31:38.9709|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-07-12 15:32:08.9170|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-07-12 15:32:38.4361|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-07-12 15:33:03.6987|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-07-12 15:33:27.9562|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-07-12 15:33:55.3414|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-07-12 15:34:26.6875|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-07-12 15:34:56.1710|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-07-12 15:35:20.5952|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-07-12 15:35:44.5672|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-07-12 15:36:14.2849|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-07-12 15:36:42.9079|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-07-12 15:37:08.1916|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-07-12 15:37:36.0667|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-07-12 15:37:59.7158|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-07-12 15:38:23.3017|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-07-12 15:38:46.4620|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-07-12 15:39:13.9208|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-07-12 15:39:40.8815|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-07-12 15:40:06.9246|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-07-12 15:40:32.6570|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-07-12 15:40:59.9475|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-07-12 15:41:24.8884|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-07-12 15:41:49.9504|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-07-12 15:42:13.2123|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-07-12 15:42:39.3562|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-07-12 15:43:04.1577|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-07-12 15:43:27.6574|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-07-12 15:43:52.4723|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-07-12 15:44:21.1135|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-07-12 15:44:50.5917|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-07-12 15:45:14.6027|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-07-12 15:45:38.0022|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-07-12 15:46:07.5724|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-07-12 15:46:33.0770|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-07-12 15:47:02.2570|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-07-12 15:47:26.4768|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-07-12 15:47:51.5764|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-07-12 15:48:16.4834|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-07-12 15:48:43.3300|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-07-12 15:49:12.6505|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-07-12 15:49:42.3392|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-07-12 15:50:11.7996|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-07-12 15:50:41.3583|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-07-12 15:51:06.6819|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-07-12 15:51:33.9436|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-07-12 15:51:58.4316|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-07-12 15:52:27.7654|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-07-12 15:52:52.1373|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-07-12 15:53:19.9977|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-07-12 15:53:48.1338|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-07-12 15:54:11.7542|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-07-12 15:54:37.8413|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-07-12 15:55:04.4208|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-07-12 15:55:31.2640|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-07-12 15:55:55.2492|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-07-12 15:56:22.8360|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-07-12 15:56:50.0919|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-07-12 15:57:18.4725|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-07-12 15:57:43.6389|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-07-12 15:58:09.2324|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-07-12 15:58:33.9556|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-07-12 15:58:57.6781|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-07-12 15:59:22.9714|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-07-12 15:59:49.6624|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-07-12 15:59:51.6525|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMS30D6O2CFK" accepted.
+2023-07-12 15:59:51.7539|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMS30D6O2CFK" started.
+2023-07-12 15:59:51.8545|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Connection 0HMS30D6O2CFK established using the following protocol: Tls12
+2023-07-12 15:59:51.9447|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 POST https://localhost:5001/DescargarPDF?notificacionId=7&popUpFecha=20-03-2023&CopiasSiNo=1&userId=10&tipoNotificacionId=4 - 0
+2023-07-12 15:59:52.0174|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|POST requests are not supported
+2023-07-12 15:59:52.0863|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/DescargarPDF'
+2023-07-12 15:59:52.1520|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'VEJuicios.Controllers.PdfControllers.GetPdfNotificacion (VEJuicios)' with route pattern 'DescargarPDF' is valid for the request path '/DescargarPDF'
+2023-07-12 15:59:52.2254|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'VEJuicios.Controllers.PdfControllers.GetPdfNotificacion (VEJuicios)'
+2023-07-12 15:59:52.3063|DEBUG|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|The request has an origin header: 'https://localhost:5001'.
+2023-07-12 15:59:52.3854|INFO|Microsoft.AspNetCore.Cors.Infrastructure.CorsService|CORS policy execution successful.
+2023-07-12 15:59:52.4641|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'VEJuicios.Controllers.PdfControllers.GetPdfNotificacion (VEJuicios)'
+2023-07-12 15:59:52.5558|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "GetPdfNotificacion", controller = "PdfControllers"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetPdfNotificacion(Int32, System.String, System.String, Int32, Int32) on controller VEJuicios.Controllers.PdfControllers (VEJuicios).
+2023-07-12 15:59:52.6205|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None
+2023-07-12 15:59:52.6848|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter
+2023-07-12 15:59:52.7519|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2023-07-12 15:59:52.8234|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None
+2023-07-12 15:59:52.8901|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter, Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2023-07-12 15:59:52.9703|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller VEJuicios.Controllers.PdfControllers (VEJuicios)
+2023-07-12 15:59:53.0816|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller VEJuicios.Controllers.PdfControllers (VEJuicios)
+2023-07-12 15:59:53.1598|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'notificacionId' of type 'System.Int32' ...
+2023-07-12 15:59:53.2264|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Attempting to bind parameter 'notificacionId' of type 'System.Int32' using the name 'notificacionId' in request data ...
+2023-07-12 15:59:53.2971|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Done attempting to bind parameter 'notificacionId' of type 'System.Int32'.
+2023-07-12 15:59:53.3645|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'notificacionId' of type 'System.Int32'.
+2023-07-12 15:59:53.4390|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'notificacionId' of type 'System.Int32' ...
+2023-07-12 15:59:53.5289|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'notificacionId' of type 'System.Int32'.
+2023-07-12 15:59:53.5921|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'popUpFecha' of type 'System.String' ...
+2023-07-12 15:59:53.6563|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Attempting to bind parameter 'popUpFecha' of type 'System.String' using the name 'popUpFecha' in request data ...
+2023-07-12 15:59:53.7214|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Done attempting to bind parameter 'popUpFecha' of type 'System.String'.
+2023-07-12 15:59:53.8035|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'popUpFecha' of type 'System.String'.
+2023-07-12 15:59:53.8688|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'popUpFecha' of type 'System.String' ...
+2023-07-12 15:59:53.9323|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'popUpFecha' of type 'System.String'.
+2023-07-12 15:59:53.9964|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'CopiasSiNo' of type 'System.String' ...
+2023-07-12 15:59:54.0640|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Attempting to bind parameter 'CopiasSiNo' of type 'System.String' using the name 'CopiasSiNo' in request data ...
+2023-07-12 15:59:54.1506|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Done attempting to bind parameter 'CopiasSiNo' of type 'System.String'.
+2023-07-12 15:59:54.2526|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'CopiasSiNo' of type 'System.String'.
+2023-07-12 15:59:54.3295|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'CopiasSiNo' of type 'System.String' ...
+2023-07-12 15:59:54.3968|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'CopiasSiNo' of type 'System.String'.
+2023-07-12 15:59:54.4633|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'userId' of type 'System.Int32' ...
+2023-07-12 15:59:54.5332|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Attempting to bind parameter 'userId' of type 'System.Int32' using the name 'userId' in request data ...
+2023-07-12 15:59:54.5990|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Done attempting to bind parameter 'userId' of type 'System.Int32'.
+2023-07-12 15:59:54.6645|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'userId' of type 'System.Int32'.
+2023-07-12 15:59:54.7292|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'userId' of type 'System.Int32' ...
+2023-07-12 15:59:54.7969|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'userId' of type 'System.Int32'.
+2023-07-12 15:59:54.8605|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'tipoNotificacionId' of type 'System.Int32' ...
+2023-07-12 15:59:54.9253|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Attempting to bind parameter 'tipoNotificacionId' of type 'System.Int32' using the name 'tipoNotificacionId' in request data ...
+2023-07-12 15:59:54.9889|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Done attempting to bind parameter 'tipoNotificacionId' of type 'System.Int32'.
+2023-07-12 15:59:55.0540|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'tipoNotificacionId' of type 'System.Int32'.
+2023-07-12 15:59:55.1708|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'tipoNotificacionId' of type 'System.Int32' ...
+2023-07-12 15:59:55.2365|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'tipoNotificacionId' of type 'System.Int32'.
+2023-07-12 16:00:00.9871|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 7.0.8 initialized 'SQLServerContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.8' with options: SensitiveDataLoggingEnabled 
+2023-07-12 16:00:01.0908|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteReader'.
+2023-07-12 16:00:01.1630|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Creating DbConnection.
+2023-07-12 16:00:01.2569|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Created DbConnection. (93ms).
+2023-07-12 16:00:01.3242|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteReader' (236ms).
+2023-07-12 16:00:01.5472|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Initialized DbCommand for 'ExecuteReader' (459ms).
+2023-07-12 16:00:01.6109|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21'.
+2023-07-12 16:00:02.0459|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21'.
+2023-07-12 16:00:02.1137|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[@__p_0='7' (Precision = 18) (Scale = 2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [v].[NotificacionId], [v].[AbogadoCelular], [v].[AbogadoEmail], [v].[AbogadoFolio], [v].[AbogadoNombre], [v].[AbogadoTelefono], [v].[AbogadoTomo], [v].[CasoAutos], [v].[CasoExpedienteJudicial], [v].[CasoFechaSentencia], [v].[FueroDescripcion], [v].[JurisdiccionDescripcion], [v].[JuzgadoDescripcion], [v].[JuzgadoDireccion], [v].[JuzgadoJuez], [v].[ParteDireccion], [v].[PersonaNombre], [v].[SecretariaDescripcion], [v].[TipoNotificacionCodigo]
+FROM [vNotificacionPDF] AS [v]
+WHERE [v].[NotificacionId] = @__p_0
+2023-07-12 16:00:02.7072|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (595ms) [Parameters=[@__p_0='7' (Precision = 18) (Scale = 2)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [v].[NotificacionId], [v].[AbogadoCelular], [v].[AbogadoEmail], [v].[AbogadoFolio], [v].[AbogadoNombre], [v].[AbogadoTelefono], [v].[AbogadoTomo], [v].[CasoAutos], [v].[CasoExpedienteJudicial], [v].[CasoFechaSentencia], [v].[FueroDescripcion], [v].[JurisdiccionDescripcion], [v].[JuzgadoDescripcion], [v].[JuzgadoDireccion], [v].[JuzgadoJuez], [v].[ParteDireccion], [v].[PersonaNombre], [v].[SecretariaDescripcion], [v].[TipoNotificacionCodigo]
+FROM [vNotificacionPDF] AS [v]
+WHERE [v].[NotificacionId] = @__p_0
+2023-07-12 16:00:02.7782|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'SQLServerContext' started tracking 'VistaNotificacionPDF' entity with key '{NotificacionId: 7}'.
+2023-07-12 16:00:02.8568|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Closing data reader to 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21'.
+2023-07-12 16:00:02.9302|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|A data reader for 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21' is being disposed after spending 156ms reading results.
+2023-07-12 16:00:03.0074|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21'.
+2023-07-12 16:00:03.1008|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closed connection to database 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21' (93ms).
+2023-07-12 16:00:15.2488|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-07-12 16:00:24.6553|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|'"SQLServerContext"' generated temporary value '-2147482646' for the property '"ArchivoId"."NotificacionArchivoTemporal"'.
+2023-07-12 16:00:24.7289|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|Context 'SQLServerContext' started tracking 'NotificacionArchivoTemporal' entity with key '{ArchivoId: -2147482646}'.
+2023-07-12 16:00:24.7945|DEBUG|Microsoft.EntityFrameworkCore.Update|SaveChanges starting for 'SQLServerContext'.
+2023-07-12 16:00:24.8601|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|DetectChanges starting for 'SQLServerContext'.
+2023-07-12 16:00:24.9330|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|DetectChanges completed for 'SQLServerContext'.
+2023-07-12 16:00:25.0068|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21'.
+2023-07-12 16:00:25.0702|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21'.
+2023-07-12 16:00:25.1347|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteReader'.
+2023-07-12 16:00:25.1991|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteReader' (64ms).
+2023-07-12 16:00:25.2651|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Initialized DbCommand for 'ExecuteReader' (130ms).
+2023-07-12 16:00:25.3297|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[@p0='1', @p1='application/pdf' (Nullable = false) (Size = 4000), @p2='0x255044462D312E340A25D3F4CCE10A312030206F626A0A3C3C0A2F4372656174...' (Nullable = false) (Size = -1), @p3='2023-07-12T16:00:21.7875843-03:00', @p4='2023-07-12T16:00:21.7875880-03:00', @p5='Notificacion-7' (Nullable = false) (Size = 4000), @p6='7' (Precision = 18) (Scale = 2), @p7='LIQUIDACION' (Nullable = false) (Size = 4000), @p8='10' (Precision = 18) (Scale = 2), @p9='10' (Precision = 18) (Scale = 2)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [NotificacionArchivoTemporal] ([Cedula], [ContentType], [Data], [FechaInsert], [FechaUpdate], [FileName], [NotificacionId], [TipoNotificacionDescripcion], [UsuarioInsertId], [UsuarioUpdateId])
+OUTPUT INSERTED.[ArchivoId]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9);
+2023-07-12 16:00:26.3130|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (983ms) [Parameters=[@p0='1', @p1='application/pdf' (Nullable = false) (Size = 4000), @p2='0x255044462D312E340A25D3F4CCE10A312030206F626A0A3C3C0A2F4372656174...' (Nullable = false) (Size = -1), @p3='2023-07-12T16:00:21.7875843-03:00', @p4='2023-07-12T16:00:21.7875880-03:00', @p5='Notificacion-7' (Nullable = false) (Size = 4000), @p6='7' (Precision = 18) (Scale = 2), @p7='LIQUIDACION' (Nullable = false) (Size = 4000), @p8='10' (Precision = 18) (Scale = 2), @p9='10' (Precision = 18) (Scale = 2)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [NotificacionArchivoTemporal] ([Cedula], [ContentType], [Data], [FechaInsert], [FechaUpdate], [FileName], [NotificacionId], [TipoNotificacionDescripcion], [UsuarioInsertId], [UsuarioUpdateId])
+OUTPUT INSERTED.[ArchivoId]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9);
+2023-07-12 16:00:26.3873|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|The foreign key property 'NotificacionArchivoTemporal.ArchivoId' was detected as changed from '-2147482646' to '2' for entity with key '{ArchivoId: 2}'.
+2023-07-12 16:00:26.4539|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Closing data reader to 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21'.
+2023-07-12 16:00:26.5492|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|A data reader for 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21' is being disposed after spending 164ms reading results.
+2023-07-12 16:00:26.6160|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21'.
+2023-07-12 16:00:26.6818|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closed connection to database 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21' (65ms).
+2023-07-12 16:00:26.7718|DEBUG|Microsoft.EntityFrameworkCore.ChangeTracking|The 'NotificacionArchivoTemporal' entity with key '{ArchivoId: 2}' tracked by 'SQLServerContext' changed state from 'Added' to 'Unchanged'.
+2023-07-12 16:00:26.8356|DEBUG|Microsoft.EntityFrameworkCore.Update|SaveChanges completed for 'SQLServerContext' with 1 entities written to the database.
+2023-07-12 16:00:28.5036|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.FileContentResultExecutor|Executing FileContentResult, sending file with download name 'Notificacion.pdf' ...
+2023-07-12 16:00:28.5716|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.FileContentResultExecutor|The file result has not been enabled for processing range requests. To enable it, set the EnableRangeProcessing property on the result to 'true'.
+2023-07-12 16:00:28.6558|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action VEJuicios.Controllers.PdfControllers.GetPdfNotificacion (VEJuicios) in 35687.6515ms
+2023-07-12 16:00:28.7458|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'VEJuicios.Controllers.PdfControllers.GetPdfNotificacion (VEJuicios)'
+2023-07-12 16:00:28.8129|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|'SQLServerContext' disposed.
+2023-07-12 16:00:28.8832|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposing connection to database 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21'.
+2023-07-12 16:00:28.9583|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposed connection to database '' on server '' (75ms).
+2023-07-12 16:00:29.0301|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 POST https://localhost:5001/DescargarPDF?notificacionId=7&popUpFecha=20-03-2023&CopiasSiNo=1&userId=10&tipoNotificacionId=4 - 0 - 200 30103 application/pdf 37085.9947ms
+2023-07-12 16:00:32.9044|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMS30D6O2CFK" received FIN.
+2023-07-12 16:00:32.9713|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMS30D6O2CFK" is closed. The last processed stream ID was 1.
+2023-07-12 16:00:33.0405|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMS30D6O2CFK" sending FIN because: "The client closed the connection."
+2023-07-12 16:00:33.1478|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMS30D6O2CFK" stopped.
+2023-07-12 16:00:45.9441|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-07-12 16:01:12.7325|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-07-12 16:01:38.1939|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-07-12 16:02:02.6771|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers

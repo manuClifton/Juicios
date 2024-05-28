@@ -1,0 +1,21 @@
+﻿#swagger-ui .topbar {
+    background-color: rgb(0, 114, 187);
+}
+
+.topbar-wrapper img[alt="Swagger UI"], .topbar-wrapper span {
+    visibility: hidden;
+}
+
+.topbar-wrapper .link:after {
+    background-image: url('/images/favicon.png');
+    background-repeat: no-repeat;
+    background-position-y: center;
+    padding: 15px;
+    padding-left: 50px;
+    content: 'Secretaría Trabajo, Empleo y Seguridad Social';
+    color: #fff;
+    visibility: visible;
+    display: inline-block;
+    position: absolute;
+    font-weight: lighter;
+}

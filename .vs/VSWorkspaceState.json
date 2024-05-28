@@ -1,0 +1,11 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\AfipApi",
+    "\\AfipApi.Application",
+    "\\AfipApi.Application\\UseCases",
+    "\\AfipApi.Domain"
+  ],
+  "SelectedNode": "\\AfipApi.Application\\UseCases",
+  "PreviewInSolutionExplorer": false
+}

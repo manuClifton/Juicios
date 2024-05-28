@@ -1,0 +1,71 @@
+{
+  "NLog": {
+    "throwConfigExceptions": true,
+    "targets": {
+      "async": true,
+      "logfile": {
+        "type": "File",
+        "fileName": "c:/Log/vejuicioss-api-${shortdate}.log",
+        "archiveAboveSize": 26214400,
+        "maxArchiveDays": 14,
+        "maxArchiveFiles": 10
+      },
+      "dbBuffer": {
+        "type": "BufferingWrapper",
+        "bufferSize": "1",
+        "target": {
+          "database": {
+            "type": "Database",
+            "dbProvider": "System.Data.SqlClient",
+            "connectionString": "server=s1-dixx-sql10;Database=LogsApp;user id=usrLogsApp;password=92ede5b3dc/*-;",
+            "keepConnection": "true",
+            "commandType": "StoredProcedure",
+            "commandText": "[dbo].[WriteLog4Net]",
+            "parameters": [
+              {
+                "name": "@App",
+                "layout": "[API-VE-Juicios] - Local"
+              },
+              {
+                "name": "@Log_date",
+                "layout": "${date}"
+              },
+              {
+                "name": "@Thread",
+                "layout": "${threadid}"
+              },
+              {
+                "name": "@Level",
+                "layout": "${level}"
+              },
+              {
+                "name": "@Logger",
+                "layout": "${logger}"
+              },
+              {
+                "name": "@Message",
+                "layout": "${message}"
+              },
+              {
+                "name": "@Exception",
+                "layout": "${exception:tostring}"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "rules": [
+      {
+        "logger": "*",
+        "minLevel": "Debug",
+        "writeTo": "database"
+      },
+      {
+        "logger": "*",
+        "minLevel": "Debug",
+        "writeTo": "logfile"
+      }
+    ]
+  }
+}

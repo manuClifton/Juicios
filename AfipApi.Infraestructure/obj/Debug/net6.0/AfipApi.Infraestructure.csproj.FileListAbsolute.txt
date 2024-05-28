@@ -1,0 +1,15 @@
+C:\Users\Manuel\source\repos\ve-juicios\Main\Source\AfipApi.Infraestructure\bin\Debug\net6.0\AfipApi.Infraestructure.deps.json
+C:\Users\Manuel\source\repos\ve-juicios\Main\Source\AfipApi.Infraestructure\bin\Debug\net6.0\AfipApi.Infraestructure.dll
+C:\Users\Manuel\source\repos\ve-juicios\Main\Source\AfipApi.Infraestructure\bin\Debug\net6.0\AfipApi.Infraestructure.pdb
+C:\Users\Manuel\source\repos\ve-juicios\Main\Source\AfipApi.Infraestructure\bin\Debug\net6.0\AfipApi.Domain.dll
+C:\Users\Manuel\source\repos\ve-juicios\Main\Source\AfipApi.Infraestructure\bin\Debug\net6.0\AfipApi.Domain.pdb
+C:\Users\Manuel\source\repos\ve-juicios\Main\Source\AfipApi.Infraestructure\obj\Debug\net6.0\AfipApi.Infraestructure.csproj.AssemblyReference.cache
+C:\Users\Manuel\source\repos\ve-juicios\Main\Source\AfipApi.Infraestructure\obj\Debug\net6.0\AfipApi.Infraestructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Manuel\source\repos\ve-juicios\Main\Source\AfipApi.Infraestructure\obj\Debug\net6.0\AfipApi.Infraestructure.AssemblyInfoInputs.cache
+C:\Users\Manuel\source\repos\ve-juicios\Main\Source\AfipApi.Infraestructure\obj\Debug\net6.0\AfipApi.Infraestructure.AssemblyInfo.cs
+C:\Users\Manuel\source\repos\ve-juicios\Main\Source\AfipApi.Infraestructure\obj\Debug\net6.0\AfipApi.Infraestructure.csproj.CoreCompileInputs.cache
+C:\Users\Manuel\source\repos\ve-juicios\Main\Source\AfipApi.Infraestructure\obj\Debug\net6.0\AfipApi.Infraestructure.csproj.CopyComplete
+C:\Users\Manuel\source\repos\ve-juicios\Main\Source\AfipApi.Infraestructure\obj\Debug\net6.0\AfipApi.Infraestructure.dll
+C:\Users\Manuel\source\repos\ve-juicios\Main\Source\AfipApi.Infraestructure\obj\Debug\net6.0\refint\AfipApi.Infraestructure.dll
+C:\Users\Manuel\source\repos\ve-juicios\Main\Source\AfipApi.Infraestructure\obj\Debug\net6.0\AfipApi.Infraestructure.pdb
+C:\Users\Manuel\source\repos\ve-juicios\Main\Source\AfipApi.Infraestructure\obj\Debug\net6.0\ref\AfipApi.Infraestructure.dll

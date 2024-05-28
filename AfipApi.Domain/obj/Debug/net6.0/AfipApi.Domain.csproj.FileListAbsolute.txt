@@ -1,0 +1,12 @@
+C:\Users\Manuel\source\repos\ve-juicios\Main\Source\AfipApi.Domain\bin\Debug\net6.0\AfipApi.Domain.deps.json
+C:\Users\Manuel\source\repos\ve-juicios\Main\Source\AfipApi.Domain\bin\Debug\net6.0\AfipApi.Domain.dll
+C:\Users\Manuel\source\repos\ve-juicios\Main\Source\AfipApi.Domain\bin\Debug\net6.0\AfipApi.Domain.pdb
+C:\Users\Manuel\source\repos\ve-juicios\Main\Source\AfipApi.Domain\obj\Debug\net6.0\AfipApi.Domain.csproj.AssemblyReference.cache
+C:\Users\Manuel\source\repos\ve-juicios\Main\Source\AfipApi.Domain\obj\Debug\net6.0\AfipApi.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Manuel\source\repos\ve-juicios\Main\Source\AfipApi.Domain\obj\Debug\net6.0\AfipApi.Domain.AssemblyInfoInputs.cache
+C:\Users\Manuel\source\repos\ve-juicios\Main\Source\AfipApi.Domain\obj\Debug\net6.0\AfipApi.Domain.AssemblyInfo.cs
+C:\Users\Manuel\source\repos\ve-juicios\Main\Source\AfipApi.Domain\obj\Debug\net6.0\AfipApi.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Manuel\source\repos\ve-juicios\Main\Source\AfipApi.Domain\obj\Debug\net6.0\AfipApi.Domain.dll
+C:\Users\Manuel\source\repos\ve-juicios\Main\Source\AfipApi.Domain\obj\Debug\net6.0\refint\AfipApi.Domain.dll
+C:\Users\Manuel\source\repos\ve-juicios\Main\Source\AfipApi.Domain\obj\Debug\net6.0\AfipApi.Domain.pdb
+C:\Users\Manuel\source\repos\ve-juicios\Main\Source\AfipApi.Domain\obj\Debug\net6.0\ref\AfipApi.Domain.dll

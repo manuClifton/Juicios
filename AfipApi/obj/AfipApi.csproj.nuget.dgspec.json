@@ -1,0 +1,380 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Manuel\\source\\repos\\ve-juicios\\Main\\Source\\AfipApi\\AfipApi.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Manuel\\source\\repos\\ve-juicios\\Main\\Source\\AfipApi.Application\\AfipApi.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Manuel\\source\\repos\\ve-juicios\\Main\\Source\\AfipApi.Application\\AfipApi.Application.csproj",
+        "projectName": "AfipApi.Application",
+        "projectPath": "C:\\Users\\Manuel\\source\\repos\\ve-juicios\\Main\\Source\\AfipApi.Application\\AfipApi.Application.csproj",
+        "packagesPath": "C:\\Users\\Manuel\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Manuel\\source\\repos\\ve-juicios\\Main\\Source\\AfipApi.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Manuel\\source\\repos\\ve-juicios\\Main\\Source\\AfipApi\\NuGet.Config",
+          "C:\\Users\\Manuel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nugets.trabajo.gob.ar/nuget": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Manuel\\source\\repos\\ve-juicios\\Main\\Source\\AfipApi.Domain\\AfipApi.Domain.csproj": {
+                "projectPath": "C:\\Users\\Manuel\\source\\repos\\ve-juicios\\Main\\Source\\AfipApi.Domain\\AfipApi.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[7.0.8, )"
+            },
+            "Microsoft.Extensions.Hosting.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "PDFsharp": {
+              "target": "Package",
+              "version": "[6.0.0-preview-2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Manuel\\source\\repos\\ve-juicios\\Main\\Source\\AfipApi.Domain\\AfipApi.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Manuel\\source\\repos\\ve-juicios\\Main\\Source\\AfipApi.Domain\\AfipApi.Domain.csproj",
+        "projectName": "AfipApi.Domain",
+        "projectPath": "C:\\Users\\Manuel\\source\\repos\\ve-juicios\\Main\\Source\\AfipApi.Domain\\AfipApi.Domain.csproj",
+        "packagesPath": "C:\\Users\\Manuel\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Manuel\\source\\repos\\ve-juicios\\Main\\Source\\AfipApi.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Manuel\\source\\repos\\ve-juicios\\Main\\Source\\AfipApi\\NuGet.Config",
+          "C:\\Users\\Manuel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nugets.trabajo.gob.ar/nuget": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[7.0.8, )"
+            },
+            "Microsoft.Extensions.Hosting.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "PDFsharp": {
+              "target": "Package",
+              "version": "[6.0.0-preview-2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Manuel\\source\\repos\\ve-juicios\\Main\\Source\\AfipApi.Infraestructure\\AfipApi.Infraestructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Manuel\\source\\repos\\ve-juicios\\Main\\Source\\AfipApi.Infraestructure\\AfipApi.Infraestructure.csproj",
+        "projectName": "AfipApi.Infraestructure",
+        "projectPath": "C:\\Users\\Manuel\\source\\repos\\ve-juicios\\Main\\Source\\AfipApi.Infraestructure\\AfipApi.Infraestructure.csproj",
+        "packagesPath": "C:\\Users\\Manuel\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Manuel\\source\\repos\\ve-juicios\\Main\\Source\\AfipApi.Infraestructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Manuel\\source\\repos\\ve-juicios\\Main\\Source\\AfipApi\\NuGet.Config",
+          "C:\\Users\\Manuel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nugets.trabajo.gob.ar/nuget": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Manuel\\source\\repos\\ve-juicios\\Main\\Source\\AfipApi.Domain\\AfipApi.Domain.csproj": {
+                "projectPath": "C:\\Users\\Manuel\\source\\repos\\ve-juicios\\Main\\Source\\AfipApi.Domain\\AfipApi.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[7.0.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Manuel\\source\\repos\\ve-juicios\\Main\\Source\\AfipApi\\AfipApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Manuel\\source\\repos\\ve-juicios\\Main\\Source\\AfipApi\\AfipApi.csproj",
+        "projectName": "AfipApi",
+        "projectPath": "C:\\Users\\Manuel\\source\\repos\\ve-juicios\\Main\\Source\\AfipApi\\AfipApi.csproj",
+        "packagesPath": "C:\\Users\\Manuel\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Manuel\\source\\repos\\ve-juicios\\Main\\Source\\AfipApi\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Manuel\\source\\repos\\ve-juicios\\Main\\Source\\AfipApi\\NuGet.Config",
+          "C:\\Users\\Manuel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files\\dotnet\\sdk\\7.0.304\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nugets.trabajo.gob.ar/nuget": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Manuel\\source\\repos\\ve-juicios\\Main\\Source\\AfipApi.Application\\AfipApi.Application.csproj": {
+                "projectPath": "C:\\Users\\Manuel\\source\\repos\\ve-juicios\\Main\\Source\\AfipApi.Application\\AfipApi.Application.csproj"
+              },
+              "C:\\Users\\Manuel\\source\\repos\\ve-juicios\\Main\\Source\\AfipApi.Domain\\AfipApi.Domain.csproj": {
+                "projectPath": "C:\\Users\\Manuel\\source\\repos\\ve-juicios\\Main\\Source\\AfipApi.Domain\\AfipApi.Domain.csproj"
+              },
+              "C:\\Users\\Manuel\\source\\repos\\ve-juicios\\Main\\Source\\AfipApi.Infraestructure\\AfipApi.Infraestructure.csproj": {
+                "projectPath": "C:\\Users\\Manuel\\source\\repos\\ve-juicios\\Main\\Source\\AfipApi.Infraestructure\\AfipApi.Infraestructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "DGIIT.Integration.VEAfipApi.NetCore": {
+              "target": "Package",
+              "version": "[1.1.6, )"
+            },
+            "DGIIT.Integration.WSAfip.NetCore": {
+              "target": "Package",
+              "version": "[1.3.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[7.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.19, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[6.0.14, )"
+            },
+            "NLog": {
+              "target": "Package",
+              "version": "[5.2.0, )"
+            },
+            "NLog.Database": {
+              "target": "Package",
+              "version": "[5.2.0, )"
+            },
+            "NLog.Web.AspNetCore": {
+              "target": "Package",
+              "version": "[5.3.0, )"
+            },
+            "PDFsharp": {
+              "target": "Package",
+              "version": "[6.0.0-preview-2, )"
+            },
+            "Quartz": {
+              "target": "Package",
+              "version": "[3.4.0, )"
+            },
+            "Quartz.AspNetCore": {
+              "target": "Package",
+              "version": "[3.4.0, )"
+            },
+            "Quartz.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[3.4.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.5, )"
+            },
+            "itext7": {
+              "target": "Package",
+              "version": "[7.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

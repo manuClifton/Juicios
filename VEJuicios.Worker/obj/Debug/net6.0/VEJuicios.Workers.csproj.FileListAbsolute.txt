@@ -1,0 +1,17 @@
+C:\Users\Manuel\source\repos\ve-juicios\Main\Source\VEJuicios.Worker\bin\Debug\net6.0\VEJuicios.Workers.deps.json
+C:\Users\Manuel\source\repos\ve-juicios\Main\Source\VEJuicios.Worker\bin\Debug\net6.0\VEJuicios.Workers.dll
+C:\Users\Manuel\source\repos\ve-juicios\Main\Source\VEJuicios.Worker\bin\Debug\net6.0\VEJuicios.Workers.pdb
+C:\Users\Manuel\source\repos\ve-juicios\Main\Source\VEJuicios.Worker\bin\Debug\net6.0\VEJuicios.Domain.dll
+C:\Users\Manuel\source\repos\ve-juicios\Main\Source\VEJuicios.Worker\bin\Debug\net6.0\VEJuicios.Domain.pdb
+C:\Users\Manuel\source\repos\ve-juicios\Main\Source\VEJuicios.Worker\obj\Debug\net6.0\VEJuicios.Workers.csproj.AssemblyReference.cache
+C:\Users\Manuel\source\repos\ve-juicios\Main\Source\VEJuicios.Worker\obj\Debug\net6.0\VEJuicios.Workers.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Manuel\source\repos\ve-juicios\Main\Source\VEJuicios.Worker\obj\Debug\net6.0\VEJuicios.Workers.AssemblyInfoInputs.cache
+C:\Users\Manuel\source\repos\ve-juicios\Main\Source\VEJuicios.Worker\obj\Debug\net6.0\VEJuicios.Workers.AssemblyInfo.cs
+C:\Users\Manuel\source\repos\ve-juicios\Main\Source\VEJuicios.Worker\obj\Debug\net6.0\VEJuicios.Workers.csproj.CoreCompileInputs.cache
+C:\Users\Manuel\source\repos\ve-juicios\Main\Source\VEJuicios.Worker\obj\Debug\net6.0\VEJuicios.Workers.csproj.CopyComplete
+C:\Users\Manuel\source\repos\ve-juicios\Main\Source\VEJuicios.Worker\obj\Debug\net6.0\VEJuicios.Workers.dll
+C:\Users\Manuel\source\repos\ve-juicios\Main\Source\VEJuicios.Worker\obj\Debug\net6.0\refint\VEJuicios.Workers.dll
+C:\Users\Manuel\source\repos\ve-juicios\Main\Source\VEJuicios.Worker\obj\Debug\net6.0\VEJuicios.Workers.pdb
+C:\Users\Manuel\source\repos\ve-juicios\Main\Source\VEJuicios.Worker\obj\Debug\net6.0\ref\VEJuicios.Workers.dll
+C:\Users\Manuel\source\repos\ve-juicios\Main\Source\VEJuicios.Worker\bin\Debug\net6.0\VEJuicios.Application.dll
+C:\Users\Manuel\source\repos\ve-juicios\Main\Source\VEJuicios.Worker\bin\Debug\net6.0\VEJuicios.Application.pdb

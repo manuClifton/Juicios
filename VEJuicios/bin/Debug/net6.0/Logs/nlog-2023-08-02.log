@@ -1,0 +1,197 @@
+2023-08-02 19:07:08.6866|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting
+2023-08-02 19:07:10.1167|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\Manuel\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-08-02 19:07:10.4426|DEBUG|Quartz.Simpl.TaskSchedulingThreadPool|TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler.
+2023-08-02 19:07:10.5652|INFO|Quartz.Core.SchedulerSignalerImpl|Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2023-08-02 19:07:10.6186|INFO|Quartz.Core.QuartzScheduler|Quartz Scheduler created
+2023-08-02 19:07:10.6770|INFO|Quartz.Core.QuartzScheduler|JobFactory set to: Quartz.Simpl.MicrosoftDependencyInjectionJobFactory
+2023-08-02 19:07:10.7297|INFO|Quartz.Simpl.RAMJobStore|RAMJobStore initialized.
+2023-08-02 19:07:10.8343|INFO|Quartz.Core.QuartzScheduler|Scheduler meta-data: Quartz Scheduler (v3.4.0.0) 'Notificaciones' with instanceId 'Scheduler-Notificacion'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.DefaultThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2023-08-02 19:07:10.8864|INFO|Quartz.Impl.StdSchedulerFactory|Quartz scheduler 'Notificaciones' initialized
+2023-08-02 19:07:10.9384|INFO|Quartz.Impl.StdSchedulerFactory|Quartz scheduler version: 3.4.0.0
+2023-08-02 19:07:11.1218|INFO|Quartz.ContainerConfigurationProcessor|Adding 0 jobs, 0 triggers.
+2023-08-02 19:07:11.1962|INFO|VEJuicios.Workers.WorkerRecepcionAfip|Worker running at: 08/02/2023 19:07:11 -03:00
+2023-08-02 19:07:11.2765|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\Manuel\AppData\Local\ASP.NET\DataProtection-Keys\key-2f7463d5-09f6-42b0-b038-897a699a3a01.xml'.
+2023-08-02 19:07:11.4377|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\Manuel\AppData\Local\ASP.NET\DataProtection-Keys\key-8a172727-ab68-4caa-a957-f6dbc16963c2.xml'.
+2023-08-02 19:07:11.5277|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\Manuel\AppData\Local\ASP.NET\DataProtection-Keys\key-8c634a91-ae70-4347-8421-cdb79c947157.xml'.
+2023-08-02 19:07:11.6270|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {2f7463d5-09f6-42b0-b038-897a699a3a01}.
+2023-08-02 19:07:11.6925|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {8a172727-ab68-4caa-a957-f6dbc16963c2}.
+2023-08-02 19:07:11.7438|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {8c634a91-ae70-4347-8421-cdb79c947157}.
+2023-08-02 19:07:11.8598|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver|Considering key {8a172727-ab68-4caa-a957-f6dbc16963c2} with expiration date 2023-09-24 14:42:34Z as default key.
+2023-08-02 19:07:11.9262|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-08-02 19:07:11.9906|DEBUG|Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor|Decrypting secret element using Windows DPAPI.
+2023-08-02 19:07:12.0658|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-08-02 19:07:12.5445|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC.
+2023-08-02 19:07:12.6057|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC.
+2023-08-02 19:07:12.6668|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider|Using key {8a172727-ab68-4caa-a957-f6dbc16963c2} as the default key.
+2023-08-02 19:07:12.7252|DEBUG|Microsoft.AspNetCore.DataProtection.Internal.DataProtectionHostedService|Key ring with default key {8a172727-ab68-4caa-a957-f6dbc16963c2} was loaded during application startup.
+2023-08-02 19:07:14.3235|DEBUG|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|Initializing Razor view compiler with no compiled views.
+2023-08-02 19:07:14.4204|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory|Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider
+2023-08-02 19:07:15.3174|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer|Using development certificate: CN=localhost (Thumbprint: 2A56E4850DEE069647BE910EF39C8C149FAF80EE)
+2023-08-02 19:07:15.5227|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001
+2023-08-02 19:07:15.5819|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000
+2023-08-02 19:07:15.6399|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly VEJuicios
+2023-08-02 19:07:15.6935|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-08-02 19:07:15.7489|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-08-02 19:07:15.8214|INFO|VEJuicios.Workers.WorkerEnvioAfip|WorkerEnvioAfip running at: 08/02/2023 19:07:15 -03:00
+2023-08-02 19:07:15.8214|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMSJKJADKQT2" accepted.
+2023-08-02 19:07:15.8679|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMSJKJADKQT3" accepted.
+2023-08-02 19:07:15.9577|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMSJKJADKQT2" started.
+2023-08-02 19:07:16.0124|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMSJKJADKQT3" started.
+2023-08-02 19:07:16.2721|INFO|VEJuicios.Workers.WorkerRecepcionAfip|Worker running at: 08/02/2023 19:07:16 -03:00
+2023-08-02 19:07:16.4322|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-08-02 19:07:16.7170|INFO|VEJuicios.Workers.WorkerEnvioAfip|Worker running at: 08/02/2023 19:07:16 -03:00
+2023-08-02 19:07:17.7225|INFO|VEJuicios.Workers.WorkerEnvioAfip|WorkerEnvioAfip running at: 08/02/2023 19:07:17 -03:00
+2023-08-02 19:07:18.7843|INFO|VEJuicios.Workers.WorkerEnvioAfip|WorkerEnvioAfip running at: 08/02/2023 19:07:18 -03:00
+2023-08-02 19:07:18.9415|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMSJKJADKQT4" accepted.
+2023-08-02 19:07:19.0044|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMSJKJADKQT4" started.
+2023-08-02 19:07:19.0849|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMSJKJADKQT5" accepted.
+2023-08-02 19:07:19.1881|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMSJKJADKQT5" started.
+2023-08-02 19:07:19.3528|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMSJKJADKQT5" received FIN.
+2023-08-02 19:07:19.4178|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Connection 0HMSJKJADKQT4 established using the following protocol: Tls12
+2023-08-02 19:07:19.4178|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Connection 0HMSJKJADKQT5 established using the following protocol: Tls12
+2023-08-02 19:07:19.5348|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMSJKJADKQT5" is closed. The last processed stream ID was 0.
+2023-08-02 19:07:19.5940|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMSJKJADKQT5" sending FIN because: "The client closed the connection."
+2023-08-02 19:07:19.6501|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/swagger - -
+2023-08-02 19:07:19.6628|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMSJKJADKQT5" stopped.
+2023-08-02 19:07:19.8015|DEBUG|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|Wildcard detected, all requests with hosts will be allowed.
+2023-08-02 19:07:19.8152|WARN|Microsoft.EntityFrameworkCore.Model.Validation|Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2023-08-02 19:07:19.8561|INFO|VEJuicios.Workers.WorkerEnvioAfip|WorkerEnvioAfip running at: 08/02/2023 19:07:19 -03:00
+2023-08-02 19:07:19.8561|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /swagger does not match a supported file type
+2023-08-02 19:07:20.1040|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger'
+2023-08-02 19:07:20.1578|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints
+2023-08-02 19:07:20.1883|WARN|Microsoft.EntityFrameworkCore.Model.Validation|No store type was specified for the decimal property 'CasoId' on entity type 'Notificacion'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-08-02 19:07:20.2633|WARN|Microsoft.EntityFrameworkCore.Model.Validation|No store type was specified for the decimal property 'MetodoEnvioId' on entity type 'Notificacion'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-08-02 19:07:20.3149|WARN|Microsoft.EntityFrameworkCore.Model.Validation|No store type was specified for the decimal property 'TipoNotificacionId' on entity type 'Notificacion'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-08-02 19:07:20.3686|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/swagger - - - 301 0 - 727.9162ms
+2023-08-02 19:07:20.3686|WARN|Microsoft.EntityFrameworkCore.Model.Validation|No store type was specified for the decimal property 'NotificacionId' on entity type 'NotificacionAdjuntoEnviado'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2023-08-02 19:07:20.3686|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2023-08-02 19:07:20.5305|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /swagger/index.html does not match an existing file
+2023-08-02 19:07:20.5922|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/index.html'
+2023-08-02 19:07:20.6436|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints
+2023-08-02 19:07:20.8647|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup is scheduled to include browser refresh script injection.
+2023-08-02 19:07:20.9532|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|Entity Framework Core 7.0.8 initialized 'SQLServerContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.8' with options: SensitiveDataLoggingEnabled 
+2023-08-02 19:07:20.9532|INFO|VEJuicios.Workers.WorkerEnvioAfip|WorkerEnvioAfip running at: 08/02/2023 19:07:20 -03:00
+2023-08-02 19:07:21.0372|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Creating DbCommand for 'ExecuteNonQuery'.
+2023-08-02 19:07:21.1165|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Creating DbConnection.
+2023-08-02 19:07:21.2821|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Created DbConnection. (161ms).
+2023-08-02 19:07:21.2938|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui.css - -
+2023-08-02 19:07:21.2938|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - -
+2023-08-02 19:07:21.2938|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui-bundle.js - -
+2023-08-02 19:07:21.2938|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui-standalone-preset.js - -
+2023-08-02 19:07:21.3081|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup was updated to include browser refresh script injection.
+2023-08-02 19:07:21.3431|INFO|VEJuicios.Workers.WorkerRecepcionAfip|Worker running at: 08/02/2023 19:07:21 -03:00
+2023-08-02 19:07:21.3431|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Created DbCommand for 'ExecuteNonQuery' (310ms).
+2023-08-02 19:07:21.3860|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /swagger/swagger-ui.css does not match an existing file
+2023-08-02 19:07:21.7479|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/swagger-ui.css'
+2023-08-02 19:07:21.4897|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /swagger/swagger-ui-bundle.js does not match an existing file
+2023-08-02 19:07:21.5933|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 1220.4870ms
+2023-08-02 19:07:21.5407|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /swagger/swagger-ui-standalone-preset.js does not match an existing file
+2023-08-02 19:07:21.6073|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - -
+2023-08-02 19:07:21.7094|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Initialized DbCommand for 'ExecuteNonQuery' (671ms).
+2023-08-02 19:07:21.7996|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints
+2023-08-02 19:07:21.4473|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 200 11988 application/javascript;+charset=utf-8 152.4557ms
+2023-08-02 19:07:21.8525|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/swagger-ui-bundle.js'
+2023-08-02 19:07:22.0742|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opening connection to database 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21'.
+2023-08-02 19:07:22.1622|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-08-02 19:07:22.2165|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints
+2023-08-02 19:07:22.3209|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/swagger/swagger-ui.css - - - 200 144929 text/css 1026.0006ms
+2023-08-02 19:07:22.0742|INFO|VEJuicios.Workers.WorkerEnvioAfip|WorkerEnvioAfip running at: 08/02/2023 19:07:22 -03:00
+2023-08-02 19:07:21.9559|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/swagger-ui-standalone-preset.js'
+2023-08-02 19:07:22.2326|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 625.1286ms
+2023-08-02 19:07:22.4943|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-08-02 19:07:22.5354|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints
+2023-08-02 19:07:22.6396|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/swagger/swagger-ui-bundle.js - - - 200 1061536 application/javascript 1345.7883ms
+2023-08-02 19:07:22.7068|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-08-02 19:07:22.8132|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/swagger/swagger-ui-standalone-preset.js - - - 200 312163 application/javascript 1519.1079ms
+2023-08-02 19:07:23.0517|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/swagger/favicon-32x32.png - -
+2023-08-02 19:07:23.1043|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /swagger/favicon-32x32.png does not match an existing file
+2023-08-02 19:07:23.1552|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/favicon-32x32.png'
+2023-08-02 19:07:23.2076|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints
+2023-08-02 19:07:23.2593|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-08-02 19:07:23.3107|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/swagger/favicon-32x32.png - - - 200 628 image/png 259.1690ms
+2023-08-02 19:07:23.4382|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2023-08-02 19:07:23.4996|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path /swagger/v1/swagger.json does not match an existing file
+2023-08-02 19:07:23.5647|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/v1/swagger.json'
+2023-08-02 19:07:23.4996|INFO|VEJuicios.Workers.WorkerEnvioAfip|WorkerEnvioAfip running at: 08/02/2023 19:07:23 -03:00
+2023-08-02 19:07:23.6059|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Opened connection to database 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21'.
+2023-08-02 19:07:23.6221|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints
+2023-08-02 19:07:23.7619|DEBUG|Microsoft.EntityFrameworkCore.Database.Command|Executing DbCommand [Parameters=[], CommandType='Text', CommandTimeout='30']
+spNotificacionBorrarArchivosTemporales
+2023-08-02 19:07:23.9805|INFO|Microsoft.EntityFrameworkCore.Database.Command|Executed DbCommand (227ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+spNotificacionBorrarArchivosTemporales
+2023-08-02 19:07:24.0397|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closing connection to database 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21'.
+2023-08-02 19:07:24.1111|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 673.0025ms
+2023-08-02 19:07:24.1288|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Closed connection to database 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21' (81ms).
+2023-08-02 19:07:24.2203|DEBUG|Microsoft.EntityFrameworkCore.Infrastructure|'SQLServerContext' disposed.
+2023-08-02 19:07:24.2798|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposing connection to database 'JuiciosNotificacionesUTN' on server 'S1-DIXX-SQL21'.
+2023-08-02 19:07:24.3353|DEBUG|Microsoft.EntityFrameworkCore.Database.Connection|Disposed connection to database '' on server '' (55ms).
+2023-08-02 19:07:24.3868|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2023-08-02 19:07:24.4085|INFO|Quartz.Core.QuartzScheduler|Scheduler Notificaciones_$_Scheduler-Notificacion started.
+2023-08-02 19:07:24.4140|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-08-02 19:07:24.4384|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2023-08-02 19:07:24.5942|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\Manuel\source\repos\ve-juicios\Main\Source\VEJuicios
+2023-08-02 19:07:24.6454|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started
+2023-08-02 19:07:24.6944|INFO|VEJuicios.Workers.WorkerEnvioAfip|WorkerEnvioAfip running at: 08/02/2023 19:07:24 -03:00
+2023-08-02 19:07:25.7655|INFO|VEJuicios.Workers.WorkerEnvioAfip|WorkerEnvioAfip running at: 08/02/2023 19:07:25 -03:00
+2023-08-02 19:07:26.1236|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Authentication of the HTTPS connection timed out.
+2023-08-02 19:07:26.1312|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Authentication of the HTTPS connection timed out.
+2023-08-02 19:07:26.1861|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMSJKJADKQT2" stopped.
+2023-08-02 19:07:26.2428|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMSJKJADKQT3" stopped.
+2023-08-02 19:07:26.2971|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMSJKJADKQT2" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-08-02 19:07:26.6489|INFO|VEJuicios.Workers.WorkerRecepcionAfip|Worker running at: 08/02/2023 19:07:26 -03:00
+2023-08-02 19:07:26.6489|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMSJKJADKQT3" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-08-02 19:07:26.8363|INFO|VEJuicios.Workers.WorkerEnvioAfip|WorkerEnvioAfip running at: 08/02/2023 19:07:26 -03:00
+2023-08-02 19:07:27.8951|INFO|VEJuicios.Workers.WorkerEnvioAfip|WorkerEnvioAfip running at: 08/02/2023 19:07:27 -03:00
+2023-08-02 19:07:28.3809|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMSJKJADKQT4" received FIN.
+2023-08-02 19:07:28.4320|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMSJKJADKQT4" is closed. The last processed stream ID was 17.
+2023-08-02 19:07:28.4839|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMSJKJADKQT4" sending FIN because: "The client closed the connection."
+2023-08-02 19:07:28.5629|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMSJKJADKQT4" stopped.
+2023-08-02 19:07:28.9543|INFO|VEJuicios.Workers.WorkerEnvioAfip|WorkerEnvioAfip running at: 08/02/2023 19:07:28 -03:00
+2023-08-02 19:07:30.0089|INFO|VEJuicios.Workers.WorkerEnvioAfip|WorkerEnvioAfip running at: 08/02/2023 19:07:30 -03:00
+2023-08-02 19:07:31.0624|INFO|VEJuicios.Workers.WorkerEnvioAfip|WorkerEnvioAfip running at: 08/02/2023 19:07:31 -03:00
+2023-08-02 19:07:31.7831|INFO|VEJuicios.Workers.WorkerRecepcionAfip|Worker running at: 08/02/2023 19:07:31 -03:00
+2023-08-02 19:07:32.1188|INFO|VEJuicios.Workers.WorkerEnvioAfip|WorkerEnvioAfip running at: 08/02/2023 19:07:32 -03:00
+2023-08-02 19:07:33.1674|INFO|VEJuicios.Workers.WorkerEnvioAfip|WorkerEnvioAfip running at: 08/02/2023 19:07:33 -03:00
+2023-08-02 19:07:34.2200|INFO|VEJuicios.Workers.WorkerEnvioAfip|WorkerEnvioAfip running at: 08/02/2023 19:07:34 -03:00
+2023-08-02 19:07:35.2799|INFO|VEJuicios.Workers.WorkerEnvioAfip|WorkerEnvioAfip running at: 08/02/2023 19:07:35 -03:00
+2023-08-02 19:07:36.3288|INFO|VEJuicios.Workers.WorkerEnvioAfip|WorkerEnvioAfip running at: 08/02/2023 19:07:36 -03:00
+2023-08-02 19:07:36.8336|INFO|VEJuicios.Workers.WorkerRecepcionAfip|Worker running at: 08/02/2023 19:07:36 -03:00
+2023-08-02 19:07:37.3802|INFO|VEJuicios.Workers.WorkerEnvioAfip|WorkerEnvioAfip running at: 08/02/2023 19:07:37 -03:00
+2023-08-02 19:07:38.4400|INFO|VEJuicios.Workers.WorkerEnvioAfip|WorkerEnvioAfip running at: 08/02/2023 19:07:38 -03:00
+2023-08-02 19:07:39.5109|INFO|VEJuicios.Workers.WorkerEnvioAfip|WorkerEnvioAfip running at: 08/02/2023 19:07:39 -03:00
+2023-08-02 19:07:40.5687|INFO|VEJuicios.Workers.WorkerEnvioAfip|WorkerEnvioAfip running at: 08/02/2023 19:07:40 -03:00
+2023-08-02 19:07:41.6354|INFO|VEJuicios.Workers.WorkerEnvioAfip|WorkerEnvioAfip running at: 08/02/2023 19:07:41 -03:00
+2023-08-02 19:07:41.8862|INFO|VEJuicios.Workers.WorkerRecepcionAfip|Worker running at: 08/02/2023 19:07:41 -03:00
+2023-08-02 19:07:42.6972|INFO|VEJuicios.Workers.WorkerEnvioAfip|WorkerEnvioAfip running at: 08/02/2023 19:07:42 -03:00
+2023-08-02 19:07:43.7504|INFO|VEJuicios.Workers.WorkerEnvioAfip|WorkerEnvioAfip running at: 08/02/2023 19:07:43 -03:00
+2023-08-02 19:07:44.8164|INFO|VEJuicios.Workers.WorkerEnvioAfip|WorkerEnvioAfip running at: 08/02/2023 19:07:44 -03:00
+2023-08-02 19:07:45.8766|INFO|VEJuicios.Workers.WorkerEnvioAfip|WorkerEnvioAfip running at: 08/02/2023 19:07:45 -03:00
+2023-08-02 19:07:46.9356|INFO|VEJuicios.Workers.WorkerRecepcionAfip|Worker running at: 08/02/2023 19:07:46 -03:00
+2023-08-02 19:07:46.9356|INFO|VEJuicios.Workers.WorkerEnvioAfip|WorkerEnvioAfip running at: 08/02/2023 19:07:46 -03:00
+2023-08-02 19:07:48.0608|INFO|VEJuicios.Workers.WorkerEnvioAfip|WorkerEnvioAfip running at: 08/02/2023 19:07:48 -03:00
+2023-08-02 19:07:49.1258|INFO|VEJuicios.Workers.WorkerEnvioAfip|WorkerEnvioAfip running at: 08/02/2023 19:07:49 -03:00
+2023-08-02 19:07:50.1880|INFO|VEJuicios.Workers.WorkerEnvioAfip|WorkerEnvioAfip running at: 08/02/2023 19:07:50 -03:00
+2023-08-02 19:07:51.2479|INFO|VEJuicios.Workers.WorkerEnvioAfip|WorkerEnvioAfip running at: 08/02/2023 19:07:51 -03:00
+2023-08-02 19:07:51.9938|INFO|VEJuicios.Workers.WorkerRecepcionAfip|Worker running at: 08/02/2023 19:07:51 -03:00
+2023-08-02 19:07:52.3031|INFO|VEJuicios.Workers.WorkerEnvioAfip|WorkerEnvioAfip running at: 08/02/2023 19:07:52 -03:00
+2023-08-02 19:07:53.3706|INFO|VEJuicios.Workers.WorkerEnvioAfip|WorkerEnvioAfip running at: 08/02/2023 19:07:53 -03:00
+2023-08-02 19:07:54.0704|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-08-02 19:07:54.4252|INFO|VEJuicios.Workers.WorkerEnvioAfip|WorkerEnvioAfip running at: 08/02/2023 19:07:54 -03:00
+2023-08-02 19:07:55.4868|INFO|VEJuicios.Workers.WorkerEnvioAfip|WorkerEnvioAfip running at: 08/02/2023 19:07:55 -03:00
+2023-08-02 19:07:56.5376|INFO|VEJuicios.Workers.WorkerEnvioAfip|WorkerEnvioAfip running at: 08/02/2023 19:07:56 -03:00
+2023-08-02 19:07:57.0557|INFO|VEJuicios.Workers.WorkerRecepcionAfip|Worker running at: 08/02/2023 19:07:57 -03:00
+2023-08-02 19:07:57.6040|INFO|VEJuicios.Workers.WorkerEnvioAfip|WorkerEnvioAfip running at: 08/02/2023 19:07:57 -03:00
+2023-08-02 19:07:58.6707|INFO|VEJuicios.Workers.WorkerEnvioAfip|WorkerEnvioAfip running at: 08/02/2023 19:07:58 -03:00
+2023-08-02 19:07:59.7665|INFO|VEJuicios.Workers.WorkerEnvioAfip|WorkerEnvioAfip running at: 08/02/2023 19:07:59 -03:00
+2023-08-02 19:08:00.8197|INFO|VEJuicios.Workers.WorkerEnvioAfip|WorkerEnvioAfip running at: 08/02/2023 19:08:00 -03:00
+2023-08-02 19:08:01.8910|INFO|VEJuicios.Workers.WorkerEnvioAfip|WorkerEnvioAfip running at: 08/02/2023 19:08:01 -03:00
+2023-08-02 19:08:02.1162|INFO|VEJuicios.Workers.WorkerRecepcionAfip|Worker running at: 08/02/2023 19:08:02 -03:00
+2023-08-02 19:08:03.2557|INFO|VEJuicios.Workers.WorkerEnvioAfip|WorkerEnvioAfip running at: 08/02/2023 19:08:03 -03:00
+2023-08-02 19:08:04.4961|INFO|VEJuicios.Workers.WorkerEnvioAfip|WorkerEnvioAfip running at: 08/02/2023 19:08:04 -03:00

@@ -1,0 +1,251 @@
+2023-06-26 11:42:03.0036|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting
+2023-06-26 11:42:13.7499|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\Manuel\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-06-26 11:42:16.9962|DEBUG|Quartz.Simpl.TaskSchedulingThreadPool|TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler.
+2023-06-26 11:42:17.3570|INFO|Quartz.Core.SchedulerSignalerImpl|Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2023-06-26 11:42:30.7443|INFO|Quartz.Core.QuartzScheduler|Quartz Scheduler created
+2023-06-26 11:42:30.8899|INFO|Quartz.Core.QuartzScheduler|JobFactory set to: Quartz.Simpl.MicrosoftDependencyInjectionJobFactory
+2023-06-26 11:42:31.1971|INFO|Quartz.Simpl.RAMJobStore|RAMJobStore initialized.
+2023-06-26 11:42:31.8678|INFO|Quartz.Core.QuartzScheduler|Scheduler meta-data: Quartz Scheduler (v3.4.0.0) 'Notificaciones' with instanceId 'Scheduler-Notificacion'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.DefaultThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2023-06-26 11:42:32.0800|INFO|Quartz.Impl.StdSchedulerFactory|Quartz scheduler 'Notificaciones' initialized
+2023-06-26 11:42:32.5366|INFO|Quartz.Impl.StdSchedulerFactory|Quartz scheduler version: 3.4.0.0
+2023-06-26 11:42:32.6762|INFO|Quartz.ContainerConfigurationProcessor|Adding 1 jobs, 1 triggers.
+2023-06-26 11:42:32.8167|INFO|Quartz.ContainerConfigurationProcessor|Adding job: DEFAULT.CronNotificacion
+2023-06-26 11:42:33.2519|DEBUG|Quartz.ContainerConfigurationProcessor|Scheduling job: DEFAULT.CronNotificacion with trigger: DEFAULT.CronNotificacionTrigger
+2023-06-26 11:42:33.4856|DEBUG|Quartz.ContainerConfigurationProcessor|Rescheduling job: DEFAULT.CronNotificacion with updated trigger: DEFAULT.CronNotificacionTrigger
+2023-06-26 11:42:34.4608|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\Manuel\AppData\Local\ASP.NET\DataProtection-Keys\key-2f7463d5-09f6-42b0-b038-897a699a3a01.xml'.
+2023-06-26 11:42:56.6856|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\Manuel\AppData\Local\ASP.NET\DataProtection-Keys\key-8c634a91-ae70-4347-8421-cdb79c947157.xml'.
+2023-06-26 11:42:56.7826|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {2f7463d5-09f6-42b0-b038-897a699a3a01}.
+2023-06-26 11:42:56.8649|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {8c634a91-ae70-4347-8421-cdb79c947157}.
+2023-06-26 11:42:56.9653|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver|Considering key {2f7463d5-09f6-42b0-b038-897a699a3a01} with expiration date 2022-05-04 14:36:21Z as default key.
+2023-06-26 11:42:57.0438|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver|Key {2f7463d5-09f6-42b0-b038-897a699a3a01} is no longer under consideration as default key because it is expired, revoked, or cannot be deciphered.
+2023-06-26 11:42:57.1873|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=3.1.18.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-06-26 11:42:57.2502|DEBUG|Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor|Decrypting secret element using Windows DPAPI.
+2023-06-26 11:42:57.3144|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=3.1.18.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-06-26 11:42:57.3821|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC.
+2023-06-26 11:42:57.4377|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC.
+2023-06-26 11:42:57.5074|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver|Repository contains no viable default key. Caller should generate a key with immediate activation.
+2023-06-26 11:42:57.5599|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider|Policy resolution states that a new key should be added to the key ring.
+2023-06-26 11:42:57.6185|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Creating key {8a172727-ab68-4caa-a957-f6dbc16963c2} with creation date 2023-06-26 14:42:57Z, activation date 2023-06-26 14:42:34Z, and expiration date 2023-09-24 14:42:34Z.
+2023-06-26 11:42:57.6831|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Descriptor deserializer type for key {8a172727-ab68-4caa-a957-f6dbc16963c2} is 'Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60'.
+2023-06-26 11:42:57.7387|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|No key escrow sink found. Not writing key {8a172727-ab68-4caa-a957-f6dbc16963c2} to escrow.
+2023-06-26 11:42:57.8248|DEBUG|Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlEncryptor|Encrypting to Windows DPAPI for current user account (HP\Manuel).
+2023-06-26 11:42:57.9009|INFO|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Writing data to file 'C:\Users\Manuel\AppData\Local\ASP.NET\DataProtection-Keys\key-8a172727-ab68-4caa-a957-f6dbc16963c2.xml'.
+2023-06-26 11:42:57.9676|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Key cache expiration token triggered by 'CreateNewKey' operation.
+2023-06-26 11:42:58.0198|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\Manuel\AppData\Local\ASP.NET\DataProtection-Keys\key-2f7463d5-09f6-42b0-b038-897a699a3a01.xml'.
+2023-06-26 11:42:58.0796|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\Manuel\AppData\Local\ASP.NET\DataProtection-Keys\key-8a172727-ab68-4caa-a957-f6dbc16963c2.xml'.
+2023-06-26 11:42:58.1615|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\Manuel\AppData\Local\ASP.NET\DataProtection-Keys\key-8c634a91-ae70-4347-8421-cdb79c947157.xml'.
+2023-06-26 11:42:58.2279|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {2f7463d5-09f6-42b0-b038-897a699a3a01}.
+2023-06-26 11:42:58.2896|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {8a172727-ab68-4caa-a957-f6dbc16963c2}.
+2023-06-26 11:42:58.3401|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {8c634a91-ae70-4347-8421-cdb79c947157}.
+2023-06-26 11:42:58.3943|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver|Considering key {8a172727-ab68-4caa-a957-f6dbc16963c2} with expiration date 2023-09-24 14:42:34Z as default key.
+2023-06-26 11:42:58.4462|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-06-26 11:42:58.5046|DEBUG|Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor|Decrypting secret element using Windows DPAPI.
+2023-06-26 11:42:58.5759|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-06-26 11:42:58.6284|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC.
+2023-06-26 11:42:58.6802|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC.
+2023-06-26 11:42:58.7328|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider|Using key {8a172727-ab68-4caa-a957-f6dbc16963c2} as the default key.
+2023-06-26 11:42:58.7858|DEBUG|Microsoft.AspNetCore.DataProtection.Internal.DataProtectionHostedService|Key ring with default key {8a172727-ab68-4caa-a957-f6dbc16963c2} was loaded during application startup.
+2023-06-26 11:42:59.2960|DEBUG|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|Initializing Razor view compiler with no compiled views.
+2023-06-26 11:42:59.3782|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory|Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider
+2023-06-26 11:43:00.1833|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly AfipApi
+2023-06-26 11:43:00.2370|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-06-26 11:43:00.2767|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:44398/afip - -
+2023-06-26 11:43:00.2872|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-06-26 11:43:00.4122|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2023-06-26 11:43:00.4442|DEBUG|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|Wildcard detected, all requests with hosts will be allowed.
+2023-06-26 11:43:00.4442|INFO|Quartz.Core.QuartzScheduler|Scheduler Notificaciones_$_Scheduler-Notificacion started.
+2023-06-26 11:43:00.4573|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2023-06-26 11:43:00.4573|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-26 11:43:00.5619|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/afip'
+2023-06-26 11:43:00.6188|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\Manuel\Source\Repos\ve-juicios\Main\Source\AfipApi
+2023-06-26 11:43:00.7490|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints
+2023-06-26 11:43:00.8121|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started
+2023-06-26 11:43:00.9330|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path  does not match the path filter
+2023-06-26 11:43:01.0774|DEBUG|Microsoft.AspNetCore.Server.IIS.Core.IISHttpServer|Connection ID "18158513712053354574" disconnecting.
+2023-06-26 11:43:01.0774|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:44398/afip - - - 404 - - 804.8183ms
+2023-06-26 11:43:07.2228|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:44398/afip - -
+2023-06-26 11:43:07.2864|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/afip'
+2023-06-26 11:43:07.3397|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints
+2023-06-26 11:43:07.3913|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path  does not match the path filter
+2023-06-26 11:43:07.4443|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:44398/afip - - - 404 - - 221.4163ms
+2023-06-26 11:43:07.4443|DEBUG|Microsoft.AspNetCore.Server.IIS.Core.IISHttpServer|Connection ID "18302628917309079588" disconnecting.
+2023-06-26 11:43:17.3311|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:44398/afip - -
+2023-06-26 11:43:17.3849|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/afip'
+2023-06-26 11:43:17.4390|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints
+2023-06-26 11:43:17.4918|DEBUG|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|The request path  does not match the path filter
+2023-06-26 11:43:17.5434|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:44398/afip - - - 404 - - 212.2502ms
+2023-06-26 11:43:17.5488|DEBUG|Microsoft.AspNetCore.Server.IIS.Core.IISHttpServer|Connection ID "18374686489872171071" disconnecting.
+2023-06-26 11:43:26.1167|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-26 11:44:17.4845|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting starting
+2023-06-26 11:44:18.3863|INFO|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|User profile is available. Using 'C:\Users\Manuel\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-06-26 11:44:18.6193|DEBUG|Quartz.Simpl.TaskSchedulingThreadPool|TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler.
+2023-06-26 11:44:18.7270|INFO|Quartz.Core.SchedulerSignalerImpl|Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2023-06-26 11:44:18.7784|INFO|Quartz.Core.QuartzScheduler|Quartz Scheduler created
+2023-06-26 11:44:18.8318|INFO|Quartz.Core.QuartzScheduler|JobFactory set to: Quartz.Simpl.MicrosoftDependencyInjectionJobFactory
+2023-06-26 11:44:18.8980|INFO|Quartz.Simpl.RAMJobStore|RAMJobStore initialized.
+2023-06-26 11:44:18.9542|INFO|Quartz.Core.QuartzScheduler|Scheduler meta-data: Quartz Scheduler (v3.4.0.0) 'Notificaciones' with instanceId 'Scheduler-Notificacion'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.DefaultThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2023-06-26 11:44:19.0061|INFO|Quartz.Impl.StdSchedulerFactory|Quartz scheduler 'Notificaciones' initialized
+2023-06-26 11:44:19.0616|INFO|Quartz.Impl.StdSchedulerFactory|Quartz scheduler version: 3.4.0.0
+2023-06-26 11:44:19.1741|INFO|Quartz.ContainerConfigurationProcessor|Adding 1 jobs, 1 triggers.
+2023-06-26 11:44:19.2353|INFO|Quartz.ContainerConfigurationProcessor|Adding job: DEFAULT.CronNotificacion
+2023-06-26 11:44:19.2945|DEBUG|Quartz.ContainerConfigurationProcessor|Scheduling job: DEFAULT.CronNotificacion with trigger: DEFAULT.CronNotificacionTrigger
+2023-06-26 11:44:19.4217|DEBUG|Quartz.ContainerConfigurationProcessor|Rescheduling job: DEFAULT.CronNotificacion with updated trigger: DEFAULT.CronNotificacionTrigger
+2023-06-26 11:44:19.5361|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\Manuel\AppData\Local\ASP.NET\DataProtection-Keys\key-2f7463d5-09f6-42b0-b038-897a699a3a01.xml'.
+2023-06-26 11:44:19.6508|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\Manuel\AppData\Local\ASP.NET\DataProtection-Keys\key-8a172727-ab68-4caa-a957-f6dbc16963c2.xml'.
+2023-06-26 11:44:19.8044|DEBUG|Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository|Reading data from file 'C:\Users\Manuel\AppData\Local\ASP.NET\DataProtection-Keys\key-8c634a91-ae70-4347-8421-cdb79c947157.xml'.
+2023-06-26 11:44:19.9388|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {2f7463d5-09f6-42b0-b038-897a699a3a01}.
+2023-06-26 11:44:20.0261|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {8a172727-ab68-4caa-a957-f6dbc16963c2}.
+2023-06-26 11:44:20.5499|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager|Found key {8c634a91-ae70-4347-8421-cdb79c947157}.
+2023-06-26 11:44:20.9208|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver|Considering key {8a172727-ab68-4caa-a957-f6dbc16963c2} with expiration date 2023-09-24 14:42:34Z as default key.
+2023-06-26 11:44:21.2841|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-06-26 11:44:21.4358|DEBUG|Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor|Decrypting secret element using Windows DPAPI.
+2023-06-26 11:44:21.5764|DEBUG|Microsoft.AspNetCore.DataProtection.TypeForwardingActivator|Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=6.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-06-26 11:44:22.1321|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC.
+2023-06-26 11:44:22.1858|DEBUG|Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory|Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC.
+2023-06-26 11:44:22.2438|DEBUG|Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider|Using key {8a172727-ab68-4caa-a957-f6dbc16963c2} as the default key.
+2023-06-26 11:44:22.3002|DEBUG|Microsoft.AspNetCore.DataProtection.Internal.DataProtectionHostedService|Key ring with default key {8a172727-ab68-4caa-a957-f6dbc16963c2} was loaded during application startup.
+2023-06-26 11:44:22.5475|DEBUG|Microsoft.AspNetCore.Mvc.Razor.Compilation.DefaultViewCompiler|Initializing Razor view compiler with no compiled views.
+2023-06-26 11:44:22.6301|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory|Registered model binder providers, in the following order: Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider, Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider
+2023-06-26 11:44:23.0692|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer|Using development certificate: CN=localhost (Thumbprint: 2A56E4850DEE069647BE910EF39C8C149FAF80EE)
+2023-06-26 11:44:23.2006|INFO|Microsoft.Hosting.Lifetime|Now listening on: https://localhost:5001
+2023-06-26 11:44:23.2524|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:5000
+2023-06-26 11:44:23.3108|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly AfipApi
+2023-06-26 11:44:23.3625|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-06-26 11:44:23.4160|DEBUG|Microsoft.AspNetCore.Hosting.Diagnostics|Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-06-26 11:44:23.4691|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2023-06-26 11:44:23.4691|INFO|Quartz.Core.QuartzScheduler|Scheduler Notificaciones_$_Scheduler-Notificacion started.
+2023-06-26 11:44:23.4906|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-26 11:44:23.5248|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Development
+2023-06-26 11:44:23.6742|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMRMAFALG3MB" received FIN.
+2023-06-26 11:44:23.6903|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\Manuel\Source\Repos\ve-juicios\Main\Source\AfipApi
+2023-06-26 11:44:23.9007|DEBUG|Microsoft.Extensions.Hosting.Internal.Host|Hosting started
+2023-06-26 11:44:24.0631|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMRMAFALG3MB" accepted.
+2023-06-26 11:44:24.1243|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMRMAFALG3MB" started.
+2023-06-26 11:44:24.2214|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Failed to authenticate HTTPS connection.|System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-06-26 11:44:24.4985|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMRMAFALG3MC" accepted.
+2023-06-26 11:44:24.5163|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMRMAFALG3MB" stopped.
+2023-06-26 11:44:24.5787|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMRMAFALG3MC" started.
+2023-06-26 11:44:24.6763|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMRMAFALG3MB" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-06-26 11:44:24.5787|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMRMAFALG3MD" accepted.
+2023-06-26 11:44:24.8338|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMRMAFALG3MD" started.
+2023-06-26 11:44:24.9469|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMRMAFALG3MD" received FIN.
+2023-06-26 11:44:25.0468|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Connection 0HMRMAFALG3MC established using the following protocol: Tls12
+2023-06-26 11:44:25.0468|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Connection 0HMRMAFALG3MD established using the following protocol: Tls12
+2023-06-26 11:44:25.1939|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMRMAFALG3MD" is closed. The last processed stream ID was 0.
+2023-06-26 11:44:25.2845|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMRMAFALG3MD" sending FIN because: "The client closed the connection."
+2023-06-26 11:44:25.3508|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMRMAFALG3MD" stopped.
+2023-06-26 11:44:25.3737|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/swagger - -
+2023-06-26 11:44:25.6143|DEBUG|Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware|Wildcard detected, all requests with hosts will be allowed.
+2023-06-26 11:44:25.7493|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger'
+2023-06-26 11:44:25.8094|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints
+2023-06-26 11:44:25.9917|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/swagger - - - 301 0 - 624.3823ms
+2023-06-26 11:44:26.0073|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/swagger/index.html - -
+2023-06-26 11:44:26.1274|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/index.html'
+2023-06-26 11:44:26.2067|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints
+2023-06-26 11:44:26.5789|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup is scheduled to include browser refresh script injection.
+2023-06-26 11:44:27.1848|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui-bundle.js - -
+2023-06-26 11:44:27.1850|DEBUG|Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware|Response markup was updated to include browser refresh script injection.
+2023-06-26 11:44:27.1850|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui.css - -
+2023-06-26 11:44:27.1850|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - -
+2023-06-26 11:44:27.1850|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui-standalone-preset.js - -
+2023-06-26 11:44:27.2462|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/swagger-ui-bundle.js'
+2023-06-26 11:44:27.3017|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/swagger/index.html - - - 200 - text/html;charset=utf-8 1294.4506ms
+2023-06-26 11:44:27.3516|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/swagger-ui.css'
+2023-06-26 11:44:27.4123|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_framework/aspnetcore-browser-refresh.js - - - 200 11984 application/javascript;+charset=utf-8 217.6663ms
+2023-06-26 11:44:27.6239|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints
+2023-06-26 11:44:27.5126|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints
+2023-06-26 11:44:27.4598|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/swagger-ui-standalone-preset.js'
+2023-06-26 11:44:27.6439|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/_vs/browserLink - -
+2023-06-26 11:44:27.8667|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints
+2023-06-26 11:44:28.0224|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-06-26 11:44:28.0595|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-06-26 11:44:28.1521|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/swagger/swagger-ui-standalone-preset.js - - - 200 312163 application/javascript 953.8552ms
+2023-06-26 11:44:28.1805|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/swagger/swagger-ui.css - - - 200 144929 text/css 997.2954ms
+2023-06-26 11:44:28.1959|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-06-26 11:44:28.4205|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/swagger/swagger-ui-bundle.js - - - 200 1061536 application/javascript 1237.3747ms
+2023-06-26 11:44:28.7413|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 1097.3700ms
+2023-06-26 11:44:29.0132|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/swagger/favicon-32x32.png - -
+2023-06-26 11:44:29.1789|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/favicon-32x32.png'
+2023-06-26 11:44:29.2906|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints
+2023-06-26 11:44:29.3625|INFO|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-06-26 11:44:29.5011|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/swagger/favicon-32x32.png - - - 200 628 image/png 487.2500ms
+2023-06-26 11:44:29.6150|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - -
+2023-06-26 11:44:30.0175|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|No candidates found for the request path '/swagger/v1/swagger.json'
+2023-06-26 11:44:30.1412|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request did not match any endpoints
+2023-06-26 11:44:30.6243|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 1009.2506ms
+2023-06-26 11:44:33.2380|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMRMAFALG3MC" received FIN.
+2023-06-26 11:44:33.3248|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Http2|Connection id "0HMRMAFALG3MC" is closed. The last processed stream ID was 17.
+2023-06-26 11:44:33.3747|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets|Connection id "0HMRMAFALG3MC" sending FIN because: "The client closed the connection."
+2023-06-26 11:44:33.4363|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMRMAFALG3MC" stopped.
+2023-06-26 11:44:52.8258|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 1 triggers
+2023-06-26 11:44:53.1842|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMRMAFALG3ME" accepted.
+2023-06-26 11:44:53.2859|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Connections|Connection id "0HMRMAFALG3ME" started.
+2023-06-26 11:44:53.3634|DEBUG|Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware|Connection 0HMRMAFALG3ME established using the following protocol: Tls12
+2023-06-26 11:44:53.4168|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request starting HTTP/2 GET https://localhost:5001/getNotificaciones?idNotificaciones=1 - -
+2023-06-26 11:44:53.4852|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|1 candidate(s) found for the request path '/getNotificaciones'
+2023-06-26 11:44:53.5563|DEBUG|Microsoft.AspNetCore.Routing.Matching.DfaMatcher|Endpoint 'AfipApi.Controllers.AfipController.getNotificacion (AfipApi)' with route pattern 'getNotificaciones' is valid for the request path '/getNotificaciones'
+2023-06-26 11:44:53.6173|DEBUG|Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware|Request matched endpoint 'AfipApi.Controllers.AfipController.getNotificacion (AfipApi)'
+2023-06-26 11:44:53.6725|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executing endpoint 'AfipApi.Controllers.AfipController.getNotificacion (AfipApi)'
+2023-06-26 11:44:53.8508|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Route matched with {action = "getNotificacion", controller = "Afip"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] getNotificacion(AfipApi.Model.RequestNotificaciones) on controller AfipApi.Controllers.AfipController (AfipApi).
+2023-06-26 11:44:53.9120|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of authorization filters (in the following order): None
+2023-06-26 11:44:53.9708|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of resource filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter
+2023-06-26 11:44:54.0238|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of action filters (in the following order): Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000), Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)
+2023-06-26 11:44:54.0813|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of exception filters (in the following order): None
+2023-06-26 11:44:54.1337|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Execution plan of result filters (in the following order): Microsoft.AspNetCore.Mvc.ViewFeatures.Filters.SaveTempDataFilter, Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)
+2023-06-26 11:44:54.1963|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executing controller factory for controller AfipApi.Controllers.AfipController (AfipApi)
+2023-06-26 11:44:54.2660|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed controller factory for controller AfipApi.Controllers.AfipController (AfipApi)
+2023-06-26 11:44:54.3774|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to bind parameter 'requestGetNotificaciones' of type 'AfipApi.Model.RequestNotificaciones' ...
+2023-06-26 11:44:54.4389|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinder|Attempting to bind parameter 'requestGetNotificaciones' of type 'AfipApi.Model.RequestNotificaciones' using the name '' in request data ...
+2023-06-26 11:44:54.5109|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Attempting to bind property 'AfipApi.Model.RequestNotificaciones.idNotificaciones' of type 'System.String' using the name 'idNotificaciones' in request data ...
+2023-06-26 11:44:54.5692|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Done attempting to bind property 'AfipApi.Model.RequestNotificaciones.idNotificaciones' of type 'System.String'.
+2023-06-26 11:44:54.6382|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Attempting to bind property 'AfipApi.Model.RequestNotificaciones.idAdjuntos' of type 'System.String' using the name 'idAdjuntos' in request data ...
+2023-06-26 11:44:54.6960|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Could not find a value in the request with name 'idAdjuntos' for binding property 'AfipApi.Model.RequestNotificaciones.idAdjuntos' of type 'System.String'.
+2023-06-26 11:44:54.7491|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Done attempting to bind property 'AfipApi.Model.RequestNotificaciones.idAdjuntos' of type 'System.String'.
+2023-06-26 11:44:54.8010|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Attempting to bind property 'AfipApi.Model.RequestNotificaciones.asunto' of type 'System.String' using the name 'asunto' in request data ...
+2023-06-26 11:44:54.8545|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Could not find a value in the request with name 'asunto' for binding property 'AfipApi.Model.RequestNotificaciones.asunto' of type 'System.String'.
+2023-06-26 11:44:54.9076|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Done attempting to bind property 'AfipApi.Model.RequestNotificaciones.asunto' of type 'System.String'.
+2023-06-26 11:44:54.9633|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Attempting to bind property 'AfipApi.Model.RequestNotificaciones.cuit' of type 'System.String' using the name 'cuit' in request data ...
+2023-06-26 11:44:55.0206|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Could not find a value in the request with name 'cuit' for binding property 'AfipApi.Model.RequestNotificaciones.cuit' of type 'System.String'.
+2023-06-26 11:44:55.0978|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Done attempting to bind property 'AfipApi.Model.RequestNotificaciones.cuit' of type 'System.String'.
+2023-06-26 11:44:55.1770|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Attempting to bind property 'AfipApi.Model.RequestNotificaciones.archivo' of type 'System.String' using the name 'archivo' in request data ...
+2023-06-26 11:44:55.2322|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Could not find a value in the request with name 'archivo' for binding property 'AfipApi.Model.RequestNotificaciones.archivo' of type 'System.String'.
+2023-06-26 11:44:55.2908|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Done attempting to bind property 'AfipApi.Model.RequestNotificaciones.archivo' of type 'System.String'.
+2023-06-26 11:44:55.3416|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Attempting to bind property 'AfipApi.Model.RequestNotificaciones.metadata' of type 'System.String' using the name 'metadata' in request data ...
+2023-06-26 11:44:55.3936|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Could not find a value in the request with name 'metadata' for binding property 'AfipApi.Model.RequestNotificaciones.metadata' of type 'System.String'.
+2023-06-26 11:44:55.5139|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Done attempting to bind property 'AfipApi.Model.RequestNotificaciones.metadata' of type 'System.String'.
+2023-06-26 11:44:55.6808|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Attempting to bind property 'AfipApi.Model.RequestNotificaciones.nombreDeArchivo' of type 'System.String' using the name 'nombreDeArchivo' in request data ...
+2023-06-26 11:44:55.7494|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Could not find a value in the request with name 'nombreDeArchivo' for binding property 'AfipApi.Model.RequestNotificaciones.nombreDeArchivo' of type 'System.String'.
+2023-06-26 11:44:55.8939|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder|Done attempting to bind property 'AfipApi.Model.RequestNotificaciones.nombreDeArchivo' of type 'System.String'.
+2023-06-26 11:44:55.9828|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinder|Done attempting to bind parameter 'requestGetNotificaciones' of type 'AfipApi.Model.RequestNotificaciones'.
+2023-06-26 11:44:56.1115|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to bind parameter 'requestGetNotificaciones' of type 'AfipApi.Model.RequestNotificaciones'.
+2023-06-26 11:44:56.3798|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Attempting to validate the bound parameter 'requestGetNotificaciones' of type 'AfipApi.Model.RequestNotificaciones' ...
+2023-06-26 11:44:56.6165|DEBUG|Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder|Done attempting to validate the bound parameter 'requestGetNotificaciones' of type 'AfipApi.Model.RequestNotificaciones'.
+2023-06-26 11:45:00.0543|DEBUG|Quartz.Core.QuartzSchedulerThread|Batch acquisition of 0 triggers
+2023-06-26 11:45:00.1162|DEBUG|Quartz.Core.JobRunShell|Calling Execute on job DEFAULT.CronNotificacion
+2023-06-26 11:45:00.2017|INFO|AfipApi.Cron.cronNotificacion|Inicio de lote de notificación
+2023-06-26 11:45:02.5366|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|List of registered output formatters, in the following order: Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter, Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter
+2023-06-26 11:45:02.6078|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|No information found on request to perform content negotiation.
+2023-06-26 11:45:02.6812|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2023-06-26 11:45:02.7359|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Attempting to select the first formatter in the output formatters list which can write the result.
+2023-06-26 11:45:02.7912|DEBUG|Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector|Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-06-26 11:45:02.8509|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor|Executing OkObjectResult, writing value of type 'DGIIT.Integration.VEAfipApi.NetCore.ResponseNotificacion'.
+2023-06-26 11:45:02.9556|INFO|Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker|Executed action AfipApi.Controllers.AfipController.getNotificacion (AfipApi) in 8756.604ms
+2023-06-26 11:45:03.0173|INFO|Microsoft.AspNetCore.Routing.EndpointMiddleware|Executed endpoint 'AfipApi.Controllers.AfipController.getNotificacion (AfipApi)'
+2023-06-26 11:45:03.0719|INFO|Microsoft.AspNetCore.Hosting.Diagnostics|Request finished HTTP/2 GET https://localhost:5001/getNotificaciones?idNotificaciones=1 - - - 200 - application/json;+charset=utf-8 9655.2990ms
